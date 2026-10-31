@@ -1,0 +1,143 @@
+{
+  "cotacao": {
+    "moeda": "USD",
+    "valorBRL": 5.4212,
+    "data": "2026-10-30",
+    "descricao": "Dólar PTAX (venda) do Banco Central do Brasil em 30/10/2026. A conversão é só uma referência aproximada: os preços oficiais em reais nas lojas são outros e já incluem impostos e ajustes regionais.",
+    "fontes": [
+      "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes"
+    ]
+  },
+  "itens": [
+    {
+      "id": "standard",
+      "titulo": "Standard Edition",
+      "precoUSD": 79.99,
+      "precoBRLOficial": 449.9,
+      "precoBRLFontes": [
+        "https://www.playstation.com/pt-br/games/grand-theft-auto-vi/",
+        "https://www.tecmundo.com.br/voxel/504667-pre-venda-de-gta-6-esta-oficialmente-aberta-no-brasil-veja-os-precos-em-reais.htm"
+      ],
+      "descricao": "O jogo base. Disponível em versão digital e em versão física com código dentro da caixa.",
+      "inclui": [
+        "Jogo completo (single-player)",
+        "Vintage Vice City Pack (compra até 19/11/2026)",
+        "1 mês de GTA+ (pré-venda digital)"
+      ],
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "ultimate",
+      "titulo": "Ultimate Edition",
+      "precoUSD": 99.99,
+      "precoBRLOficial": 549.9,
+      "precoBRLFontes": [
+        "https://www.playstation.com/pt-br/games/grand-theft-auto-vi/",
+        "https://www.tecmundo.com.br/voxel/504667-pre-venda-de-gta-6-esta-oficialmente-aberta-no-brasil-veja-os-precos-em-reais.htm"
+      ],
+      "descricao": "Jogo base mais uma coleção exclusiva de veículos, armas, roupas e conteúdos espalhados pela história de Jason e Lucia. Também é vendida como melhoria separada para quem já tem a Standard.",
+      "inclui": [
+        "Tudo da Standard",
+        "’95 Grotti Cheetah, Shitzu Squalo e ’67 Vapid Dominator Buggy",
+        "Revólveres Hawk & Little Morgan e variações personalizadas de armas",
+        "Veículos do esconderijo de Jason e Ganado Retro Build",
+        "Estilos “Vice City Styles”",
+        "Lojas e oficinas: Rideout Customs, One-Eyed Willie’s Mod Shop, Sara’s Unisex Salon, Stock 305, Electric Fang Tattoo Parlor, Goodtime Gear",
+        "PTT Youngin$ Compound e Classic Car Collection"
+      ],
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ]
+    },
+    {
+      "id": "upgrade",
+      "titulo": "Melhoria para Ultimate",
+      "precoUSD": 20.0,
+      "precoBRLOficial": null,
+      "precoBRLFontes": [],
+      "descricao": "Quem já tem a Standard pode comprar a melhoria para a Ultimate a qualquer momento. O preço de cerca de US$ 20 foi informado pela imprensa; a loja oficial não mostrava o valor no dia da consulta.",
+      "inclui": [
+        "Conteúdo exclusivo da Ultimate"
+      ],
+      "status": "reportado",
+      "data": "2026-10-30",
+      "fontes": [
+        "https://store.rockstargames.com/game/buy-gta-vi",
+        "https://www.forbes.com/sites/brianmazique/2026/10/30/what-gta-vis-20-ultimate-edition-upgrade-actually-buys-you/"
+      ]
+    },
+    {
+      "id": "colecionador",
+      "titulo": "The Goodtime State – Vice City Collection",
+      "precoUSD": 399.99,
+      "precoBRLOficial": null,
+      "precoBRLFontes": [],
+      "descricao": "Caixa de itens colecionáveis vendida na Rockstar Store. Não inclui o jogo. O preço e o conteúdo vêm da imprensa: estatueta do jacaré Macca, óculos, boné e outros itens.",
+      "inclui": [
+        "Itens colecionáveis",
+        "NÃO inclui o jogo"
+      ],
+      "status": "reportado",
+      "data": "2026-09",
+      "fontes": [
+        "https://www.rockstargames.com/VI",
+        "https://www.gematsu.com/2026/09/grand-theft-auto-vi-the-goodtime-state-vice-city-collection-collectible-set-announced"
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "id": "vintage-pack",
+      "titulo": "Vintage Vice City Pack",
+      "descricao": "Bônus de pré-venda e de compras feitas até 19/11/2026, em qualquer edição. Faz referência à Vice City dos anos 80: sedã ’55 Vapid Stanier com garagem, roupas e penteados retrô e um padrão de arma exclusivo.",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ]
+    },
+    {
+      "id": "gta-plus",
+      "titulo": "1 mês de GTA+",
+      "descricao": "Para pré-vendas digitais. No PlayStation, o resgate pode ser feito até 31/03/2027; depois disso a assinatura passa a ser cobrada se não for cancelada.",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "fisica",
+      "titulo": "Versão física = código na caixa",
+      "descricao": "A caixa física traz apenas um código de download, sem disco, e chega a partir de 12/11 para permitir o pré-download.",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi",
+        "https://www.pushsquare.com/news/2026/06/gta-6-physical-edition-doesnt-come-with-discs-its-a-code-in-the-box"
+      ]
+    },
+    {
+      "id": "disco-futuro",
+      "titulo": "Disco no futuro?",
+      "descricao": "Circulou que haveria uma versão com disco meses depois do lançamento. Reportagem posterior afirma que não há planos para isso. Trate como incerto.",
+      "status": "rumor",
+      "data": "2026",
+      "fontes": [
+        "https://mp1st.com/?p=309705"
+      ]
+    }
+  ]
+}

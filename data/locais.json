@@ -1,0 +1,174 @@
+{
+  "aviso": "Mapa estilizado e ilustrativo, desenhado do zero. A Rockstar não publicou um mapa oficial completo; posições relativas são aproximadas e se baseiam nas inspirações reais (Flórida) citadas pela imprensa.",
+  "estado": {
+    "id": "leonida",
+    "titulo": "Estado de Leonida",
+    "descricao": "Versão fictícia da Flórida criada pela Rockstar. A sinopse oficial chama o lugar de “o lado mais sombrio do lugar mais ensolarado dos Estados Unidos”. A conspiração da história se espalha por todo o estado, não só por Vice City.",
+    "status": "confirmado",
+    "data": "2023-12-04",
+    "fontes": [
+      "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025",
+      "https://www.rockstargames.com/VI"
+    ]
+  },
+  "itens": [
+    {
+      "id": "vice-city",
+      "titulo": "Vice City",
+      "inspiracao": "Miami",
+      "inspiracaoStatus": "reportado",
+      "descricao": "A metrópole central do jogo, apresentada pela Rockstar como um retrato do glamour, da correria e da ganância dos EUA numa só cidade. É a Vice City dos dias de hoje, com praias, vida noturna, cena musical e redes sociais por toda parte.",
+      "destaques": [
+        "Ocean Beach",
+        "Little Cuba",
+        "Feira Tisha-Wocka",
+        "Porto de Vice City (VC Port)"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ],
+      "pontos": [
+        {
+          "texto": "Bayside: área à beira-mar onde se passa boa parte do trecho de exploração livre do Extended Look (academia, quadra de basquete, lojas).",
+          "status": "reportado",
+          "fontes": [
+            "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leonida-keys",
+      "titulo": "Leonida Keys",
+      "inspiracao": "Florida Keys",
+      "inspiracaoStatus": "reportado",
+      "descricao": "Uma cadeia de ilhas com cara de paraíso tropical: aposentados, passeios de barco e tartarugas marinhas. A descrição oficial também diz que ali ficam algumas das águas mais perigosas do país. É onde Jason trabalha para Brian Heder.",
+      "destaques": [
+        "Praias e barcos",
+        "Contrabando à moda antiga",
+        "Estaleiro de Brian Heder"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ],
+      "pontos": []
+    },
+    {
+      "id": "grassrivers",
+      "titulo": "Grassrivers",
+      "inspiracao": "Everglades",
+      "inspiracaoStatus": "reportado",
+      "descricao": "Pântanos cheios de perigo. Segundo a Rockstar, há ali predadores ainda mais letais que os famosos jacarés do estado. Pelas imagens oficiais, os moradores armados parecem ser parte do risco.",
+      "destaques": [
+        "Pântanos e alagados",
+        "Jacarés",
+        "Moradores pouco amigáveis"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ],
+      "pontos": []
+    },
+    {
+      "id": "port-gellhorn",
+      "titulo": "Port Gellhorn",
+      "inspiracao": "Litoral decadente (inspiração exata não confirmada)",
+      "inspiracaoStatus": "rumor",
+      "descricao": "Já foi um destino de férias popular. Hoje tem lojas abandonadas e estacionamentos onde circulam bebida barata, analgésicos e energéticos de posto de estrada, como descreve o texto oficial com outras palavras.",
+      "destaques": [
+        "Antiga cidade turística",
+        "Comércio abandonado",
+        "Clima de decadência"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ],
+      "pontos": []
+    },
+    {
+      "id": "ambrosia",
+      "titulo": "Ambrosia",
+      "inspiracao": "Interior agrícola e industrial (inspiração exata não confirmada)",
+      "inspiracaoStatus": "rumor",
+      "descricao": "Chamada de “coração de Leonida”, é conhecida por valores tradicionais, fábricas e uma gangue de motoqueiros local. As imagens sugerem uma economia ligada também a fazendas.",
+      "destaques": [
+        "Fábricas",
+        "Gangue de motoqueiros",
+        "Fazendas"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ],
+      "pontos": []
+    },
+    {
+      "id": "mount-kalaga",
+      "titulo": "Parque Nacional Mount Kalaga",
+      "inspiracao": "Parques e florestas do norte (inspiração exata não confirmada)",
+      "inspiracaoStatus": "rumor",
+      "descricao": "Natureza selvagem e muito verde. A Rockstar promete boas áreas de caça, pesca e trilhas off-road.",
+      "destaques": [
+        "Caça",
+        "Pesca",
+        "Trilhas off-road"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ],
+      "pontos": []
+    }
+  ],
+  "extras": [
+    {
+      "id": "penitenciaria",
+      "titulo": "Penitenciária de Leonida",
+      "descricao": "Prisão onde Lucia cumpriu pena, citada no perfil oficial dela e mostrada no início do Trailer 1.",
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+      ]
+    },
+    {
+      "id": "effluvia",
+      "titulo": "Effluvia",
+      "descricao": "Local citado em análises do Extended Look como ponto de missões com vista privilegiada. A Rockstar não detalhou esse lugar em texto.",
+      "status": "reportado",
+      "data": "2026-08",
+      "fontes": [
+        "https://www.svg.com/2246139/gta-6-leonida-map-new-locations-extended-look/"
+      ]
+    },
+    {
+      "id": "sem-mapa",
+      "titulo": "Tamanho e mapa completo",
+      "descricao": "A Rockstar nomeou as seis regiões, mas não publicou um mapa completo nem o tamanho do mundo. Mapas detalhados que circulam na internet são reconstruções de fãs.",
+      "status": "reportado",
+      "data": "2026-10-31",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ]
+    }
+  ]
+}

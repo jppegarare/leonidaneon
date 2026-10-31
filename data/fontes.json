@@ -1,0 +1,636 @@
+{
+  "acessoPadrao": "2026-10-31",
+  "observacao": "Fontes 'lida diretamente' foram abertas e lidas no dia do acesso. Fontes 'via busca' foram consultadas por resultados de busca na web (título, trecho e data), sem leitura integral da página.",
+  "fontes": [
+    {
+      "id": "rs-vi",
+      "url": "https://www.rockstargames.com/VI",
+      "titulo": "Grand Theft Auto VI — site oficial",
+      "veiculo": "Rockstar Games",
+      "tipo": "oficial",
+      "publicado": null,
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "rs-leonida",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida",
+      "titulo": "Only in Leonida — pessoas e lugares",
+      "veiculo": "Rockstar Games",
+      "tipo": "oficial",
+      "publicado": "2025-05-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "rs-music",
+      "url": "https://www.rockstargames.com/VI/music",
+      "titulo": "The Music of Grand Theft Auto VI",
+      "veiculo": "Rockstar Games",
+      "tipo": "oficial",
+      "publicado": null,
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "rs-videos",
+      "url": "https://www.rockstargames.com/VI/launch-trailer",
+      "titulo": "Grand Theft Auto VI Launch Trailer (lista oficial de vídeos com datas e durações)",
+      "veiculo": "Rockstar Games",
+      "tipo": "oficial",
+      "publicado": "2026-10-15",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "rs-store",
+      "url": "https://store.rockstargames.com/game/buy-gta-vi",
+      "titulo": "Grand Theft Auto VI — Rockstar Store",
+      "veiculo": "Rockstar Games",
+      "tipo": "oficial",
+      "publicado": null,
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "rs-nw-score",
+      "url": "https://www.rockstargames.com/newswire/article/39ak8a12395591",
+      "titulo": "Grand Theft Auto VI: Original Score by Justice",
+      "veiculo": "Rockstar Newswire",
+      "tipo": "oficial",
+      "publicado": "2026-10-29",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "rs-nw-launch",
+      "url": "https://www.rockstargames.com/newswire/article/517572321a549a",
+      "titulo": "Watch the Grand Theft Auto VI Launch Trailer",
+      "veiculo": "Rockstar Newswire",
+      "tipo": "oficial",
+      "publicado": "2026-10-15",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "rs-nw-collection",
+      "url": "https://www.rockstargames.com/newswire/article/759875393o5253",
+      "titulo": "Grand Theft Auto VI Collection Now at the Rockstar Store",
+      "veiculo": "Rockstar Newswire",
+      "tipo": "oficial",
+      "publicado": "2026-10-08",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-trailer1",
+      "url": "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025",
+      "titulo": "Rockstar Games Announces Grand Theft Auto VI, Coming 2025",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2023-12-04",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-fy25q2",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-2",
+      "titulo": "Resultados do 2º trimestre do ano fiscal 2025",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2024-11-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-trailer2",
+      "url": "https://www.take2games.com/ir/news/adding-multimedia-rockstar-games-releases-trailer-2-grand-theft",
+      "titulo": "Rockstar Games Releases Trailer 2 for Grand Theft Auto VI",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2025-05-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-fy26q1",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-first-5",
+      "titulo": "Resultados do 1º trimestre do ano fiscal 2026",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2025-08-07",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-fy26q2",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-3",
+      "titulo": "Resultados do 2º trimestre do ano fiscal 2026 (GTA VI passa para 19/11/2026)",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2025-11-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-preorder",
+      "url": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+      "titulo": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2026-06-24",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-fy27q1",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-first-6",
+      "titulo": "Resultados do 1º trimestre do ano fiscal 2027",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2026-08-07",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "t2-fy27q2-aviso",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8",
+      "titulo": "Take-Two divulgará resultados do 2º trimestre fiscal 2027 em 9/11/2026",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2026-10-13",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "ps-features",
+      "url": "https://www.playstation.com/GTAVIfeatures/",
+      "titulo": "Grand Theft Auto VI — PS5 (recursos e edições)",
+      "veiculo": "PlayStation (EUA)",
+      "tipo": "oficial",
+      "publicado": null,
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "ps-br",
+      "url": "https://www.playstation.com/pt-br/games/grand-theft-auto-vi/",
+      "titulo": "Grand Theft Auto VI — PlayStation Brasil",
+      "veiculo": "PlayStation Brasil",
+      "tipo": "oficial",
+      "publicado": null,
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "yt-t1",
+      "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+      "titulo": "Grand Theft Auto VI Trailer 1",
+      "veiculo": "Rockstar Games (YouTube)",
+      "tipo": "oficial",
+      "publicado": "2023-12-04",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "yt-t2",
+      "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+      "titulo": "Grand Theft Auto VI Trailer 2",
+      "veiculo": "Rockstar Games (YouTube)",
+      "tipo": "oficial",
+      "publicado": "2025-05-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "yt-el-teaser",
+      "url": "https://www.youtube.com/watch?v=qq76pQsI1iw",
+      "titulo": "Grand Theft Auto VI: An Extended Look Coming August 27",
+      "veiculo": "Rockstar Games (YouTube)",
+      "tipo": "oficial",
+      "publicado": "2026-08-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "yt-el",
+      "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+      "titulo": "Grand Theft Auto VI: An Extended Look",
+      "veiculo": "Rockstar Games (YouTube)",
+      "tipo": "oficial",
+      "publicado": "2026-08-27",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "yt-launch",
+      "url": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
+      "titulo": "Grand Theft Auto VI Launch Trailer",
+      "veiculo": "Rockstar Games (YouTube)",
+      "tipo": "oficial",
+      "publicado": "2026-10-15",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "yt-cover",
+      "url": "https://www.youtube.com/watch?v=EiQEBYDox_k",
+      "titulo": "Grand Theft Auto VI: Official Cover Art Reveal",
+      "veiculo": "Rockstar Games (YouTube)",
+      "tipo": "oficial",
+      "publicado": "2026-06-18",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "x-el",
+      "url": "https://x.com/RockstarGames/status/2085335127287030232",
+      "titulo": "Post da Rockstar anunciando a estreia do Extended Look na Netflix",
+      "veiculo": "Rockstar Games (X)",
+      "tipo": "oficial",
+      "publicado": "2026-08-06",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "bcb-ptax",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
+      "titulo": "Cotação PTAX do dólar (venda) — 30/10/2026: R$ 5,4212",
+      "veiculo": "Banco Central do Brasil",
+      "tipo": "oficial",
+      "publicado": "2026-10-30",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "gi-regioes",
+      "url": "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi",
+      "titulo": "Rockstar Shows Off Six Major Areas Of Vice City In Grand Theft Auto VI",
+      "veiculo": "Game Informer",
+      "tipo": "imprensa",
+      "publicado": "2025-05-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "gi-personagens",
+      "url": "https://www.gameinformer.com/2025/05/06/rockstar-details-9-of-grand-theft-auto-vi-presumably-many-many-characters",
+      "titulo": "Rockstar Details 9 Of Grand Theft Auto VI's Presumably Many, Many Characters",
+      "veiculo": "Game Informer",
+      "tipo": "imprensa",
+      "publicado": "2025-05-06",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gi-el",
+      "url": "https://gameinformer.com/2026/08/06/grand-theft-auto-vi-is-getting-an-extended-look-on-netflix-august-27",
+      "titulo": "Grand Theft Auto VI Is Getting An 'Extended Look' On Netflix August 27",
+      "veiculo": "Game Informer",
+      "tipo": "imprensa",
+      "publicado": "2026-08-06",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "gi-capa",
+      "url": "https://gameinformer.com/2026/06/18/grand-theft-auto-vi-pre-order-date-and-cover-art-revealed",
+      "titulo": "Grand Theft Auto VI Pre-Order Date And Cover Art Revealed",
+      "veiculo": "Game Informer",
+      "tipo": "imprensa",
+      "publicado": "2026-06-18",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "vgc-2022",
+      "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-development-is-well-underway-rockstar-says/",
+      "titulo": "Grand Theft Auto 6 development is 'well underway', Rockstar says",
+      "veiculo": "VGC",
+      "tipo": "imprensa",
+      "publicado": "2022-02-04",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "pcg-vazamento",
+      "url": "https://www.pcgamer.com/take-two-cracks-down-on-leaked-grand-theft-auto-6-footage-as-rockstar-confirms-network-intrusion",
+      "titulo": "Take-Two cracks down on leaked Grand Theft Auto 6 footage as Rockstar confirms network intrusion",
+      "veiculo": "PC Gamer",
+      "tipo": "imprensa",
+      "publicado": "2022-09-19",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gr-vazamento",
+      "url": "https://gamesradar.com/rockstar-acknowledges-massive-gta-6-leak-we-are-extremely-disappointed",
+      "titulo": "Rockstar acknowledges massive GTA 6 leak",
+      "veiculo": "GamesRadar+",
+      "tipo": "imprensa",
+      "publicado": "2022-09-19",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gematsu-2023",
+      "url": "https://www.gematsu.com/2023/11/grand-theft-auto-vi-first-trailer-to-be-released-in-early-december",
+      "titulo": "Grand Theft Auto VI first trailer to be released in early December",
+      "veiculo": "Gematsu",
+      "tipo": "imprensa",
+      "publicado": "2023-11-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "tompetty",
+      "url": "https://www.tompetty.com/blogs/news/tom-petty-s-love-is-a-long-road-from-full-moon-fever-featured-in-trailer-1-of-grand-theft-auto-vi",
+      "titulo": "Tom Petty's “Love Is A Long Road” featured in Trailer 1 of Grand Theft Auto VI",
+      "veiculo": "Site oficial de Tom Petty",
+      "tipo": "imprensa",
+      "publicado": "2023-12",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "musictech-petty",
+      "url": "https://musictech.com/news/tom-petty-love-is-a-long-road-streams-gta-6/",
+      "titulo": "Tom Petty's Love is a Long Road sees 36,979% increase in Spotify streams",
+      "veiculo": "MusicTech",
+      "tipo": "imprensa",
+      "publicado": "2023-12",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "vgc-adiamento1",
+      "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-to-2026/",
+      "titulo": "Grand Theft Auto 6 release date has been announced, but the game has been delayed to 2026",
+      "veiculo": "VGC",
+      "tipo": "imprensa",
+      "publicado": "2025-05-02",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "fader-t2",
+      "url": "https://www.thefader.com/2025/05/06/grand-theft-auto-vi-new-trailer",
+      "titulo": "Watch a new trailer for Grand Theft Auto VI",
+      "veiculo": "The FADER",
+      "tipo": "imprensa",
+      "publicado": "2025-05-06",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "thr-t2",
+      "url": "https://www.hollywoodreporter.com/business/business-news/gta-6-trailer-2-views-record-1236210396/",
+      "titulo": "GTA 6 Trailer 2 views record",
+      "veiculo": "The Hollywood Reporter",
+      "tipo": "imprensa",
+      "publicado": "2025-05-07",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "pcg-adiamento2",
+      "url": "https://www.pcgamer.com/games/action/grand-theft-auto-6-is-delayed-to-november-these-extra-months-will-allow-us-to-finish-the-game-with-the-level-of-polish-you-have-come-to-expect-and-deserve",
+      "titulo": "Grand Theft Auto 6 is delayed to November",
+      "veiculo": "PC Gamer",
+      "tipo": "imprensa",
+      "publicado": "2025-11-06",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "tr-maio2026",
+      "url": "https://www.techradar.com/gaming/gta-6-is-locked-in-for-november-19-2026-according-to-take-two-interactive-despite-delay-rumors-and-marketing-starts-soon",
+      "titulo": "GTA 6 is locked in for November 19, 2026, according to Take-Two",
+      "veiculo": "TechRadar",
+      "tipo": "imprensa",
+      "publicado": "2026-05",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "tecmundo-precos",
+      "url": "https://www.tecmundo.com.br/voxel/504667-pre-venda-de-gta-6-esta-oficialmente-aberta-no-brasil-veja-os-precos-em-reais.htm",
+      "titulo": "Pré-venda de GTA 6 está oficialmente aberta no Brasil",
+      "veiculo": "TecMundo / Voxel",
+      "tipo": "imprensa",
+      "publicado": "2026-06-25",
+      "verificacao": "lida diretamente"
+    },
+    {
+      "id": "pushsquare-fisica",
+      "url": "https://www.pushsquare.com/news/2026/06/gta-6-physical-edition-doesnt-come-with-discs-its-a-code-in-the-box",
+      "titulo": "GTA 6 physical edition doesn't come with discs, it's a code in the box",
+      "veiculo": "Push Square",
+      "tipo": "imprensa",
+      "publicado": "2026-06-24",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "mp1st-disco",
+      "url": "https://mp1st.com/?p=309705",
+      "titulo": "Report: GTA 6 Won't Get a Physical Disc Version Even After Launch",
+      "veiculo": "MP1st (citando The Hollywood Reporter)",
+      "tipo": "imprensa",
+      "publicado": "2026",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "forbes-upgrade",
+      "url": "https://www.forbes.com/sites/brianmazique/2026/10/30/what-gta-vis-20-ultimate-edition-upgrade-actually-buys-you/",
+      "titulo": "What GTA VI's $20 Ultimate Edition Upgrade Actually Buys You",
+      "veiculo": "Forbes",
+      "tipo": "imprensa",
+      "publicado": "2026-10-30",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gematsu-colecionador",
+      "url": "https://www.gematsu.com/2026/09/grand-theft-auto-vi-the-goodtime-state-vice-city-collection-collectible-set-announced",
+      "titulo": "Grand Theft Auto VI: The Goodtime State – Vice City Collection collectible set announced",
+      "veiculo": "Gematsu",
+      "tipo": "imprensa",
+      "publicado": "2026-09",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "iphoneincanada-netflix",
+      "url": "https://www.iphoneincanada.ca/2026/09/02/grand-theft-auto-vi-extended-look-garnered-31-1-million-views-on-netflix-since-premiere/",
+      "titulo": "Extended Look garnered 31.1 million views on Netflix since premiere",
+      "veiculo": "iPhone in Canada",
+      "tipo": "imprensa",
+      "publicado": "2026-09-02",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "techradar-el",
+      "url": "https://www.techradar.com/gaming/ps5/16-new-gta-6-details-we-learned-from-the-big-extended-look-gameplay-video-captured-in-game-on-a-ps5",
+      "titulo": "16 new GTA 6 details we learned from the Extended Look",
+      "veiculo": "TechRadar",
+      "tipo": "imprensa",
+      "publicado": "2026-08-28",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gamerant-el",
+      "url": "https://gamerant.com/gta-6-extended-look-details-you-missed/",
+      "titulo": "10 Details You Probably Missed in the GTA 6 Extended Look",
+      "veiculo": "GameRant",
+      "tipo": "imprensa",
+      "publicado": "2026-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "vgtimes-el",
+      "url": "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html",
+      "titulo": "GTA 6 An Extended Look Breakdown: Everything Shown",
+      "veiculo": "VGTimes",
+      "tipo": "imprensa",
+      "publicado": "2026-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "redbull-el",
+      "url": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+      "titulo": "GTA 6 Extended Look: Everything we learned from the new footage",
+      "veiculo": "Red Bull Gaming",
+      "tipo": "imprensa",
+      "publicado": "2026-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "svg-locais",
+      "url": "https://www.svg.com/2246139/gta-6-leonida-map-new-locations-extended-look/",
+      "titulo": "GTA 6's Leonida Map: Every New Location Rockstar Showed In The Extended Look",
+      "veiculo": "SVG",
+      "tipo": "imprensa",
+      "publicado": "2026-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gtaboss-el",
+      "url": "https://www.gtaboss.gg/gta-6/guides/gta-6-extended-look-breakdown",
+      "titulo": "GTA 6 Extended Look Breakdown: Is It Trailer 3?",
+      "veiculo": "GTA Boss (site de fãs)",
+      "tipo": "imprensa",
+      "publicado": "2026-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "nme-el-musicas",
+      "url": "https://www.nme.com/guides/gaming-guides/gta-6-soundtrack-3967286",
+      "titulo": "'GTA 6' soundtrack — every song confirmed in the 'Extended Look'",
+      "veiculo": "NME",
+      "tipo": "imprensa",
+      "publicado": "2026-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gamingbolt-el-musicas",
+      "url": "https://gamingbolt.com/grand-theft-auto-6-extended-looks-song-choices-revealed",
+      "titulo": "Grand Theft Auto 6 Extended Look's Song Choices Revealed",
+      "veiculo": "GamingBolt",
+      "tipo": "imprensa",
+      "publicado": "2026-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gtavice-famitsu",
+      "url": "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
+      "titulo": "GTA 6: Famitsu's Full Rob Nelson Interview Translated Into English",
+      "veiculo": "GTAVice (tradução de fãs)",
+      "tipo": "entrevista",
+      "publicado": "2026-09",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gtavice-famitsu-gameplay",
+      "url": "https://www.gtavice.net/news/famitsu-reveals-gta-6-gameplay-details-garages-pay-and-spray-weapons-robberies-and-more",
+      "titulo": "Famitsu Reveals GTA 6 Gameplay Details: Garages, Pay & Spray, Weapons, Robberies & More",
+      "veiculo": "GTAVice (tradução de fãs)",
+      "tipo": "entrevista",
+      "publicado": "2026-09",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "consequence-album",
+      "url": "https://consequence.net/2026/09/grand-theft-auto-vi-announces-soundtrack-album/",
+      "titulo": "Grand Theft Auto 6 Announces Soundtrack Album",
+      "veiculo": "Consequence",
+      "tipo": "imprensa",
+      "publicado": "2026-09",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "variety-justice",
+      "url": "https://variety.com/2026/music/news/gta-vi-trailer-justice-original-score-song-sza-tame-impala-1236913120/",
+      "titulo": "'GTA VI' Trailer Confirms Justice Is Behind the Original Score",
+      "veiculo": "Variety",
+      "tipo": "imprensa",
+      "publicado": "2026-10-15",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "vgc-justice",
+      "url": "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/",
+      "titulo": "The official Grand Theft Auto 6 musical score by Justice is released in December",
+      "veiculo": "VGC",
+      "tipo": "imprensa",
+      "publicado": "2026-10-29",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "gamespot-radios",
+      "url": "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/",
+      "titulo": "GTA 6 Reveals 6 Radio Stations, Plus Podcasts You Can Listen To On Foot",
+      "veiculo": "GameSpot",
+      "tipo": "imprensa",
+      "publicado": "2026-10-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "forbes-radios",
+      "url": "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/",
+      "titulo": "GTA 6 Radio Stations: Full List of Hosts, DJs and Songs",
+      "veiculo": "Forbes",
+      "tipo": "imprensa",
+      "publicado": "2026-10-08",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "beebom-online",
+      "url": "https://beebom.com/rockstar-has-gta-6-online-mode-planned-for-2027/",
+      "titulo": "Rockstar Has GTA 6's Online Mode Planned for a 2027 Release (citando Jason Schreier, Bloomberg)",
+      "veiculo": "Beebom",
+      "tipo": "imprensa",
+      "publicado": "2026",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "godisageek-pc",
+      "url": "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/",
+      "titulo": "Take-Two CEO Says PC Gamers Are Not GTA 6's “Core Consumer”",
+      "veiculo": "God is a Geek",
+      "tipo": "imprensa",
+      "publicado": "2026-05",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "dexerto-pc",
+      "url": "https://www.dexerto.com/gta/gta-6-pc-release-window-sooner-than-expected-3133553",
+      "titulo": "GTA 6's PC release window is reportedly sooner than expected",
+      "veiculo": "Dexerto",
+      "tipo": "imprensa",
+      "publicado": "2026",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "notebookcheck-gold",
+      "url": "https://notebookcheck.net/GTA-VI-not-yet-gold-Rockstar-explains-the-final-push-before-launch.1426418.0.html",
+      "titulo": "GTA VI not yet gold: Rockstar explains the final push before launch",
+      "veiculo": "Notebookcheck",
+      "tipo": "imprensa",
+      "publicado": "2026-10",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "ibtimes-2027",
+      "url": "https://www.ibtimes.co.uk/gta-6-release-date-2027-delay-claims-unconfirmed-1828314",
+      "titulo": "GTA 6 Delay 2027 Claims Debunked",
+      "veiculo": "IBTimes UK",
+      "tipo": "imprensa",
+      "publicado": "2026-10",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "insider-horario",
+      "url": "https://insider-gaming.com/gta-6-release/",
+      "titulo": "How Long Until GTA 6 Comes Out? Release Date & Launch Times",
+      "veiculo": "Insider Gaming",
+      "tipo": "imprensa",
+      "publicado": "2026-10",
+      "verificacao": "via busca"
+    },
+    {
+      "id": "wiki-vc",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+      "titulo": "Grand Theft Auto: Vice City",
+      "veiculo": "Wikipédia (en)",
+      "tipo": "referencia",
+      "publicado": null,
+      "verificacao": "via busca"
+    },
+    {
+      "id": "wiki-flashfm",
+      "url": "https://en.wikipedia.org/wiki/Flash_FM",
+      "titulo": "Flash FM",
+      "veiculo": "Wikipédia (en)",
+      "tipo": "referencia",
+      "publicado": null,
+      "verificacao": "via busca"
+    }
+  ]
+}
