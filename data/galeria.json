@@ -1,0 +1,1521 @@
+{
+ "credito": "Rockstar Games",
+ "fonte": "https://www.rockstargames.com/VI/media",
+ "aviso": "Capturas, artes e vídeos oficiais distribuídos pela Rockstar Games na página de mídia do GTA VI. Os quadros dos trailers foram tirados dos vídeos oficiais dessa mesma página. Tudo com crédito, num site de fã não oficial.",
+ "categorias": [
+  "Personagens",
+  "Lugares",
+  "Quadros dos trailers",
+  "Artes",
+  "Ultimate Edition",
+  "Vintage Vice City Pack"
+ ],
+ "itens": [
+  {
+   "chave": "jason-duval-01",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 01",
+   "grupo": "Jason Duval",
+   "alt": "Jason ao lado de uma moto esportiva verde sob palmeiras"
+  },
+  {
+   "chave": "jason-duval-02",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 02",
+   "grupo": "Jason Duval",
+   "alt": "Jason ao volante, de regata, com sol entrando pela janela"
+  },
+  {
+   "chave": "jason-duval-03",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 03",
+   "grupo": "Jason Duval",
+   "alt": "Jason pescando num barco no mar azul"
+  },
+  {
+   "chave": "jason-duval-04",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 04",
+   "grupo": "Jason Duval",
+   "alt": "Captura oficial de GTA VI: Jason Duval, imagem 04"
+  },
+  {
+   "chave": "jason-duval-05",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 05",
+   "grupo": "Jason Duval",
+   "alt": "Captura oficial de GTA VI: Jason Duval, imagem 05"
+  },
+  {
+   "chave": "jason-duval-06",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 06",
+   "grupo": "Jason Duval",
+   "alt": "Captura oficial de GTA VI: Jason Duval, imagem 06"
+  },
+  {
+   "chave": "jason-duval-07",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 07",
+   "grupo": "Jason Duval",
+   "alt": "Captura oficial de GTA VI: Jason Duval, imagem 07"
+  },
+  {
+   "chave": "jason-duval-08",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 08",
+   "grupo": "Jason Duval",
+   "alt": "Captura oficial de GTA VI: Jason Duval, imagem 08"
+  },
+  {
+   "chave": "jason-duval-09",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 09",
+   "grupo": "Jason Duval",
+   "alt": "Captura oficial de GTA VI: Jason Duval, imagem 09"
+  },
+  {
+   "chave": "jason-duval-10",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 10",
+   "grupo": "Jason Duval",
+   "alt": "Captura oficial de GTA VI: Jason Duval, imagem 10"
+  },
+  {
+   "chave": "lucia-caminos-01",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 01",
+   "grupo": "Lucia Caminos",
+   "alt": "Lucia em posição de luta, com luvas, num ringue improvisado à noite"
+  },
+  {
+   "chave": "lucia-caminos-02",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 02",
+   "grupo": "Lucia Caminos",
+   "alt": "Lucia relaxando na borda de uma piscina, com um drinque ao lado"
+  },
+  {
+   "chave": "lucia-caminos-03",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 03",
+   "grupo": "Lucia Caminos",
+   "alt": "Lucia de jaqueta de couro ao lado de uma moto, em frente a um letreiro de bar"
+  },
+  {
+   "chave": "lucia-caminos-04",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 04",
+   "grupo": "Lucia Caminos",
+   "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 04"
+  },
+  {
+   "chave": "lucia-caminos-05",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 05",
+   "grupo": "Lucia Caminos",
+   "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 05"
+  },
+  {
+   "chave": "lucia-caminos-06",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 06",
+   "grupo": "Lucia Caminos",
+   "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 06"
+  },
+  {
+   "chave": "lucia-caminos-07",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 07",
+   "grupo": "Lucia Caminos",
+   "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 07"
+  },
+  {
+   "chave": "lucia-caminos-08",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 08",
+   "grupo": "Lucia Caminos",
+   "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 08"
+  },
+  {
+   "chave": "lucia-caminos-09",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 09",
+   "grupo": "Lucia Caminos",
+   "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 09"
+  },
+  {
+   "chave": "lucia-caminos-10",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 10",
+   "grupo": "Lucia Caminos",
+   "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 10"
+  },
+  {
+   "chave": "jason-and-lucia-01",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 01",
+   "grupo": "Jason e Lucia",
+   "alt": "Lucia e Jason lado a lado num píer, com prédios de Vice City ao fundo"
+  },
+  {
+   "chave": "jason-and-lucia-02",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 02",
+   "grupo": "Jason e Lucia",
+   "alt": "Jason e Lucia armados e mascarados dentro de um cofre"
+  },
+  {
+   "chave": "jason-and-lucia-03",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 03",
+   "grupo": "Jason e Lucia",
+   "alt": "Lucia sorri debruçada na janela de um carro conversível dirigido por Jason"
+  },
+  {
+   "chave": "jason-and-lucia-04",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 04",
+   "grupo": "Jason e Lucia",
+   "alt": "Jason e Lucia num tiroteio dentro de um escritório"
+  },
+  {
+   "chave": "jason-and-lucia-05",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 05",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 05"
+  },
+  {
+   "chave": "jason-and-lucia-06",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 06",
+   "grupo": "Jason e Lucia",
+   "alt": "Lucia e Jason dentro de um carro à noite, iluminados por luz verde"
+  },
+  {
+   "chave": "jason-and-lucia-07",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 07",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 07"
+  },
+  {
+   "chave": "jason-and-lucia-08",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 08",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 08"
+  },
+  {
+   "chave": "jason-and-lucia-09",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 09",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 09"
+  },
+  {
+   "chave": "jason-and-lucia-10",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 10",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 10"
+  },
+  {
+   "chave": "jason-and-lucia-11",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 11",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 11"
+  },
+  {
+   "chave": "jason-and-lucia-12",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 12",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 12"
+  },
+  {
+   "chave": "jason-and-lucia-13",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 13",
+   "grupo": "Jason e Lucia",
+   "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 13"
+  },
+  {
+   "chave": "cal-hampton-01",
+   "categoria": "Personagens",
+   "titulo": "Cal Hampton 01",
+   "grupo": "Cal Hampton",
+   "alt": "Cal de camisa florida e chapéu num minigolfe temático com um jacaré gigante"
+  },
+  {
+   "chave": "cal-hampton-02",
+   "categoria": "Personagens",
+   "titulo": "Cal Hampton 02",
+   "grupo": "Cal Hampton",
+   "alt": "Cal e Jason jogando sinuca num bar iluminado de roxo"
+  },
+  {
+   "chave": "cal-hampton-03",
+   "categoria": "Personagens",
+   "titulo": "Cal Hampton 03",
+   "grupo": "Cal Hampton",
+   "alt": "Captura oficial de GTA VI: Cal Hampton, imagem 03"
+  },
+  {
+   "chave": "cal-hampton-04",
+   "categoria": "Personagens",
+   "titulo": "Cal Hampton 04",
+   "grupo": "Cal Hampton",
+   "alt": "Captura oficial de GTA VI: Cal Hampton, imagem 04"
+  },
+  {
+   "chave": "boobie-ike-01",
+   "categoria": "Personagens",
+   "titulo": "Boobie Ike 01",
+   "grupo": "Boobie Ike",
+   "alt": "Boobie sentado numa poltrona do clube, com camisa estampada"
+  },
+  {
+   "chave": "boobie-ike-02",
+   "categoria": "Personagens",
+   "titulo": "Boobie Ike 02",
+   "grupo": "Boobie Ike",
+   "alt": "Boobie diante do letreiro do clube Jack of Hearts"
+  },
+  {
+   "chave": "boobie-ike-03",
+   "categoria": "Personagens",
+   "titulo": "Boobie Ike 03",
+   "grupo": "Boobie Ike",
+   "alt": "Captura oficial de GTA VI: Boobie Ike, imagem 03"
+  },
+  {
+   "chave": "boobie-ike-04",
+   "categoria": "Personagens",
+   "titulo": "Boobie Ike 04",
+   "grupo": "Boobie Ike",
+   "alt": "Captura oficial de GTA VI: Boobie Ike, imagem 04"
+  },
+  {
+   "chave": "drequan-priest-01",
+   "categoria": "Personagens",
+   "titulo": "Dre’Quan Priest 01",
+   "grupo": "Dre’Quan Priest",
+   "alt": "Captura oficial de GTA VI: Dre’Quan Priest, imagem 01"
+  },
+  {
+   "chave": "drequan-priest-02",
+   "categoria": "Personagens",
+   "titulo": "Dre’Quan Priest 02",
+   "grupo": "Dre’Quan Priest",
+   "alt": "Dre’Quan numa festa à beira da piscina, com letreiro neon ao fundo"
+  },
+  {
+   "chave": "drequan-priest-03",
+   "categoria": "Personagens",
+   "titulo": "Dre’Quan Priest 03",
+   "grupo": "Dre’Quan Priest",
+   "alt": "Captura oficial de GTA VI: Dre’Quan Priest, imagem 03"
+  },
+  {
+   "chave": "drequan-priest-04",
+   "categoria": "Personagens",
+   "titulo": "Dre’Quan Priest 04",
+   "grupo": "Dre’Quan Priest",
+   "alt": "Captura oficial de GTA VI: Dre’Quan Priest, imagem 04"
+  },
+  {
+   "chave": "real-dimez-01",
+   "categoria": "Personagens",
+   "titulo": "Real Dimez 01",
+   "grupo": "Real Dimez",
+   "alt": "Bae-Luxe sentada num estúdio de gravação"
+  },
+  {
+   "chave": "real-dimez-02",
+   "categoria": "Personagens",
+   "titulo": "Real Dimez 02",
+   "grupo": "Real Dimez",
+   "alt": "Real Dimez se apresentando numa festa noturna"
+  },
+  {
+   "chave": "real-dimez-03",
+   "categoria": "Personagens",
+   "titulo": "Real Dimez 03",
+   "grupo": "Real Dimez",
+   "alt": "Captura oficial de GTA VI: Real Dimez, imagem 03"
+  },
+  {
+   "chave": "real-dimez-04",
+   "categoria": "Personagens",
+   "titulo": "Real Dimez 04",
+   "grupo": "Real Dimez",
+   "alt": "Captura oficial de GTA VI: Real Dimez, imagem 04"
+  },
+  {
+   "chave": "raul-bautista-01",
+   "categoria": "Personagens",
+   "titulo": "Raul Bautista 01",
+   "grupo": "Raul Bautista",
+   "alt": "Raul ao telefone numa sala escura"
+  },
+  {
+   "chave": "raul-bautista-02",
+   "categoria": "Personagens",
+   "titulo": "Raul Bautista 02",
+   "grupo": "Raul Bautista",
+   "alt": "Raul dirigindo um carro esportivo com bancos vermelhos"
+  },
+  {
+   "chave": "raul-bautista-03",
+   "categoria": "Personagens",
+   "titulo": "Raul Bautista 03",
+   "grupo": "Raul Bautista",
+   "alt": "Captura oficial de GTA VI: Raul Bautista, imagem 03"
+  },
+  {
+   "chave": "raul-bautista-04",
+   "categoria": "Personagens",
+   "titulo": "Raul Bautista 04",
+   "grupo": "Raul Bautista",
+   "alt": "Captura oficial de GTA VI: Raul Bautista, imagem 04"
+  },
+  {
+   "chave": "brian-heder-01",
+   "categoria": "Personagens",
+   "titulo": "Brian Heder 01",
+   "grupo": "Brian Heder",
+   "alt": "Brian de óculos escuros, debruçado na janela de um carro"
+  },
+  {
+   "chave": "brian-heder-02",
+   "categoria": "Personagens",
+   "titulo": "Brian Heder 02",
+   "grupo": "Brian Heder",
+   "alt": "Brian num bar de beira de cais, sob lâmpadas penduradas"
+  },
+  {
+   "chave": "brian-heder-03",
+   "categoria": "Personagens",
+   "titulo": "Brian Heder 03",
+   "grupo": "Brian Heder",
+   "alt": "Captura oficial de GTA VI: Brian Heder, imagem 03"
+  },
+  {
+   "chave": "brian-heder-04",
+   "categoria": "Personagens",
+   "titulo": "Brian Heder 04",
+   "grupo": "Brian Heder",
+   "alt": "Captura oficial de GTA VI: Brian Heder, imagem 04"
+  },
+  {
+   "chave": "vice-city-01",
+   "categoria": "Lugares",
+   "titulo": "Vice City 01",
+   "grupo": "Vice City",
+   "alt": "Letreiro gigante de Vice City ao entardecer, com um avião passando"
+  },
+  {
+   "chave": "vice-city-02",
+   "categoria": "Lugares",
+   "titulo": "Vice City 02",
+   "grupo": "Vice City",
+   "alt": "Casal num terraço sobre a praia e a piscina de um hotel ao pôr do sol"
+  },
+  {
+   "chave": "vice-city-03",
+   "categoria": "Lugares",
+   "titulo": "Vice City 03",
+   "grupo": "Vice City",
+   "alt": "Vista aérea de um bairro de Vice City com quadras e prédios"
+  },
+  {
+   "chave": "vice-city-04",
+   "categoria": "Lugares",
+   "titulo": "Vice City 04",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 04"
+  },
+  {
+   "chave": "vice-city-05",
+   "categoria": "Lugares",
+   "titulo": "Vice City 05",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 05"
+  },
+  {
+   "chave": "vice-city-06",
+   "categoria": "Lugares",
+   "titulo": "Vice City 06",
+   "grupo": "Vice City",
+   "alt": "Rua de Vice City à noite, com letreiros neon e viaturas de polícia"
+  },
+  {
+   "chave": "vice-city-07",
+   "categoria": "Lugares",
+   "titulo": "Vice City 07",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 07"
+  },
+  {
+   "chave": "vice-city-08",
+   "categoria": "Lugares",
+   "titulo": "Vice City 08",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 08"
+  },
+  {
+   "chave": "vice-city-09",
+   "categoria": "Lugares",
+   "titulo": "Vice City 09",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 09"
+  },
+  {
+   "chave": "vice-city-10",
+   "categoria": "Lugares",
+   "titulo": "Vice City 10",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 10"
+  },
+  {
+   "chave": "vice-city-11",
+   "categoria": "Lugares",
+   "titulo": "Vice City 11",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 11"
+  },
+  {
+   "chave": "vice-city-12",
+   "categoria": "Lugares",
+   "titulo": "Vice City 12",
+   "grupo": "Vice City",
+   "alt": "Captura oficial de GTA VI: Vice City, imagem 12"
+  },
+  {
+   "chave": "leonida-keys-01",
+   "categoria": "Lugares",
+   "titulo": "Leonida Keys 01",
+   "grupo": "Leonida Keys",
+   "alt": "Ilhas das Leonida Keys vistas do alto, com um hidroavião e mar azul-turquesa"
+  },
+  {
+   "chave": "leonida-keys-02",
+   "categoria": "Lugares",
+   "titulo": "Leonida Keys 02",
+   "grupo": "Leonida Keys",
+   "alt": "Rua de uma cidade das Keys com moradores e um ônibus"
+  },
+  {
+   "chave": "leonida-keys-03",
+   "categoria": "Lugares",
+   "titulo": "Leonida Keys 03",
+   "grupo": "Leonida Keys",
+   "alt": "Captura oficial de GTA VI: Leonida Keys, imagem 03"
+  },
+  {
+   "chave": "leonida-keys-04",
+   "categoria": "Lugares",
+   "titulo": "Leonida Keys 04",
+   "grupo": "Leonida Keys",
+   "alt": "Captura oficial de GTA VI: Leonida Keys, imagem 04"
+  },
+  {
+   "chave": "leonida-keys-05",
+   "categoria": "Lugares",
+   "titulo": "Leonida Keys 05",
+   "grupo": "Leonida Keys",
+   "alt": "Captura oficial de GTA VI: Leonida Keys, imagem 05"
+  },
+  {
+   "chave": "leonida-keys-06",
+   "categoria": "Lugares",
+   "titulo": "Leonida Keys 06",
+   "grupo": "Leonida Keys",
+   "alt": "Captura oficial de GTA VI: Leonida Keys, imagem 06"
+  },
+  {
+   "chave": "grassrivers-01",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 01",
+   "grupo": "Grassrivers",
+   "alt": "Moradores armados de Grassrivers num barco, ao lado de um jacaré"
+  },
+  {
+   "chave": "grassrivers-02",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 02",
+   "grupo": "Grassrivers",
+   "alt": "Vila de palafitas sobre a água em Grassrivers"
+  },
+  {
+   "chave": "grassrivers-03",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 03",
+   "grupo": "Grassrivers",
+   "alt": "Captura oficial de GTA VI: Grassrivers, imagem 03"
+  },
+  {
+   "chave": "grassrivers-04",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 04",
+   "grupo": "Grassrivers",
+   "alt": "Captura oficial de GTA VI: Grassrivers, imagem 04"
+  },
+  {
+   "chave": "grassrivers-05",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 05",
+   "grupo": "Grassrivers",
+   "alt": "Captura oficial de GTA VI: Grassrivers, imagem 05"
+  },
+  {
+   "chave": "grassrivers-06",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 06",
+   "grupo": "Grassrivers",
+   "alt": "Captura oficial de GTA VI: Grassrivers, imagem 06"
+  },
+  {
+   "chave": "port-gellhorn-01",
+   "categoria": "Lugares",
+   "titulo": "Port Gellhorn 01",
+   "grupo": "Port Gellhorn",
+   "alt": "Motel antigo de Port Gellhorn à noite, com letreiro aceso"
+  },
+  {
+   "chave": "port-gellhorn-02",
+   "categoria": "Lugares",
+   "titulo": "Port Gellhorn 02",
+   "grupo": "Port Gellhorn",
+   "alt": "Dois homens numa cozinha mal iluminada em Port Gellhorn"
+  },
+  {
+   "chave": "port-gellhorn-03",
+   "categoria": "Lugares",
+   "titulo": "Port Gellhorn 03",
+   "grupo": "Port Gellhorn",
+   "alt": "Captura oficial de GTA VI: Port Gellhorn, imagem 03"
+  },
+  {
+   "chave": "port-gellhorn-04",
+   "categoria": "Lugares",
+   "titulo": "Port Gellhorn 04",
+   "grupo": "Port Gellhorn",
+   "alt": "Captura oficial de GTA VI: Port Gellhorn, imagem 04"
+  },
+  {
+   "chave": "port-gellhorn-05",
+   "categoria": "Lugares",
+   "titulo": "Port Gellhorn 05",
+   "grupo": "Port Gellhorn",
+   "alt": "Captura oficial de GTA VI: Port Gellhorn, imagem 05"
+  },
+  {
+   "chave": "port-gellhorn-06",
+   "categoria": "Lugares",
+   "titulo": "Port Gellhorn 06",
+   "grupo": "Port Gellhorn",
+   "alt": "Captura oficial de GTA VI: Port Gellhorn, imagem 06"
+  },
+  {
+   "chave": "ambrosia-01",
+   "categoria": "Lugares",
+   "titulo": "Ambrosia 01",
+   "grupo": "Ambrosia",
+   "alt": "Gangue de motoqueiros passando por uma estrada de Ambrosia"
+  },
+  {
+   "chave": "ambrosia-02",
+   "categoria": "Lugares",
+   "titulo": "Ambrosia 02",
+   "grupo": "Ambrosia",
+   "alt": "Vista noturna de Ambrosia, com luzes da cidade sob nuvens carregadas"
+  },
+  {
+   "chave": "ambrosia-03",
+   "categoria": "Lugares",
+   "titulo": "Ambrosia 03",
+   "grupo": "Ambrosia",
+   "alt": "Captura oficial de GTA VI: Ambrosia, imagem 03"
+  },
+  {
+   "chave": "ambrosia-04",
+   "categoria": "Lugares",
+   "titulo": "Ambrosia 04",
+   "grupo": "Ambrosia",
+   "alt": "Captura oficial de GTA VI: Ambrosia, imagem 04"
+  },
+  {
+   "chave": "ambrosia-05",
+   "categoria": "Lugares",
+   "titulo": "Ambrosia 05",
+   "grupo": "Ambrosia",
+   "alt": "Captura oficial de GTA VI: Ambrosia, imagem 05"
+  },
+  {
+   "chave": "ambrosia-06",
+   "categoria": "Lugares",
+   "titulo": "Ambrosia 06",
+   "grupo": "Ambrosia",
+   "alt": "Captura oficial de GTA VI: Ambrosia, imagem 06"
+  },
+  {
+   "chave": "mount-kalaga-01",
+   "categoria": "Lugares",
+   "titulo": "Mount Kalaga 01",
+   "grupo": "Mount Kalaga",
+   "alt": "Motos de trilha numa área de mineração no Mount Kalaga"
+  },
+  {
+   "chave": "mount-kalaga-02",
+   "categoria": "Lugares",
+   "titulo": "Mount Kalaga 02",
+   "grupo": "Mount Kalaga",
+   "alt": "Helicóptero sobrevoando as colinas verdes do Mount Kalaga"
+  },
+  {
+   "chave": "mount-kalaga-03",
+   "categoria": "Lugares",
+   "titulo": "Mount Kalaga 03",
+   "grupo": "Mount Kalaga",
+   "alt": "Captura oficial de GTA VI: Mount Kalaga, imagem 03"
+  },
+  {
+   "chave": "mount-kalaga-04",
+   "categoria": "Lugares",
+   "titulo": "Mount Kalaga 04",
+   "grupo": "Mount Kalaga",
+   "alt": "Captura oficial de GTA VI: Mount Kalaga, imagem 04"
+  },
+  {
+   "chave": "mount-kalaga-05",
+   "categoria": "Lugares",
+   "titulo": "Mount Kalaga 05",
+   "grupo": "Mount Kalaga",
+   "alt": "Captura oficial de GTA VI: Mount Kalaga, imagem 05"
+  },
+  {
+   "chave": "mount-kalaga-06",
+   "categoria": "Lugares",
+   "titulo": "Mount Kalaga 06",
+   "grupo": "Mount Kalaga",
+   "alt": "Captura oficial de GTA VI: Mount Kalaga, imagem 06"
+  },
+  {
+   "chave": "quadro-trailer-1-0005",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 0:05",
+   "grupo": "Trailer 1",
+   "alt": "Pôr do sol atrás da cerca de arame farpado da prisão",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=5s"
+  },
+  {
+   "chave": "quadro-trailer-1-0011",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 0:11",
+   "grupo": "Trailer 1",
+   "alt": "Lancha cortando o mar verde-esmeralda, vista do alto",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=11s"
+  },
+  {
+   "chave": "quadro-trailer-1-0014",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 0:14",
+   "grupo": "Trailer 1",
+   "alt": "Praia lotada de Vice City vista do alto, com prédios ao fundo",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=14s"
+  },
+  {
+   "chave": "quadro-trailer-1-0020",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 0:20",
+   "grupo": "Trailer 1",
+   "alt": "Aerobarco atravessando o capim dourado de Grassrivers ao amanhecer",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=20s"
+  },
+  {
+   "chave": "quadro-trailer-1-0032",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 0:32",
+   "grupo": "Trailer 1",
+   "alt": "Vice City à noite vista do alto, com ilhas e avenidas iluminadas",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=32s"
+  },
+  {
+   "chave": "quadro-trailer-1-0041",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 0:41",
+   "grupo": "Trailer 1",
+   "alt": "Letras gigantes de VICE contra o sol se pondo",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=41s"
+  },
+  {
+   "chave": "quadro-trailer-1-0071",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 1:11",
+   "grupo": "Trailer 1",
+   "alt": "Carro vermelho derrapando numa rua empoeirada",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=71s"
+  },
+  {
+   "chave": "quadro-trailer-1-0077",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 1 · 1:17",
+   "grupo": "Trailer 1",
+   "alt": "Jason e Lucia saindo de uma loja de conveniência durante um assalto",
+   "video": "https://www.youtube.com/watch?v=QdBZY2fkU-0&t=77s"
+  },
+  {
+   "chave": "quadro-trailer-2-0010",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 2 · 0:10",
+   "grupo": "Trailer 2",
+   "alt": "Brian ao lado de uma picape prateada no quintal",
+   "video": "https://www.youtube.com/watch?v=VQRLujxTm3c&t=10s"
+  },
+  {
+   "chave": "quadro-trailer-2-0038",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 2 · 0:38",
+   "grupo": "Trailer 2",
+   "alt": "Placas de rodovia para o aeroporto de Vice City, Ambrosia e Downtown",
+   "video": "https://www.youtube.com/watch?v=VQRLujxTm3c&t=38s"
+  },
+  {
+   "chave": "quadro-trailer-2-0050",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 2 · 0:50",
+   "grupo": "Trailer 2",
+   "alt": "Torre de vigia e cercas da penitenciária",
+   "video": "https://www.youtube.com/watch?v=VQRLujxTm3c&t=50s"
+  },
+  {
+   "chave": "quadro-trailer-2-0066",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 2 · 1:06",
+   "grupo": "Trailer 2",
+   "alt": "Lucia deixando a penitenciária",
+   "video": "https://www.youtube.com/watch?v=VQRLujxTm3c&t=66s"
+  },
+  {
+   "chave": "quadro-trailer-2-0098",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 2 · 1:38",
+   "grupo": "Trailer 2",
+   "alt": "Jason ao volante, com Lucia ao lado, ao entardecer",
+   "video": "https://www.youtube.com/watch?v=VQRLujxTm3c&t=98s"
+  },
+  {
+   "chave": "quadro-trailer-2-0118",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 2 · 1:58",
+   "grupo": "Trailer 2",
+   "alt": "Perseguição com viaturas explodindo, vista de dentro de um carro",
+   "video": "https://www.youtube.com/watch?v=VQRLujxTm3c&t=118s"
+  },
+  {
+   "chave": "quadro-trailer-2-0142",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer 2 · 2:22",
+   "grupo": "Trailer 2",
+   "alt": "Motoqueiro de óculos escuros com um avião passando logo atrás",
+   "video": "https://www.youtube.com/watch?v=VQRLujxTm3c&t=142s"
+  },
+  {
+   "chave": "quadro-extended-look-0522",
+   "categoria": "Quadros dos trailers",
+   "titulo": "An Extended Look · 8:42",
+   "grupo": "An Extended Look",
+   "alt": "Jogabilidade: conversível vermelho num cruzamento de Vice City, com minimapa na tela",
+   "video": "https://www.youtube.com/watch?v=tJbzMqJGH4k&t=522s"
+  },
+  {
+   "chave": "quadro-extended-look-0602",
+   "categoria": "Quadros dos trailers",
+   "titulo": "An Extended Look · 10:02",
+   "grupo": "An Extended Look",
+   "alt": "Jason e Lucia de mãos dadas num terraço, com o comando de interação na tela",
+   "video": "https://www.youtube.com/watch?v=tJbzMqJGH4k&t=602s"
+  },
+  {
+   "chave": "quadro-extended-look-0642",
+   "categoria": "Quadros dos trailers",
+   "titulo": "An Extended Look · 10:42",
+   "grupo": "An Extended Look",
+   "alt": "Terraço de bar com o letreiro Effluvia",
+   "video": "https://www.youtube.com/watch?v=tJbzMqJGH4k&t=642s"
+  },
+  {
+   "chave": "quadro-extended-look-0762",
+   "categoria": "Quadros dos trailers",
+   "titulo": "An Extended Look · 12:42",
+   "grupo": "An Extended Look",
+   "alt": "Jogabilidade: dirigindo por uma avenida com palmeiras ao sol",
+   "video": "https://www.youtube.com/watch?v=tJbzMqJGH4k&t=762s"
+  },
+  {
+   "chave": "quadro-extended-look-0842",
+   "categoria": "Quadros dos trailers",
+   "titulo": "An Extended Look · 14:02",
+   "grupo": "An Extended Look",
+   "alt": "Jogabilidade: tiroteio numa rua de Vice City, com estrelas de procurado na tela",
+   "video": "https://www.youtube.com/watch?v=tJbzMqJGH4k&t=842s"
+  },
+  {
+   "chave": "quadro-extended-look-1042",
+   "categoria": "Quadros dos trailers",
+   "titulo": "An Extended Look · 17:22",
+   "grupo": "An Extended Look",
+   "alt": "Lucia fazendo supino na academia, com comandos na tela",
+   "video": "https://www.youtube.com/watch?v=tJbzMqJGH4k&t=1042s"
+  },
+  {
+   "chave": "quadro-extended-look-1082",
+   "categoria": "Quadros dos trailers",
+   "titulo": "An Extended Look · 18:02",
+   "grupo": "An Extended Look",
+   "alt": "Assalto a uma joalheria",
+   "video": "https://www.youtube.com/watch?v=tJbzMqJGH4k&t=1082s"
+  },
+  {
+   "chave": "quadro-lancamento-0005",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer de lançamento · 0:05",
+   "grupo": "Trailer de lançamento",
+   "alt": "Placa de boas-vindas das Keys com uma garça pintada",
+   "video": "https://www.youtube.com/watch?v=rz1B4B2yBZY&t=5s"
+  },
+  {
+   "chave": "quadro-lancamento-0026",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer de lançamento · 0:26",
+   "grupo": "Trailer de lançamento",
+   "alt": "Skyline de Vice City refletido na água ao pôr do sol",
+   "video": "https://www.youtube.com/watch?v=rz1B4B2yBZY&t=26s"
+  },
+  {
+   "chave": "quadro-lancamento-0029",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer de lançamento · 0:29",
+   "grupo": "Trailer de lançamento",
+   "alt": "Homens armados atravessando um pântano ao entardecer",
+   "video": "https://www.youtube.com/watch?v=rz1B4B2yBZY&t=29s"
+  },
+  {
+   "chave": "quadro-lancamento-0041",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer de lançamento · 0:41",
+   "grupo": "Trailer de lançamento",
+   "alt": "Jason e Lucia encostados num carro esportivo vermelho",
+   "video": "https://www.youtube.com/watch?v=rz1B4B2yBZY&t=41s"
+  },
+  {
+   "chave": "quadro-lancamento-0047",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer de lançamento · 0:47",
+   "grupo": "Trailer de lançamento",
+   "alt": "Carros esportivos coloridos numa avenida de Vice City",
+   "video": "https://www.youtube.com/watch?v=rz1B4B2yBZY&t=47s"
+  },
+  {
+   "chave": "quadro-lancamento-0050",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer de lançamento · 0:50",
+   "grupo": "Trailer de lançamento",
+   "alt": "Motociclista saltando entre prédios",
+   "video": "https://www.youtube.com/watch?v=rz1B4B2yBZY&t=50s"
+  },
+  {
+   "chave": "quadro-lancamento-0056",
+   "categoria": "Quadros dos trailers",
+   "titulo": "Trailer de lançamento · 0:56",
+   "grupo": "Trailer de lançamento",
+   "alt": "Avião antigo soltando fumaça rosa sobre a praia",
+   "video": "https://www.youtube.com/watch?v=rz1B4B2yBZY&t=56s"
+  },
+  {
+   "chave": "arte-ambrosia-postcard",
+   "categoria": "Artes",
+   "titulo": "Cartão-postal de Ambrosia",
+   "grupo": "Cartões-postais",
+   "alt": "Arte oficial: Cartão-postal de Ambrosia"
+  },
+  {
+   "chave": "arte-boobie-ike",
+   "categoria": "Artes",
+   "titulo": "Arte de Boobie Ike",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte de Boobie Ike"
+  },
+  {
+   "chave": "arte-brian-heder",
+   "categoria": "Artes",
+   "titulo": "Arte de Brian Heder",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte de Brian Heder"
+  },
+  {
+   "chave": "arte-cal-hampton",
+   "categoria": "Artes",
+   "titulo": "Arte de Cal Hampton",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte de Cal Hampton"
+  },
+  {
+   "chave": "arte-drequan-priest",
+   "categoria": "Artes",
+   "titulo": "Arte de Dre’Quan Priest",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte de Dre’Quan Priest"
+  },
+  {
+   "chave": "arte-grassrivers-postcard",
+   "categoria": "Artes",
+   "titulo": "Cartão-postal de Grassrivers",
+   "grupo": "Cartões-postais",
+   "alt": "Arte oficial: Cartão-postal de Grassrivers"
+  },
+  {
+   "chave": "arte-jason-and-lucia-01",
+   "categoria": "Artes",
+   "titulo": "Arte de Jason e Lucia (1)",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte de Jason e Lucia (1)"
+  },
+  {
+   "chave": "arte-jason-and-lucia-02",
+   "categoria": "Artes",
+   "titulo": "Arte de Jason e Lucia (2)",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte de Jason e Lucia (2)"
+  },
+  {
+   "chave": "arte-jason-and-lucia-beach",
+   "categoria": "Artes",
+   "titulo": "Jason e Lucia na praia",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Jason e Lucia na praia"
+  },
+  {
+   "chave": "arte-jason-and-lucia-motel",
+   "categoria": "Artes",
+   "titulo": "Jason e Lucia no motel",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Jason e Lucia no motel"
+  },
+  {
+   "chave": "arte-jason-and-lucia-robbery",
+   "categoria": "Artes",
+   "titulo": "Jason e Lucia no assalto",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Jason e Lucia no assalto"
+  },
+  {
+   "chave": "arte-jason-lucia-lock-and-load",
+   "categoria": "Artes",
+   "titulo": "Jason e Lucia: Lock and Load",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Jason e Lucia: Lock and Load"
+  },
+  {
+   "chave": "arte-leonida-keys-postcard",
+   "categoria": "Artes",
+   "titulo": "Cartão-postal das Leonida Keys",
+   "grupo": "Cartões-postais",
+   "alt": "Arte oficial: Cartão-postal das Leonida Keys"
+  },
+  {
+   "chave": "arte-mount-kalaga-postcard",
+   "categoria": "Artes",
+   "titulo": "Cartão-postal do Mount Kalaga",
+   "grupo": "Cartões-postais",
+   "alt": "Arte oficial: Cartão-postal do Mount Kalaga"
+  },
+  {
+   "chave": "arte-official-cover-art",
+   "categoria": "Artes",
+   "titulo": "Arte de capa oficial",
+   "grupo": "Capas",
+   "alt": "Arte oficial: Arte de capa oficial"
+  },
+  {
+   "chave": "arte-port-gellhorn-postcard",
+   "categoria": "Artes",
+   "titulo": "Cartão-postal de Port Gellhorn",
+   "grupo": "Cartões-postais",
+   "alt": "Arte oficial: Cartão-postal de Port Gellhorn"
+  },
+  {
+   "chave": "arte-raul-bautista",
+   "categoria": "Artes",
+   "titulo": "Arte de Raul Bautista",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte de Raul Bautista"
+  },
+  {
+   "chave": "arte-real-dimez",
+   "categoria": "Artes",
+   "titulo": "Arte das Real Dimez",
+   "grupo": "Personagens",
+   "alt": "Arte oficial: Arte das Real Dimez"
+  },
+  {
+   "chave": "arte-the-album-cover-art",
+   "categoria": "Artes",
+   "titulo": "Capa de Grand Theft Auto VI: The Album",
+   "grupo": "Capas",
+   "alt": "Arte oficial: Capa de Grand Theft Auto VI: The Album"
+  },
+  {
+   "chave": "arte-vice-city-postcard",
+   "categoria": "Artes",
+   "titulo": "Cartão-postal de Vice City",
+   "grupo": "Cartões-postais",
+   "alt": "Arte oficial: Cartão-postal de Vice City"
+  },
+  {
+   "chave": "ultimate-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Ultimate Edition 01",
+   "grupo": "Ultimate Edition",
+   "alt": "Captura oficial da Ultimate Edition: Ultimate Edition"
+  },
+  {
+   "chave": "ultimate-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Ultimate Edition 02",
+   "grupo": "Ultimate Edition",
+   "alt": "Lucia e Jason sentados num carro esportivo verde clássico na orla"
+  },
+  {
+   "chave": "ultimate-electric-fang-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Electric Fang Tattoo Parlor 01",
+   "grupo": "Electric Fang Tattoo Parlor",
+   "alt": "Captura oficial da Ultimate Edition: Electric Fang Tattoo Parlor"
+  },
+  {
+   "chave": "ultimate-electric-fang-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Electric Fang Tattoo Parlor 02",
+   "grupo": "Electric Fang Tattoo Parlor",
+   "alt": "Captura oficial da Ultimate Edition: Electric Fang Tattoo Parlor"
+  },
+  {
+   "chave": "ultimate-electric-fang-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Electric Fang Tattoo Parlor 03",
+   "grupo": "Electric Fang Tattoo Parlor",
+   "alt": "Captura oficial da Ultimate Edition: Electric Fang Tattoo Parlor"
+  },
+  {
+   "chave": "ultimate-electric-fang-04",
+   "categoria": "Ultimate Edition",
+   "titulo": "Electric Fang Tattoo Parlor 04",
+   "grupo": "Electric Fang Tattoo Parlor",
+   "alt": "Captura oficial da Ultimate Edition: Electric Fang Tattoo Parlor"
+  },
+  {
+   "chave": "ultimate-goodtime-gear-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Goodtime Gear 01",
+   "grupo": "Goodtime Gear",
+   "alt": "Captura oficial da Ultimate Edition: Goodtime Gear"
+  },
+  {
+   "chave": "ultimate-grotti-cheetah-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "’95 Grotti Cheetah 01",
+   "grupo": "’95 Grotti Cheetah",
+   "alt": "Carro esportivo branco Grotti Cheetah de 1995 diante de um prédio art déco"
+  },
+  {
+   "chave": "ultimate-grotti-cheetah-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "’95 Grotti Cheetah 02",
+   "grupo": "’95 Grotti Cheetah",
+   "alt": "Captura oficial da Ultimate Edition: ’95 Grotti Cheetah"
+  },
+  {
+   "chave": "ultimate-grotti-cheetah-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "’95 Grotti Cheetah 03",
+   "grupo": "’95 Grotti Cheetah",
+   "alt": "Captura oficial da Ultimate Edition: ’95 Grotti Cheetah"
+  },
+  {
+   "chave": "ultimate-grotti-cheetah-04",
+   "categoria": "Ultimate Edition",
+   "titulo": "’95 Grotti Cheetah 04",
+   "grupo": "’95 Grotti Cheetah",
+   "alt": "Captura oficial da Ultimate Edition: ’95 Grotti Cheetah"
+  },
+  {
+   "chave": "ultimate-hawk-and-little-morgan-revolvers-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Revólveres Hawk & Little Morgan 01",
+   "grupo": "Revólveres Hawk & Little Morgan",
+   "alt": "Captura oficial da Ultimate Edition: Revólveres Hawk & Little Morgan"
+  },
+  {
+   "chave": "ultimate-hawk-and-little-morgan-revolvers-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Revólveres Hawk & Little Morgan 02",
+   "grupo": "Revólveres Hawk & Little Morgan",
+   "alt": "Captura oficial da Ultimate Edition: Revólveres Hawk & Little Morgan"
+  },
+  {
+   "chave": "ultimate-one-eyed-willie-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "One-Eyed Willie’s Mod Shop 01",
+   "grupo": "One-Eyed Willie’s Mod Shop",
+   "alt": "Captura oficial da Ultimate Edition: One-Eyed Willie’s Mod Shop"
+  },
+  {
+   "chave": "ultimate-one-eyed-willie-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "One-Eyed Willie’s Mod Shop 02",
+   "grupo": "One-Eyed Willie’s Mod Shop",
+   "alt": "Captura oficial da Ultimate Edition: One-Eyed Willie’s Mod Shop"
+  },
+  {
+   "chave": "ultimate-one-eyed-willie-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "One-Eyed Willie’s Mod Shop 03",
+   "grupo": "One-Eyed Willie’s Mod Shop",
+   "alt": "Captura oficial da Ultimate Edition: One-Eyed Willie’s Mod Shop"
+  },
+  {
+   "chave": "ultimate-ptt-store-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "PTT Youngin$ Compound 01",
+   "grupo": "PTT Youngin$ Compound",
+   "alt": "Captura oficial da Ultimate Edition: PTT Youngin$ Compound"
+  },
+  {
+   "chave": "ultimate-rideout-customs-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Rideout Customs 01",
+   "grupo": "Rideout Customs",
+   "alt": "Captura oficial da Ultimate Edition: Rideout Customs"
+  },
+  {
+   "chave": "ultimate-rideout-customs-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Rideout Customs 02",
+   "grupo": "Rideout Customs",
+   "alt": "Captura oficial da Ultimate Edition: Rideout Customs"
+  },
+  {
+   "chave": "ultimate-rideout-customs-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Rideout Customs 03",
+   "grupo": "Rideout Customs",
+   "alt": "Captura oficial da Ultimate Edition: Rideout Customs"
+  },
+  {
+   "chave": "ultimate-safehouse-vehicles-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Veículos do esconderijo de Jason 01",
+   "grupo": "Veículos do esconderijo de Jason",
+   "alt": "Captura oficial da Ultimate Edition: Veículos do esconderijo de Jason"
+  },
+  {
+   "chave": "ultimate-safehouse-vehicles-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Veículos do esconderijo de Jason 02",
+   "grupo": "Veículos do esconderijo de Jason",
+   "alt": "Captura oficial da Ultimate Edition: Veículos do esconderijo de Jason"
+  },
+  {
+   "chave": "ultimate-safehouse-vehicles-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Veículos do esconderijo de Jason 03",
+   "grupo": "Veículos do esconderijo de Jason",
+   "alt": "Captura oficial da Ultimate Edition: Veículos do esconderijo de Jason"
+  },
+  {
+   "chave": "ultimate-saras-salon-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Sara’s Unisex Salon 01",
+   "grupo": "Sara’s Unisex Salon",
+   "alt": "Captura oficial da Ultimate Edition: Sara’s Unisex Salon"
+  },
+  {
+   "chave": "ultimate-saras-salon-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Sara’s Unisex Salon 02",
+   "grupo": "Sara’s Unisex Salon",
+   "alt": "Captura oficial da Ultimate Edition: Sara’s Unisex Salon"
+  },
+  {
+   "chave": "ultimate-saras-salon-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Sara’s Unisex Salon 03",
+   "grupo": "Sara’s Unisex Salon",
+   "alt": "Captura oficial da Ultimate Edition: Sara’s Unisex Salon"
+  },
+  {
+   "chave": "ultimate-squalo-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Shitzu Squalo 01",
+   "grupo": "Shitzu Squalo",
+   "alt": "Captura oficial da Ultimate Edition: Shitzu Squalo"
+  },
+  {
+   "chave": "ultimate-squalo-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Shitzu Squalo 02",
+   "grupo": "Shitzu Squalo",
+   "alt": "Captura oficial da Ultimate Edition: Shitzu Squalo"
+  },
+  {
+   "chave": "ultimate-squalo-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Shitzu Squalo 03",
+   "grupo": "Shitzu Squalo",
+   "alt": "Captura oficial da Ultimate Edition: Shitzu Squalo"
+  },
+  {
+   "chave": "ultimate-squalo-04",
+   "categoria": "Ultimate Edition",
+   "titulo": "Shitzu Squalo 04",
+   "grupo": "Shitzu Squalo",
+   "alt": "Captura oficial da Ultimate Edition: Shitzu Squalo"
+  },
+  {
+   "chave": "ultimate-stock-305-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Stock 305 01",
+   "grupo": "Stock 305",
+   "alt": "Captura oficial da Ultimate Edition: Stock 305"
+  },
+  {
+   "chave": "ultimate-stock-305-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Stock 305 02",
+   "grupo": "Stock 305",
+   "alt": "Captura oficial da Ultimate Edition: Stock 305"
+  },
+  {
+   "chave": "ultimate-stock-305-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Stock 305 03",
+   "grupo": "Stock 305",
+   "alt": "Captura oficial da Ultimate Edition: Stock 305"
+  },
+  {
+   "chave": "ultimate-stock-305-04",
+   "categoria": "Ultimate Edition",
+   "titulo": "Stock 305 04",
+   "grupo": "Stock 305",
+   "alt": "Captura oficial da Ultimate Edition: Stock 305"
+  },
+  {
+   "chave": "ultimate-vapid-buggy-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "’67 Vapid Dominator Buggy 01",
+   "grupo": "’67 Vapid Dominator Buggy",
+   "alt": "Captura oficial da Ultimate Edition: ’67 Vapid Dominator Buggy"
+  },
+  {
+   "chave": "ultimate-vapid-buggy-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "’67 Vapid Dominator Buggy 02",
+   "grupo": "’67 Vapid Dominator Buggy",
+   "alt": "Captura oficial da Ultimate Edition: ’67 Vapid Dominator Buggy"
+  },
+  {
+   "chave": "ultimate-vapid-buggy-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "’67 Vapid Dominator Buggy 03",
+   "grupo": "’67 Vapid Dominator Buggy",
+   "alt": "Captura oficial da Ultimate Edition: ’67 Vapid Dominator Buggy"
+  },
+  {
+   "chave": "ultimate-vapid-buggy-04",
+   "categoria": "Ultimate Edition",
+   "titulo": "’67 Vapid Dominator Buggy 04",
+   "grupo": "’67 Vapid Dominator Buggy",
+   "alt": "Captura oficial da Ultimate Edition: ’67 Vapid Dominator Buggy"
+  },
+  {
+   "chave": "ultimate-vapid-ganado-retro-build-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Vapid Ganado Retro Build 01",
+   "grupo": "Vapid Ganado Retro Build",
+   "alt": "Captura oficial da Ultimate Edition: Vapid Ganado Retro Build"
+  },
+  {
+   "chave": "ultimate-vice-city-style-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Vice City Styles 01",
+   "grupo": "Vice City Styles",
+   "alt": "Captura oficial da Ultimate Edition: Vice City Styles"
+  },
+  {
+   "chave": "ultimate-vice-city-style-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Vice City Styles 02",
+   "grupo": "Vice City Styles",
+   "alt": "Captura oficial da Ultimate Edition: Vice City Styles"
+  },
+  {
+   "chave": "ultimate-vice-city-style-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Vice City Styles 03",
+   "grupo": "Vice City Styles",
+   "alt": "Captura oficial da Ultimate Edition: Vice City Styles"
+  },
+  {
+   "chave": "ultimate-vice-city-style-04",
+   "categoria": "Ultimate Edition",
+   "titulo": "Vice City Styles 04",
+   "grupo": "Vice City Styles",
+   "alt": "Captura oficial da Ultimate Edition: Vice City Styles"
+  },
+  {
+   "chave": "ultimate-vice-city-style-05",
+   "categoria": "Ultimate Edition",
+   "titulo": "Vice City Styles 05",
+   "grupo": "Vice City Styles",
+   "alt": "Captura oficial da Ultimate Edition: Vice City Styles"
+  },
+  {
+   "chave": "ultimate-weapon-variants-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Variações personalizadas de armas 01",
+   "grupo": "Variações personalizadas de armas",
+   "alt": "Captura oficial da Ultimate Edition: Variações personalizadas de armas"
+  },
+  {
+   "chave": "ultimate-wyman-car-collection-01",
+   "categoria": "Ultimate Edition",
+   "titulo": "Classic Car Collection 01",
+   "grupo": "Classic Car Collection",
+   "alt": "Captura oficial da Ultimate Edition: Classic Car Collection"
+  },
+  {
+   "chave": "ultimate-wyman-car-collection-02",
+   "categoria": "Ultimate Edition",
+   "titulo": "Classic Car Collection 02",
+   "grupo": "Classic Car Collection",
+   "alt": "Captura oficial da Ultimate Edition: Classic Car Collection"
+  },
+  {
+   "chave": "ultimate-wyman-car-collection-03",
+   "categoria": "Ultimate Edition",
+   "titulo": "Classic Car Collection 03",
+   "grupo": "Classic Car Collection",
+   "alt": "Captura oficial da Ultimate Edition: Classic Car Collection"
+  },
+  {
+   "chave": "ultimate-wyman-car-collection-04",
+   "categoria": "Ultimate Edition",
+   "titulo": "Classic Car Collection 04",
+   "grupo": "Classic Car Collection",
+   "alt": "Captura oficial da Ultimate Edition: Classic Car Collection"
+  },
+  {
+   "chave": "ultimate-wyman-car-collection-05",
+   "categoria": "Ultimate Edition",
+   "titulo": "Classic Car Collection 05",
+   "grupo": "Classic Car Collection",
+   "alt": "Captura oficial da Ultimate Edition: Classic Car Collection"
+  },
+  {
+   "chave": "ultimate-wyman-car-collection-06",
+   "categoria": "Ultimate Edition",
+   "titulo": "Classic Car Collection 06",
+   "grupo": "Classic Car Collection",
+   "alt": "Captura oficial da Ultimate Edition: Classic Car Collection"
+  },
+  {
+   "chave": "vintage-01",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Vintage Vice City Pack 01",
+   "grupo": "Vintage Vice City Pack",
+   "alt": "Lucia e Jason com visual retrô diante do letreiro neon do Ocean View Hotel"
+  },
+  {
+   "chave": "vintage-02",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Vintage Vice City Pack 02",
+   "grupo": "Vintage Vice City Pack",
+   "alt": "Captura oficial do Vintage Vice City Pack: Vintage Vice City Pack"
+  },
+  {
+   "chave": "vintage-exclusive-looks-01",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Visuais exclusivos 01",
+   "grupo": "Visuais exclusivos",
+   "alt": "Captura oficial do Vintage Vice City Pack: Visuais exclusivos"
+  },
+  {
+   "chave": "vintage-exclusive-looks-02",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Visuais exclusivos 02",
+   "grupo": "Visuais exclusivos",
+   "alt": "Captura oficial do Vintage Vice City Pack: Visuais exclusivos"
+  },
+  {
+   "chave": "vintage-exclusive-looks-03",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Visuais exclusivos 03",
+   "grupo": "Visuais exclusivos",
+   "alt": "Captura oficial do Vintage Vice City Pack: Visuais exclusivos"
+  },
+  {
+   "chave": "vintage-exclusive-looks-04",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Visuais exclusivos 04",
+   "grupo": "Visuais exclusivos",
+   "alt": "Captura oficial do Vintage Vice City Pack: Visuais exclusivos"
+  },
+  {
+   "chave": "vintage-exclusive-looks-05",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Visuais exclusivos 05",
+   "grupo": "Visuais exclusivos",
+   "alt": "Captura oficial do Vintage Vice City Pack: Visuais exclusivos"
+  },
+  {
+   "chave": "vintage-vapid-stanier-01",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "’55 Vapid Stanier 01",
+   "grupo": "’55 Vapid Stanier",
+   "alt": "Sedã Vapid Stanier de 1955 amarelo e branco sob luz neon"
+  },
+  {
+   "chave": "vintage-vapid-stanier-02",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "’55 Vapid Stanier 02",
+   "grupo": "’55 Vapid Stanier",
+   "alt": "Captura oficial do Vintage Vice City Pack: ’55 Vapid Stanier"
+  },
+  {
+   "chave": "vintage-vapid-stanier-03",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "’55 Vapid Stanier 03",
+   "grupo": "’55 Vapid Stanier",
+   "alt": "Captura oficial do Vintage Vice City Pack: ’55 Vapid Stanier"
+  },
+  {
+   "chave": "vintage-vapid-stanier-04",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "’55 Vapid Stanier 04",
+   "grupo": "’55 Vapid Stanier",
+   "alt": "Captura oficial do Vintage Vice City Pack: ’55 Vapid Stanier"
+  },
+  {
+   "chave": "vintage-vice-city-weapon-pattern-01",
+   "categoria": "Vintage Vice City Pack",
+   "titulo": "Padrão de arma exclusivo 01",
+   "grupo": "Padrão de arma exclusivo",
+   "alt": "Captura oficial do Vintage Vice City Pack: Padrão de arma exclusivo"
+  }
+ ]
+}

@@ -41,12 +41,13 @@ O `base: '/leonidaneon/'` do `vite.config.ts` precisa bater com o nome do reposi
 ```
 data/                 dados estruturados (um JSON por tema)
   fontes.json         todas as referências (URL, veículo, data, tipo, forma de verificação)
-  imagens.json        capturas oficiais usadas, com texto alternativo e crédito
+  imagens.json        capturas oficiais usadas em destaque, com texto alternativo e crédito
+  galeria.json        as 211 imagens da galeria (capturas, artes, Ultimate, Vintage e quadros dos trailers)
   personagens.json  locais.json  mecanicas.json  timeline.json
   trilha.json  edicoes.json  info.json  comparativo.json  quiz.json
 scripts/
   validar-dados.mjs   garante status, fontes (URLs cadastradas) e data em cada item, e confere as imagens
-public/img/oficial/   capturas oficiais em WebP (800 e 1600 px)
+public/img/oficial/   imagens oficiais em WebP (800 e 1600 px)
   testar-site.cjs     teste de todas as seções + capturas de tela em capturas/
 src/
   components/         uma seção por arquivo (Mapa, Personagens, LinhaDoTempo…)

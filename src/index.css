@@ -544,3 +544,43 @@ main:focus { outline: none; }
   .palco-texto { right: 70px; }
   .palco-play { transform: scale(0.9); }
 }
+
+/* ---------- Galeria ---------- */
+.grade-galeria { list-style: none; padding: 0; margin: 8px 0 0; columns: 4 240px; column-gap: 14px; }
+.grade-galeria li { break-inside: avoid; margin-bottom: 14px; }
+.grade-galeria li:nth-child(5n+2) .miniatura-galeria { aspect-ratio: 4 / 3; }
+.grade-galeria li:nth-child(7n+4) .miniatura-galeria { aspect-ratio: 1 / 1; }
+.miniatura-galeria { position: relative; display: block; width: 100%; aspect-ratio: 16 / 10; padding: 0; border: 1px solid var(--borda); border-radius: 18px; overflow: hidden; cursor: zoom-in; background: var(--fundo-3); }
+.miniatura-galeria img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease, filter 0.3s; }
+.miniatura-galeria:hover img, .miniatura-galeria:focus-visible img { transform: scale(1.04); filter: saturate(1.1); }
+.miniatura-legenda { position: absolute; left: 10px; right: 10px; bottom: 10px; display: grid; padding: 8px 12px; text-align: left; border-radius: 12px; background: rgba(20, 15, 36, 0.78); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); opacity: 0; transform: translateY(6px); transition: opacity 0.25s, transform 0.25s; }
+.miniatura-galeria:hover .miniatura-legenda, .miniatura-galeria:focus-visible .miniatura-legenda { opacity: 1; transform: none; }
+@media (hover: none) { .miniatura-legenda { opacity: 1; transform: none; } }
+.miniatura-categoria { font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--coral); }
+.miniatura-titulo { font-family: var(--fonte-titulo); font-weight: 600; font-size: 1rem; color: var(--branco); line-height: 1.15; }
+.galeria-mais { display: flex; justify-content: center; margin-top: 22px; }
+.visualizador { width: 100vw; height: 100vh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(16, 11, 30, 0.97); color: var(--texto); }
+.visualizador::backdrop { background: rgba(10, 6, 20, 0.85); }
+.visualizador[open] { animation: aparecer 0.2s ease-out; }
+.visualizador-caixa { position: relative; width: 100%; height: 100%; display: grid; place-items: center; padding: 56px clamp(12px, 6vw, 90px) 20px; }
+.visualizador-figura { margin: 0; display: grid; gap: 14px; max-width: min(1400px, 100%); max-height: 100%; }
+.visualizador-figura img { max-width: 100%; max-height: calc(100vh - 220px); object-fit: contain; border-radius: 18px; margin: 0 auto; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5); animation: aparecer 0.25s ease-out; }
+.visualizador-figura figcaption { display: grid; gap: 2px; text-align: center; }
+.visualizador-categoria { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--coral); }
+.visualizador-titulo { font-family: var(--fonte-titulo); font-weight: 600; font-size: 1.7rem; color: var(--branco); }
+.visualizador-alt { font-family: var(--fonte-titulo); font-style: italic; color: var(--pessego); font-size: 1rem; }
+.visualizador-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; font-size: 0.8rem; color: var(--suave); margin-top: 6px; }
+.visualizador-nav, .visualizador-fechar { position: absolute; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; border: 1px solid var(--borda-forte); cursor: pointer; background: rgba(255, 255, 255, 0.06); color: var(--branco); font-size: 1.8rem; line-height: 1; }
+.visualizador-nav:hover, .visualizador-fechar:hover { background: var(--sol); color: #1f1430; border-color: transparent; }
+.visualizador-nav { top: 50%; transform: translateY(-50%); }
+.anterior { left: 12px; }
+.proxima { right: 12px; }
+.visualizador-fechar { top: 12px; right: 12px; font-size: 1.2rem; }
+@media (max-width: 560px) {
+  .grade-galeria { columns: 2; column-gap: 8px; }
+  .grade-galeria li { margin-bottom: 8px; }
+  .miniatura-titulo { font-size: 0.88rem; }
+  .visualizador-nav { top: auto; bottom: 14px; transform: none; width: 44px; height: 44px; }
+  .visualizador-caixa { padding-bottom: 70px; }
+  .visualizador-titulo { font-size: 1.3rem; }
+}

@@ -4,6 +4,7 @@ import {
   normalizar, personagens, radios, regioes, score, timeline, type Status,
 } from '../data';
 import { StatusBadge } from './comum';
+import galeriaJson from '../../data/galeria.json';
 import { navegar, type Destino } from '../navegacao';
 
 interface Entrada {
@@ -68,6 +69,11 @@ function montarIndice(): Entrada[] {
   comparativo.forEach((c) => add({
     chave: `vc-${c.id}`, titulo: `Vice City 2002 × VI: ${c.aspecto}`, texto: `${c.classico} ${c.novo}`, secao: 'vice-city',
     rotuloSecao: 'Vice City 2002 × VI', status: c.status, destino: { secao: 'vice-city', alvo: `vc-${c.id}` },
+  }));
+  galeriaJson.categorias.forEach((c) => add({
+    chave: `gal-${c}`, titulo: `Galeria: ${c}`,
+    texto: `Imagens oficiais ${galeriaJson.itens.filter((i) => i.categoria === c).map((i) => i.titulo).join(' ')}`,
+    secao: 'galeria', rotuloSecao: 'Galeria', destino: { secao: 'galeria', alvo: c },
   }));
   fontes.forEach((f) => add({
     chave: `f-${f.id}`, titulo: f.titulo, texto: `${f.veiculo} ${f.url}`, secao: 'fontes', rotuloSecao: 'Fontes',
