@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import '@fontsource/big-shoulders-display/700';
-import '@fontsource/big-shoulders-display/800';
+import '@fontsource-variable/fraunces';
+import '@fontsource-variable/fraunces/wght-italic';
 import '@fontsource-variable/outfit';
 import './index.css';
 import App from './App.tsx';

@@ -106,12 +106,28 @@ export default function App() {
 
       <header className={`topo ${rolou || menuAberto || rota === 'fontes' ? 'topo-solido' : ''}`}>
         <a href="#inicio" className="marca" aria-label="Leonida Neon, início" onClick={() => setMenuAberto(false)}>
-          <span className="marca-nome">Leonida Neon</span>
-          <span className="marca-sub">guia de fã</span>
+          <svg className="marca-sol" viewBox="0 0 40 40" width="34" height="34" aria-hidden="true">
+            <defs>
+              <linearGradient id="marcaSol" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stopColor="#ffd59e" /><stop offset="1" stopColor="#ff8f7a" />
+              </linearGradient>
+              <clipPath id="marcaClip"><circle cx="20" cy="20" r="15" /></clipPath>
+            </defs>
+            <g clipPath="url(#marcaClip)">
+              <rect x="5" y="5" width="30" height="30" fill="url(#marcaSol)" />
+              <rect x="5" y="23" width="30" height="2" fill="#1a1330" />
+              <rect x="5" y="27.5" width="30" height="2.6" fill="#1a1330" />
+              <rect x="5" y="32" width="30" height="3" fill="#1a1330" />
+            </g>
+          </svg>
+          <span className="marca-textos">
+            <span className="marca-nome">Leonida <em>Neon</em></span>
+            <span className="marca-sub">guia de fã de GTA VI</span>
+          </span>
         </a>
 
         <div className="topo-acoes">
-          <a href="#videos" className="botao botao-pilula botao-pequeno topo-cta" onClick={() => setMenuAberto(false)}>Ver trailers</a>
+          <a href="#videos" className="botao botao-contorno botao-pequeno topo-cta" onClick={() => setMenuAberto(false)}>Ver trailers</a>
           <button type="button" className="botao-icone" onClick={() => setBuscaAberta(true)} aria-haspopup="dialog" aria-label="Buscar no site (atalho: /)">
             <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" strokeWidth="2.2" /><path d="M15 15 L21 21" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" /></svg>
           </button>
@@ -174,7 +190,7 @@ export default function App() {
         </p>
         <p>
           Informações atualizadas até {formatarData('2026-10-31', true)}. Veja a página de <a href="#/fontes">Fontes e metodologia</a>.
-          Fontes tipográficas livres: Big Shoulders Display e Outfit (SIL Open Font License).
+          Fontes tipográficas livres: Fraunces e Outfit (SIL Open Font License).
         </p>
       </footer>
 

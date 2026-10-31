@@ -33,8 +33,8 @@ O `base: '/leonidaneon/'` do `vite.config.ts` precisa bater com o nome do reposi
 - **Vite**: build rápido e saída 100% estática.
 - **React**: as seções interativas (mapa, filtros, quiz, busca) ficam simples de manter.
 - **TypeScript**: os tipos dos dados ajudam a garantir que todo item tem status, fontes e data.
-- **Sem bibliotecas de UI**: CSS próprio, e as fontes livres (Big Shoulders Display e Outfit, licença OFL) são servidas localmente via `@fontsource`.
-- **Visual**: inspirado no site oficial do GTA VI (azul-marinho, títulos condensados, fotos grandes, botões em pílula), sem usar o logotipo nem as fontes oficiais.
+- **Sem bibliotecas de UI**: CSS próprio, e as fontes livres (Fraunces e Outfit, licença OFL) são servidas localmente via `@fontsource`.
+- **Visual (branch `visual-inspirado`)**: mesmo clima do site oficial (pôr do sol, fotos grandes, pouco neon), mas com identidade própria: títulos serifados, acentos coral/pêssego/verde-água, colagem de fotos no topo, menu em gaveta e cartões com borda em degradê. A branch `adiciona-site`/`main` tem a versão mais parecida com o oficial.
 
 ## Estrutura
 
