@@ -126,6 +126,32 @@ async function testar(nome, viewport) {
   const srcL = await page.locator('.palco iframe').getAttribute('src');
   ok(`[${nome}] vídeos: troca para o trailer de lançamento`, /rz1B4B2yBZY/.test(srcL || ''), srcL);
 
+  // Galeria
+  await page.locator('#galeria').scrollIntoViewIfNeeded();
+  const textoContagem = await page.locator('#galeria .resultado-contagem').textContent();
+  ok(`[${nome}] galeria: 211 imagens no total`, /211/.test(textoContagem), textoContagem);
+  ok(`[${nome}] galeria: mostra 24 por vez`, (await page.locator('.miniatura-galeria').count()) === 24);
+  await page.locator('#galeria .galeria-mais .botao').click();
+  ok(`[${nome}] galeria: "Mostrar mais" carrega mais imagens`, (await page.locator('.miniatura-galeria').count()) === 72);
+  await page.locator('#galeria .chip', { hasText: 'Quadros dos trailers' }).click();
+  ok(`[${nome}] galeria: filtro de quadros dos trailers`, (await page.locator('#galeria .resultado-contagem').textContent()).includes('29'));
+  await page.fill('#galeria input[type="search"]', 'Effluvia');
+  ok(`[${nome}] galeria: busca encontra o quadro do Effluvia`, (await page.locator('.miniatura-galeria').count()) === 1);
+  await page.fill('#galeria input[type="search"]', '');
+  await page.locator('#galeria .chip', { hasText: 'Tudo' }).click();
+  await page.locator('.miniatura-galeria').first().click();
+  await page.waitForTimeout(200);
+  ok(`[${nome}] galeria: visualizador abre`, await page.locator('dialog.visualizador').evaluate((d) => d.open));
+  const t1 = await page.locator('.visualizador-titulo').textContent();
+  await page.keyboard.press('ArrowRight');
+  const t2 = await page.locator('.visualizador-titulo').textContent();
+  ok(`[${nome}] galeria: seta avança a imagem`, t1 !== t2, `${t1} → ${t2}`);
+  const imgGrande = await page.locator('.visualizador-figura img').evaluate((i) => i.decode().then(() => i.naturalWidth).catch(() => 0));
+  ok(`[${nome}] galeria: imagem ampliada carrega`, imgGrande >= 1200, `${imgGrande}px`);
+  await page.keyboard.press('Escape');
+  await page.waitForTimeout(150);
+  ok(`[${nome}] galeria: Esc fecha o visualizador`, !(await page.locator('dialog.visualizador').evaluate((d) => d.open)));
+
   // Linha do tempo
   const nEventos = await page.locator('.evento').count();
   ok(`[${nome}] linha do tempo com eventos`, nEventos >= 20, `${nEventos} eventos`);
@@ -221,7 +247,7 @@ async function testar(nome, viewport) {
   await rolarTudo(page);
   await page.screenshot({ path: path.join(SAIDA, `${nome}-pagina-inteira.png`), fullPage: true });
   await page.addStyleTag({ content: '.topo{position:static!important}' });
-  for (const secao of ['contagem', 'videos', 'mapa', 'personagens', 'linha-do-tempo', 'mecanicas', 'trilha', 'edicoes', 'vice-city', 'quiz']) {
+  for (const secao of ['contagem', 'videos', 'galeria', 'mapa', 'personagens', 'linha-do-tempo', 'mecanicas', 'trilha', 'edicoes', 'vice-city', 'quiz']) {
     await page.locator(`#${secao}`).screenshot({ path: path.join(SAIDA, `${nome}-${secao}.png`) });
   }
   await page.evaluate(() => window.scrollTo(0, 0));

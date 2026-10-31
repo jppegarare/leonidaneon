@@ -11,6 +11,7 @@ import Edicoes from './components/Edicoes';
 import ViceCity from './components/ViceCity';
 import Quiz from './components/Quiz';
 import Videos from './components/Videos';
+import Galeria from './components/Galeria';
 import Busca from './components/Busca';
 import PaginaFontes from './components/PaginaFontes';
 import { STATUS_INFO, formatarData, type Status } from './data';
@@ -21,6 +22,7 @@ const AVISO = 'Site de fã, não oficial. Não afiliado à Rockstar Games ou à 
 const NAV = [
   ['contagem', 'Contagem'],
   ['videos', 'Trailers'],
+  ['galeria', 'Galeria'],
   ['essencial', 'Essencial'],
   ['mapa', 'Mapa'],
   ['personagens', 'Personagens'],
@@ -152,6 +154,7 @@ export default function App() {
             </div>
             <Contagem />
             <Videos />
+            <Galeria />
             <Essencial />
             <Mapa />
             <Personagens />
@@ -168,8 +171,8 @@ export default function App() {
       <footer className="rodape">
         <p className="rodape-aviso"><strong>{AVISO}</strong></p>
         <p>
-          Grand Theft Auto, GTA, Rockstar Games e Take-Two Interactive são marcas dos respectivos donos. As capturas de tela são
-          imagens oficiais distribuídas pela Rockstar Games na <a href="https://www.rockstargames.com/VI/media" target="_blank" rel="noopener noreferrer">página de mídia do GTA VI</a>,
+          Grand Theft Auto, GTA, Rockstar Games e Take-Two Interactive são marcas dos respectivos donos. As capturas, artes e quadros dos
+          trailers são imagens oficiais distribuídas pela Rockstar Games na <a href="https://www.rockstargames.com/VI/media" target="_blank" rel="noopener noreferrer">página de mídia do GTA VI</a>,
           usadas com crédito. Logotipos e fontes oficiais não são usados. Vídeos oficiais aparecem apenas pelo player do YouTube.
         </p>
         <p>

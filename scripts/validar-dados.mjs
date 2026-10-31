@@ -126,10 +126,26 @@ for (const [chave, meta] of Object.entries(im.itens)) {
   }
   if (!usoSrc.includes(`'${chave}'`) && !usoSrc.includes(`"${chave}"`)) erros.push(`imagens#${chave}: não é usada no site`);
 }
+// Galeria: todas as imagens com arquivo, título, texto alternativo e categoria válida.
+const gal = ler('galeria.json');
+checarFontes([gal.fonte], 'galeria.json');
+const chavesGaleria = new Set();
+for (const g of gal.itens) {
+  if (chavesGaleria.has(g.chave)) erros.push(`galeria#${g.chave}: chave repetida`);
+  chavesGaleria.add(g.chave);
+  if (!g.titulo) erros.push(`galeria#${g.chave}: sem título`);
+  if (!g.alt || g.alt.length < 10) erros.push(`galeria#${g.chave}: texto alternativo ausente ou curto`);
+  if (!gal.categorias.includes(g.categoria)) erros.push(`galeria#${g.chave}: categoria desconhecida (${g.categoria})`);
+  if (g.video && !/^https:\/\/www\.youtube\.com\/watch\?v=/.test(g.video)) erros.push(`galeria#${g.chave}: link de vídeo inválido`);
+  for (const w of [800, 1600]) {
+    if (!existsSync(join(pastaImg, `${g.chave}-${w}.webp`))) erros.push(`galeria#${g.chave}: falta ${g.chave}-${w}.webp`);
+  }
+}
+
 const arquivosImg = existsSync(pastaImg) ? readdirSync(pastaImg) : [];
 for (const a of arquivosImg) {
   const chave = a.replace(/-(800|1600)\.webp$/, '');
-  if (!im.itens[chave]) erros.push(`public/img/oficial/${a}: imagem sem cadastro em imagens.json`);
+  if (!im.itens[chave] && !chavesGaleria.has(chave)) erros.push(`public/img/oficial/${a}: imagem sem cadastro em imagens.json nem galeria.json`);
 }
 
 // Arquivos de dados não podem ter campos de letra de música.
@@ -140,7 +156,7 @@ for (const arq of readdirSync(raiz)) {
 
 const naoUsadas = fontes.filter((f) => !usadas.has(f.url)).map((f) => f.id);
 
-console.log(`Itens verificados: ${total} | imagens oficiais: ${nImagens}`);
+console.log(`Itens verificados: ${total} | imagens em destaque: ${nImagens} | imagens na galeria: ${gal.itens.length}`);
 console.log(`Fontes cadastradas: ${fontes.length} | usadas: ${usadas.size}`);
 if (naoUsadas.length) console.log(`Fontes cadastradas e não usadas: ${naoUsadas.join(', ')}`);
 if (erros.length) {
