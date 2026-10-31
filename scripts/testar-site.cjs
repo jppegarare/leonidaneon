@@ -7,7 +7,7 @@ const { chromium } = require('playwright');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const URL_BASE = process.env.URL_BASE || 'http://localhost:4173/';
+const URL_BASE = process.env.URL_BASE || 'http://localhost:4173/leonidaneon/';
 const SAIDA = path.join(__dirname, '..', 'capturas');
 fs.mkdirSync(SAIDA, { recursive: true });
 

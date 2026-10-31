@@ -17,7 +17,16 @@ npm run validar    # só a validação dos dados
 npm run testar     # teste com Playwright (desktop e 380 px); requer o preview rodando
 ```
 
-A pasta `dist/` pode ser hospedada em qualquer serviço estático (GitHub Pages, Netlify, Vercel). Não há backend.
+A pasta `dist/` pode ser hospedada em qualquer serviço estático. Não há backend.
+
+## Publicação no GitHub Pages
+
+O workflow `.github/workflows/deploy.yml` gera e publica o site a cada push na `main`, em **https://jppegarare.github.io/leonidaneon/**.
+
+1. No GitHub, abra **Settings → Pages** e, em **Build and deployment → Source**, escolha **GitHub Actions** (só precisa fazer isso uma vez).
+2. Faça merge na `main`, ou rode o workflow manualmente pela aba **Actions**.
+
+O `base: '/leonidaneon/'` do `vite.config.ts` precisa bater com o nome do repositório. Por isso, localmente o preview abre em http://localhost:4173/leonidaneon/.
 
 ## Por que Vite + React + TypeScript
 
