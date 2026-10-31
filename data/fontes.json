@@ -39,6 +39,15 @@
       "verificacao": "lida diretamente"
     },
     {
+      "id": "rs-media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "titulo": "Grand Theft Auto VI — Media & Artwork (capturas e artes oficiais)",
+      "veiculo": "Rockstar Games",
+      "tipo": "oficial",
+      "publicado": null,
+      "verificacao": "lida diretamente"
+    },
+    {
       "id": "rs-store",
       "url": "https://store.rockstargames.com/game/buy-gta-vi",
       "titulo": "Grand Theft Auto VI — Rockstar Store",

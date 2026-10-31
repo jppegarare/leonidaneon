@@ -2,6 +2,8 @@ import { useEffect, useRef, useState, type KeyboardEvent } from 'react';
 import { avisoMapa, leonida, locaisExtras, regioes, formatarData } from '../data';
 import { Fontes, Notas, Secao, StatusBadge } from './comum';
 import { EVENTO_NAVEGAR, rolarPara, type Destino } from '../navegacao';
+import { fotosRegioes, imagem } from '../midia';
+import Foto from './Foto';
 
 /**
  * Formas desenhadas do zero: um "low-poly" estilizado, sem decalque do mapa oficial.
@@ -10,27 +12,27 @@ import { EVENTO_NAVEGAR, rolarPara, type Destino } from '../navegacao';
 const FORMAS: Record<string, { d: string; rotulo: [number, number]; cor: string; icone: string }> = {
   'mount-kalaga': {
     d: 'M58 52 L196 30 L338 40 L352 128 L262 146 L176 140 L76 130 Z',
-    rotulo: [206, 92], cor: '#34d399', icone: 'montanha',
+    rotulo: [206, 92], cor: '#8fd6b4', icone: 'montanha',
   },
   'port-gellhorn': {
     d: 'M76 130 L176 140 L164 252 L118 280 L60 214 L52 166 Z',
-    rotulo: [112, 200], cor: '#f59e0b', icone: 'porto',
+    rotulo: [112, 200], cor: '#f5c08a', icone: 'porto',
   },
   ambrosia: {
     d: 'M176 140 L262 146 L352 128 L338 252 L276 292 L164 252 Z',
-    rotulo: [258, 208], cor: '#a78bfa', icone: 'fabrica',
+    rotulo: [258, 208], cor: '#c4b0f2', icone: 'fabrica',
   },
   grassrivers: {
     d: 'M164 252 L276 292 L268 400 L222 440 L176 408 L144 330 L118 280 Z',
-    rotulo: [204, 352], cor: '#84cc16', icone: 'pantano',
+    rotulo: [204, 352], cor: '#b5d98a', icone: 'pantano',
   },
   'vice-city': {
     d: 'M276 292 L338 252 L362 336 L344 416 L268 400 Z',
-    rotulo: [316, 340], cor: '#ff4d8d', icone: 'predios',
+    rotulo: [316, 340], cor: '#ff9fb8', icone: 'predios',
   },
   'leonida-keys': {
     d: 'M262 452 q14 -10 26 0 q-12 12 -26 0 Z M226 470 q14 -8 26 2 q-14 10 -26 -2 Z M188 482 q12 -8 24 1 q-12 9 -24 -1 Z M150 488 q11 -7 22 1 q-11 8 -22 -1 Z M114 490 q10 -6 20 1 q-10 7 -20 -1 Z',
-    rotulo: [196, 512], cor: '#22d3ee', icone: 'ilhas',
+    rotulo: [196, 512], cor: '#8fd3e6', icone: 'ilhas',
   },
 };
 
@@ -55,6 +57,7 @@ function Icone({ tipo, x, y }: { tipo: string; x: number; y: number }) {
 
 export default function Mapa() {
   const [selecionada, setSelecionada] = useState<string>('vice-city');
+  const [foto, setFoto] = useState(0);
   const painelRef = useRef<HTMLDivElement>(null);
   const regiao = regioes.find((r) => r.id === selecionada)!;
 
@@ -62,7 +65,10 @@ export default function Mapa() {
     const ouvir = (e: Event) => {
       const d = (e as CustomEvent<Destino>).detail;
       if (d.secao !== 'mapa') return;
-      if (d.regiao) setSelecionada(d.regiao);
+      if (d.regiao) {
+        setSelecionada(d.regiao);
+        setFoto(0);
+      }
       setTimeout(() => rolarPara(d.alvo ?? 'mapa-painel'), 60);
     };
     window.addEventListener(EVENTO_NAVEGAR, ouvir);
@@ -71,6 +77,7 @@ export default function Mapa() {
 
   const escolher = (id: string, focarPainel = false) => {
     setSelecionada(id);
+    setFoto(0);
     if (focarPainel && window.matchMedia('(max-width: 860px)').matches) {
       setTimeout(() => painelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
     }
@@ -86,11 +93,11 @@ export default function Mapa() {
   return (
     <Secao
       id="mapa"
-      numero="03"
+      rotulo="Só em Leonida"
       titulo="Mapa interativo de Leonida"
-      subtitulo="Toque ou clique numa região para ver o que já foi revelado."
+      subtitulo="Toque numa região do mapa para ver fotos e o que já foi revelado sobre ela."
     >
-      <p className="aviso-pequeno" role="note">🗺️ {avisoMapa}</p>
+      <p className="aviso-pequeno" role="note">{avisoMapa}</p>
       <div className="mapa-layout">
         <div className="mapa-quadro">
           <svg
@@ -101,25 +108,21 @@ export default function Mapa() {
           >
             <defs>
               <pattern id="ondas" width="24" height="12" patternUnits="userSpaceOnUse">
-                <path d="M0 8 q6 -6 12 0 t12 0" fill="none" stroke="#22d3ee" strokeOpacity=".14" strokeWidth="1" />
+                <path d="M0 8 q6 -6 12 0 t12 0" fill="none" stroke="#9fb3ff" strokeOpacity=".10" strokeWidth="1" />
               </pattern>
-              <filter id="neon" x="-30%" y="-30%" width="160%" height="160%">
-                <feGaussianBlur stdDeviation="4" result="b" />
-                <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
-              </filter>
               <radialGradient id="solMapa" cx=".5" cy=".5" r=".5">
-                <stop offset="0" stopColor="#ffd166" stopOpacity=".55" />
+                <stop offset="0" stopColor="#ffc59a" stopOpacity=".35" />
                 <stop offset="1" stopColor="#ffd166" stopOpacity="0" />
               </radialGradient>
             </defs>
-            <rect width="420" height="540" fill="#0b1030" rx="18" />
+            <rect width="420" height="540" fill="#171a33" rx="18" />
             <rect width="420" height="540" fill="url(#ondas)" rx="18" />
             <circle cx="380" cy="470" r="70" fill="url(#solMapa)" />
 
             {/* rosa dos ventos */}
             <g transform="translate(386 44)" className="rosa-ventos" aria-hidden="true">
-              <circle r="16" fill="none" stroke="#22d3ee" strokeOpacity=".5" />
-              <path d="M0 -14 L4 0 L0 14 L-4 0 Z" fill="#ff4d8d" />
+              <circle r="16" fill="none" stroke="#c9c3e6" strokeOpacity=".5" />
+              <path d="M0 -14 L4 0 L0 14 L-4 0 Z" fill="#ff9fb8" />
               <text y="-20" textAnchor="middle" fontSize="10" fill="#e9e3ff">N</text>
             </g>
 
@@ -166,8 +169,21 @@ export default function Mapa() {
 
         <div className="mapa-painel" id="mapa-painel" ref={painelRef} aria-live="polite">
           <article key={regiao.id} className="painel-conteudo" id={`loc-${regiao.id}`}>
+            {fotosRegioes[regiao.id] && (
+              <div className="painel-fotos">
+                <Foto key={fotosRegioes[regiao.id][foto]} chave={fotosRegioes[regiao.id][foto]} sizes="(max-width: 860px) 100vw, 45vw" />
+                <div className="galeria-miniaturas" role="group" aria-label={`Fotos de ${regiao.titulo}`}>
+                  {fotosRegioes[regiao.id].map((f, i) => (
+                    <button key={f} type="button" className={`miniatura ${i === foto ? 'ativa' : ''}`} aria-pressed={i === foto}
+                      aria-label={`Ver foto ${i + 1}: ${imagem(f).alt}`} onClick={() => setFoto(i)}>
+                      <img src={imagem(f).pequena} alt="" loading="lazy" decoding="async" />
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
             <header>
-              <h3 style={{ color: FORMAS[regiao.id]?.cor }}>{regiao.titulo}</h3>
+              <h3>{regiao.titulo}</h3>
               <StatusBadge status={regiao.status} />
             </header>
             <p className="painel-inspiracao">
@@ -181,7 +197,7 @@ export default function Mapa() {
             <p className="painel-data">Revelado em {formatarData(regiao.data, true)}</p>
             <Fontes urls={regiao.fontes} />
             <a className="link-oficial" href="https://www.rockstargames.com/VI/only-in-leonida" target="_blank" rel="noopener noreferrer">
-              Ver imagens oficiais no site da Rockstar ↗
+              Ver no site oficial da Rockstar ↗
             </a>
           </article>
         </div>

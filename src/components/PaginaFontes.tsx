@@ -3,7 +3,7 @@ import { contarUsos, fontes, fontesMeta, formatarData, normalizar, STATUS_INFO, 
 import { StatusBadge } from './comum';
 
 const GRUPOS: { tipo: Fonte['tipo']; titulo: string; texto: string }[] = [
-  { tipo: 'oficial', titulo: 'Fontes oficiais', texto: 'Rockstar Games, Take-Two Interactive, canais oficiais de vídeo e lojas das plataformas. Inclui a cotação do Banco Central.' },
+  { tipo: 'oficial', titulo: 'Fontes oficiais', texto: 'Rockstar Games, Take-Two Interactive, canais oficiais de vídeo e lojas das plataformas. Inclui a página de mídia de onde vêm as fotos e a cotação do Banco Central.' },
   { tipo: 'entrevista', titulo: 'Entrevistas', texto: 'Falas de pessoas da Rockstar ou da Take-Two a veículos de imprensa (aqui, via traduções).' },
   { tipo: 'imprensa', titulo: 'Imprensa e análises', texto: 'Veículos de games, música e tecnologia que analisaram trailers ou deram notícias.' },
   { tipo: 'referencia', titulo: 'Referência histórica', texto: 'Usadas só para fatos do GTA: Vice City de 2002.' },
@@ -34,7 +34,7 @@ export default function PaginaFontes() {
         <h2>Direitos autorais e identidade</h2>
         <ul>
           <li>Site de fã, não oficial. Não afiliado à Rockstar Games ou à Take-Two Interactive.</li>
-          <li>Nenhuma imagem, captura de tela, arte, capa ou logotipo oficial é reproduzida aqui. Toda a arte é original, feita em SVG e CSS.</li>
+          <li>As fotos são capturas oficiais distribuídas pela Rockstar Games na <a href="https://www.rockstargames.com/VI/media" target="_blank" rel="noopener noreferrer">página de mídia do GTA VI</a>, sempre com crédito. Logotipos, capa e fontes tipográficas oficiais não são usados; mapa, ícones e ilustrações restantes são originais.</li>
           <li>Os textos foram escritos com nossas palavras, com no máximo citações muito curtas e sempre com fonte.</li>
           <li>Vídeos oficiais só são exibidos pelo player oficial do YouTube, e apenas quando você clica.</li>
           <li>Nenhuma letra de música é reproduzida, só nomes de artistas, faixas e estações.</li>

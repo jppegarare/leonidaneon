@@ -16,7 +16,7 @@ export default function ViceCity() {
   return (
     <Secao
       id="vice-city"
-      numero="09"
+      rotulo="Então e agora" fundo="vintage-01"
       titulo="Vice City 2002 × GTA VI"
       subtitulo="O que mudou entre o clássico de 2002 e o novo jogo. Toque num cartão para virar a fita."
     >

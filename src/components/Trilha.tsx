@@ -3,61 +3,47 @@ import { album, avisoTrilha, musicasTrailers, radios, radiosNota, score, formata
 import { Fontes, Secao, StatusBadge } from './comum';
 
 const CORES: Record<string, string> = {
-  rosa: '#ff4d8d', ciano: '#22d3ee', roxo: '#a78bfa', amarelo: '#ffd166', laranja: '#ff8a5b', verde: '#34d399',
+  rosa: '#ff9fb8', ciano: '#8fd3e6', roxo: '#c4b0f2', amarelo: '#ffe08f', laranja: '#ffb38a', verde: '#9fdcb8',
 };
 
 export default function Trilha() {
   const [estacao, setEstacao] = useState(radios[0].id);
   const r = radios.find((x) => x.id === estacao)!;
-  const indice = radios.findIndex((x) => x.id === estacao);
   const cor = CORES[r.cor] ?? CORES.rosa;
 
   return (
     <Secao
       id="trilha"
-      numero="07"
+      rotulo="Música"
       titulo="Trilha sonora e rádios"
       subtitulo="Estações, apresentadores, artistas e faixas anunciados oficialmente."
     >
-      <p className="aviso-pequeno" role="note">🎵 {avisoTrilha} Para ouvir as prévias oficiais, visite a <a href="https://www.rockstargames.com/VI/music" target="_blank" rel="noopener noreferrer">página de música da Rockstar ↗</a>.</p>
+      <p className="aviso-pequeno" role="note">{avisoTrilha} Para ouvir as prévias oficiais, visite a <a href="https://www.rockstargames.com/VI/music" target="_blank" rel="noopener noreferrer">página de música da Rockstar ↗</a>.</p>
 
       <div className="radio-layout" style={{ ['--cor' as string]: cor }}>
-        <div className="radio-aparelho">
-          <div className="radio-visor" aria-hidden="true">
-            <span className="radio-freq">{(88.1 + indice * 3.7).toFixed(1)} FM</span>
-            <div className="radio-escala">
-              {radios.map((x, i) => (
-                <span key={x.id} className={`radio-marca ${i === indice ? 'ativa' : ''}`} />
-              ))}
-              <span className="radio-agulha" style={{ left: `${(indice / (radios.length - 1)) * 100}%` }} />
-            </div>
-            <div className="radio-eq">
-              {Array.from({ length: 12 }).map((_, i) => <span key={i} style={{ animationDelay: `${(i * 0.13) % 1}s` }} />)}
-            </div>
-          </div>
-          <div className="radio-sintonia" role="tablist" aria-label="Estações de rádio reveladas">
-            {radios.map((x) => (
-              <button
-                key={x.id}
-                role="tab"
-                type="button"
-                id={`tab-${x.id}`}
-                aria-selected={x.id === estacao}
-                aria-controls="radio-painel"
-                className={`radio-botao ${x.id === estacao ? 'ativo' : ''}`}
-                style={{ ['--cor-botao' as string]: CORES[x.cor] }}
-                onClick={() => setEstacao(x.id)}
-              >
-                {x.titulo}
-              </button>
-            ))}
-          </div>
+        <div className="radio-estacoes" role="tablist" aria-label="Estações de rádio reveladas">
+          {radios.map((x) => (
+            <button
+              key={x.id}
+              role="tab"
+              type="button"
+              id={`tab-${x.id}`}
+              aria-selected={x.id === estacao}
+              aria-controls="radio-painel"
+              className={`radio-botao ${x.id === estacao ? 'ativo' : ''}`}
+              style={{ ['--cor-botao' as string]: CORES[x.cor] }}
+              onClick={() => setEstacao(x.id)}
+            >
+              <span className="radio-botao-nome">{x.titulo}</span>
+              <span className="radio-botao-genero">{x.genero}</span>
+            </button>
+          ))}
         </div>
 
         <article id="radio-painel" role="tabpanel" aria-labelledby={`tab-${r.id}`} className="radio-painel">
           <div id={`tr-${r.id}`}>
             <header>
-              <h3 style={{ color: cor }}>{r.titulo}</h3>
+              <h3>{r.titulo}</h3>
               <StatusBadge status={r.status} />
             </header>
             <p className="radio-genero">{r.genero}</p>

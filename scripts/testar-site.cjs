@@ -39,17 +39,30 @@ async function testar(nome, viewport) {
   page.on('pageerror', (e) => erros.push('pageerror: ' + e.message));
   page.on('console', (m) => {
     // o iframe do YouTube pode falhar sem rede; isso não é erro do site
-    if (m.type() === 'error' && !/youtube|ERR_|net::|Failed to load resource/i.test(m.text())) erros.push('console: ' + m.text());
+    if (m.type() === 'error' && !/youtube|ERR_|net::|Failed to load resource|Permissions policy/i.test(m.text())) erros.push('console: ' + m.text());
   });
 
   await page.goto(URL_BASE, { waitUntil: 'networkidle' });
 
   // Aviso no topo e no rodapé
-  ok(`[${nome}] aviso de site de fã no topo`, (await page.locator('.faixa-aviso').innerText()).includes(AVISO));
+  ok(`[${nome}] aviso de site de fã no topo`, (await page.locator('.faixa-aviso').textContent()).includes(AVISO));
   ok(`[${nome}] aviso de site de fã no rodapé`, (await page.locator('.rodape-aviso').innerText()).includes(AVISO));
 
-  // Sem imagens oficiais (nenhuma <img>) e links externos seguros
-  ok(`[${nome}] nenhuma <img> na página`, (await page.locator('img').count()) === 0);
+  // Imagens: todas com atributo alt; cada foto (<figure>) com crédito, exceto fundos decorativos com crédito próprio
+  const semAlt = await page.$$eval('img', (is) => is.filter((i) => !i.hasAttribute('alt')).length);
+  ok(`[${nome}] todas as imagens têm atributo alt`, semAlt === 0, `${semAlt} sem alt`);
+  const fotosSemCredito = await page.$$eval('figure.foto', (fs) => fs.filter((f) => {
+    const decorativa = f.querySelector('img')?.getAttribute('alt') === '';
+    const temCredito = !!f.querySelector('.credito') || !!f.closest('section, .hero, .cartao-video, .palco')?.querySelector('.credito, .credito-linha');
+    return !decorativa && !temCredito;
+  }).length);
+  ok(`[${nome}] fotos oficiais com crédito`, fotosSemCredito === 0, `${fotosSemCredito} sem crédito`);
+  const imgsQuebradas = await page.evaluate(async () => {
+    const imgs = [...document.querySelectorAll('img')];
+    await Promise.all(imgs.map((i) => { i.loading = 'eager'; return i.decode().catch(() => null); }));
+    return imgs.filter((i) => !i.naturalWidth).map((i) => i.currentSrc || i.src);
+  });
+  ok(`[${nome}] nenhuma imagem quebrada`, imgsQuebradas.length === 0, imgsQuebradas.slice(0, 3).join(', '));
   const linksInseguros = await page.$$eval('a[href^="http"]', (as) => as.filter((a) => a.target !== '_blank' || !/noopener/.test(a.rel)).length);
   ok(`[${nome}] links externos abrem em nova aba com noopener`, linksInseguros === 0, `${linksInseguros} inseguros`);
 
@@ -68,7 +81,7 @@ async function testar(nome, viewport) {
     const rotulo = (await chips.nth(i).innerText()).trim();
     await chips.nth(i).click();
     await page.waitForTimeout(80);
-    const titulo = await page.locator('.mapa-painel h3').innerText();
+    const titulo = await page.locator('.mapa-painel h3').textContent();
     if (!titulo.includes(rotulo)) mapaOk = false;
   }
   ok(`[${nome}] mapa: ${nChips} regiões abrem o painel`, mapaOk && nChips === 6);
@@ -80,16 +93,38 @@ async function testar(nome, viewport) {
   await page.keyboard.press('Enter');
   ok(`[${nome}] mapa: seleção por teclado`, (await page.locator('g.regiao').nth(4).getAttribute('aria-pressed')) === 'true');
 
-  // Personagens
-  const cartoes = page.locator('.personagem-topo');
-  const nPer = await cartoes.count();
+  // Personagens (abasPer com galeria)
+  const abasPer = page.locator('.aba-personagem');
+  const nPer = await abasPer.count();
   let perOk = true;
   for (let i = 0; i < nPer; i++) {
-    await cartoes.nth(i).click();
-    const id = await cartoes.nth(i).getAttribute('aria-controls');
-    if (!(await page.locator(`#${id}`).isVisible())) perOk = false;
+    const rotulo = (await abasPer.nth(i).innerText()).trim();
+    await abasPer.nth(i).click();
+    await page.waitForTimeout(60);
+    const nomeP = await page.locator('.personagem-nome').textContent();
+    if (!nomeP.toLowerCase().includes(rotulo.toLowerCase().slice(0, 4))) perOk = false;
+    if ((await page.locator('.galeria-principal img').count()) !== 1) perOk = false;
   }
-  ok(`[${nome}] personagens: ${nPer} cartões expandem`, perOk && nPer === 8);
+  ok(`[${nome}] personagens: ${nPer} abasPer com foto e perfil`, perOk && nPer === 8);
+  await abasPer.first().click();
+  const miniaturas = page.locator('.personagem-galeria .miniatura');
+  await miniaturas.nth(1).click();
+  ok(`[${nome}] personagens: miniatura troca a foto`, (await miniaturas.nth(1).getAttribute('aria-pressed')) === 'true');
+  await abasPer.first().focus();
+  await page.keyboard.press('ArrowRight');
+  ok(`[${nome}] personagens: setas do teclado trocam a aba`, (await abasPer.nth(1).getAttribute('aria-selected')) === 'true');
+
+  // Vídeos
+  const cartoesVideo = page.locator('.cartao-video');
+  ok(`[${nome}] vídeos: 4 cartões`, (await cartoesVideo.count()) === 4);
+  await cartoesVideo.nth(3).click();
+  await page.waitForTimeout(150);
+  const srcT1 = await page.locator('.palco iframe').getAttribute('src');
+  ok(`[${nome}] vídeos: player oficial carrega o Trailer 1`, /youtube-nocookie\.com\/embed\/QdBZY2fkU-0/.test(srcT1 || ''), srcT1);
+  await cartoesVideo.nth(0).click();
+  await page.waitForTimeout(150);
+  const srcL = await page.locator('.palco iframe').getAttribute('src');
+  ok(`[${nome}] vídeos: troca para o trailer de lançamento`, /rz1B4B2yBZY/.test(srcL || ''), srcL);
 
   // Linha do tempo
   const nEventos = await page.locator('.evento').count();
@@ -98,11 +133,11 @@ async function testar(nome, viewport) {
   const nAdiamentos = await page.locator('.evento').count();
   ok(`[${nome}] filtro de adiamentos`, nAdiamentos === 2, `${nAdiamentos}`);
   await page.locator('#linha-do-tempo .chip', { hasText: 'Trailer' }).click();
-  const nVideos = await page.locator('.video-play').count();
-  ok(`[${nome}] trailers com player sob demanda`, nVideos === 4, `${nVideos} vídeos`);
-  await page.locator('.video-play').first().click();
-  const src = await page.locator('.video-quadro iframe').first().getAttribute('src');
-  ok(`[${nome}] player oficial do YouTube carrega ao clicar`, /youtube-nocookie\.com\/embed\/QdBZY2fkU-0/.test(src || ''), src);
+  const nAssistir = await page.locator('#linha-do-tempo .evento .botao').count();
+  ok(`[${nome}] linha do tempo: 4 botões "Assistir"`, nAssistir === 4, `${nAssistir}`);
+  await page.locator('#linha-do-tempo .evento .botao').nth(1).click();
+  await page.waitForTimeout(700);
+  ok(`[${nome}] "Assistir" leva ao palco com o vídeo certo`, (await page.locator('.palco-titulo').textContent()).toLowerCase().includes('trailer 2'));
   await page.locator('#linha-do-tempo .chip', { hasText: 'Todos' }).click();
 
   // Mecânicas
@@ -128,9 +163,9 @@ async function testar(nome, viewport) {
   const nAbas = await abas.count();
   let triOk = true;
   for (let i = 0; i < nAbas; i++) {
-    const t = (await abas.nth(i).innerText()).trim();
+    const t = (await abas.nth(i).locator('.radio-botao-nome').textContent()).trim();
     await abas.nth(i).click();
-    if (!(await page.locator('.radio-painel h3').innerText()).includes(t)) triOk = false;
+    if (!(await page.locator('.radio-painel h3').textContent()).includes(t)) triOk = false;
     if ((await page.locator('.radio-painel .faixas li').count()) !== 3) triOk = false;
   }
   ok(`[${nome}] trilha: ${nAbas} rádios com 3 faixas cada`, triOk && nAbas === 6);
@@ -169,12 +204,12 @@ async function testar(nome, viewport) {
   ok(`[${nome}] busca encontra resultados`, nRes > 0, `${nRes}`);
   await page.keyboard.press('Enter');
   await page.waitForTimeout(900);
-  ok(`[${nome}] busca leva ao personagem e abre o cartão`, await page.locator('#per-det-brian-heder').isVisible());
-  await page.locator('.botao-busca').click();
+  ok(`[${nome}] busca leva ao personagem e abre o perfil`, (await page.locator('.personagem-nome').textContent()).includes('Brian'));
+  await page.locator('.botao-icone[aria-haspopup="dialog"]').click();
   await page.keyboard.type('Grassrivers');
   await page.locator('.busca-resultados li').first().click();
   await page.waitForTimeout(900);
-  ok(`[${nome}] busca seleciona região do mapa`, (await page.locator('.mapa-painel h3').innerText()).includes('Grassrivers'));
+  ok(`[${nome}] busca seleciona região do mapa`, (await page.locator('.mapa-painel h3').textContent()).includes('Grassrivers'));
 
   // Sem rolagem horizontal
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
@@ -186,7 +221,7 @@ async function testar(nome, viewport) {
   await rolarTudo(page);
   await page.screenshot({ path: path.join(SAIDA, `${nome}-pagina-inteira.png`), fullPage: true });
   await page.addStyleTag({ content: '.topo{position:static!important}' });
-  for (const secao of ['contagem', 'mapa', 'personagens', 'linha-do-tempo', 'mecanicas', 'trilha', 'edicoes', 'vice-city', 'quiz']) {
+  for (const secao of ['contagem', 'videos', 'mapa', 'personagens', 'linha-do-tempo', 'mecanicas', 'trilha', 'edicoes', 'vice-city', 'quiz']) {
     await page.locator(`#${secao}`).screenshot({ path: path.join(SAIDA, `${nome}-${secao}.png`) });
   }
   await page.evaluate(() => window.scrollTo(0, 0));
@@ -196,7 +231,7 @@ async function testar(nome, viewport) {
 
   if (nome === 'celular') {
     await page.locator('.botao-menu').click();
-    ok(`[${nome}] menu móvel abre`, await page.locator('.nav-aberta').isVisible());
+    ok(`[${nome}] menu em tela cheia abre`, await page.locator('.menu-tela').isVisible());
     await page.screenshot({ path: path.join(SAIDA, `${nome}-menu.png`) });
     await page.locator('.botao-menu').click();
   }
@@ -204,7 +239,7 @@ async function testar(nome, viewport) {
   // Página de fontes
   await page.goto(URL_BASE + '#/fontes', { waitUntil: 'networkidle' });
   const nFontes = await page.locator('.lista-fontes li').count();
-  ok(`[${nome}] página de fontes lista tudo`, nFontes === 70, `${nFontes}`);
+  ok(`[${nome}] página de fontes lista tudo`, nFontes === 71, `${nFontes}`);
   ok(`[${nome}] fontes: aviso no topo e rodapé`, (await page.locator('.faixa-aviso').count()) === 1 && (await page.locator('.rodape-aviso').count()) === 1);
   await page.screenshot({ path: path.join(SAIDA, `${nome}-fontes.png`) });
   const overflowF = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);

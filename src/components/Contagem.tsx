@@ -70,7 +70,7 @@ export default function Contagem() {
   return (
     <Secao
       id="contagem"
-      numero="01"
+      rotulo="Falta pouco" fundo="vice-city-01"
       titulo="Contagem regressiva"
       subtitulo="Até o pré-download e até o lançamento, contados até a meia-noite no seu fuso horário."
     >

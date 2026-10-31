@@ -1,106 +1,114 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState, type KeyboardEvent } from 'react';
 import { personagens, formatarData } from '../data';
-import { Fontes, Notas, Secao, StatusBadge } from './comum';
+import { fotosPersonagens, imagem } from '../midia';
 import { EVENTO_NAVEGAR, rolarPara, type Destino } from '../navegacao';
-
-const CORES: Record<string, string> = {
-  rosa: '#ff4d8d', ciano: '#22d3ee', roxo: '#a78bfa', amarelo: '#ffd166', laranja: '#ff8a5b', verde: '#34d399',
-};
-
-/** Emblema abstrato (iniciais + padrão geométrico); não representa a aparência real dos personagens. */
-function Emblema({ nome, cor, indice }: { nome: string; cor: string; indice: number }) {
-  const iniciais = nome
-    .replace(/\(.*\)/, '')
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((p) => p[0])
-    .join('');
-  const raios = 6 + (indice % 4) * 2;
-  return (
-    <svg viewBox="0 0 100 100" className="emblema" aria-hidden="true">
-      <defs>
-        <linearGradient id={`eg-${indice}`} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor={cor} />
-          <stop offset="1" stopColor="#8b5cf6" />
-        </linearGradient>
-      </defs>
-      <circle cx="50" cy="50" r="46" fill="#140a26" stroke={`url(#eg-${indice})`} strokeWidth="3" />
-      <g stroke={cor} strokeOpacity=".35" strokeWidth="1.2">
-        {Array.from({ length: raios }).map((_, i) => {
-          const a = (i / raios) * Math.PI * 2;
-          return <line key={i} x1={50 + Math.cos(a) * 30} y1={50 + Math.sin(a) * 30} x2={50 + Math.cos(a) * 42} y2={50 + Math.sin(a) * 42} />;
-        })}
-      </g>
-      <text x="50" y="58" textAnchor="middle" fontSize="26" fill="#fff" fontFamily="Audiowide, sans-serif">{iniciais}</text>
-    </svg>
-  );
-}
+import { Fontes, Notas, Secao, StatusBadge } from './comum';
+import Foto from './Foto';
 
 export default function Personagens() {
-  const [aberto, setAberto] = useState<string | null>(null);
+  const [atual, setAtual] = useState(personagens[0].id);
+  const [foto, setFoto] = useState(0);
+  const abasRef = useRef<(HTMLButtonElement | null)[]>([]);
+  const p = personagens.find((x) => x.id === atual)!;
+  const fotos = fotosPersonagens[p.id] ?? [];
 
   useEffect(() => {
     const ouvir = (e: Event) => {
       const d = (e as CustomEvent<Destino>).detail;
       if (d.secao !== 'personagens' || !d.alvo) return;
-      setAberto(d.alvo.replace('per-', ''));
-      setTimeout(() => rolarPara(d.alvo!), 60);
+      setAtual(d.alvo.replace('per-', ''));
+      setFoto(0);
+      setTimeout(() => rolarPara('personagem-destaque'), 60);
     };
     window.addEventListener(EVENTO_NAVEGAR, ouvir);
     return () => window.removeEventListener(EVENTO_NAVEGAR, ouvir);
   }, []);
 
+  const escolher = (id: string) => {
+    setAtual(id);
+    setFoto(0);
+  };
+
+  // setas do teclado entre as abas (padrão de tablist)
+  const teclas = (e: KeyboardEvent, i: number) => {
+    const n = personagens.length;
+    const destino = e.key === 'ArrowRight' ? (i + 1) % n : e.key === 'ArrowLeft' ? (i - 1 + n) % n : -1;
+    if (destino < 0) return;
+    e.preventDefault();
+    escolher(personagens[destino].id);
+    abasRef.current[destino]?.focus();
+  };
+
   return (
-    <Secao
-      id="personagens"
-      numero="04"
-      titulo="Personagens"
-      subtitulo="Os perfis divulgados pela Rockstar, recontados com nossas palavras. Toque num cartão para ver mais."
-    >
-      <p className="aviso-pequeno" role="note">
-        Os emblemas são ilustrações abstratas feitas para este site e não retratam os personagens. Para ver como eles são,{' '}
-        <a href="https://www.rockstargames.com/VI/only-in-leonida" target="_blank" rel="noopener noreferrer">visite o site oficial ↗</a>.
-      </p>
-      <div className="grade-personagens">
-        {personagens.map((p, i) => {
-          const cor = CORES[p.cor] ?? CORES.rosa;
-          const estaAberto = aberto === p.id;
+    <Secao id="personagens" rotulo="Pessoas de Leonida" titulo="Personagens" subtitulo="Os perfis divulgados pela Rockstar, recontados com nossas palavras." larga>
+      <div className="seletor-personagens" role="tablist" aria-label="Escolha um personagem">
+        {personagens.map((x, i) => {
+          const capa = fotosPersonagens[x.id]?.[0];
           return (
-            <article
-              key={p.id}
-              id={`per-${p.id}`}
-              className={`cartao-personagem ${estaAberto ? 'aberto' : ''}`}
-              style={{ ['--cor' as string]: cor, animationDelay: `${i * 60}ms` }}
+            <button
+              key={x.id}
+              ref={(el) => { abasRef.current[i] = el; }}
+              role="tab"
+              type="button"
+              id={`aba-${x.id}`}
+              aria-selected={x.id === atual}
+              aria-controls="personagem-destaque"
+              tabIndex={x.id === atual ? 0 : -1}
+              className={`aba-personagem ${x.id === atual ? 'ativa' : ''}`}
+              onClick={() => escolher(x.id)}
+              onKeyDown={(e) => teclas(e, i)}
             >
-              <button
-                type="button"
-                className="personagem-topo"
-                aria-expanded={estaAberto}
-                aria-controls={`per-det-${p.id}`}
-                onClick={() => setAberto(estaAberto ? null : p.id)}
-              >
-                <Emblema nome={p.titulo} cor={cor} indice={i} />
-                <span className="personagem-nome">{p.titulo}</span>
-                <span className="personagem-papel">{p.papel}</span>
-                <span className="personagem-seta" aria-hidden="true">{estaAberto ? '−' : '+'}</span>
-              </button>
-              <div className="personagem-corpo">
-                <StatusBadge status={p.status} />
-                <ul className="tags">
-                  {p.destaques.map((d) => <li key={d}>{d}</li>)}
-                </ul>
-              </div>
-              <div id={`per-det-${p.id}`} className="personagem-detalhes" hidden={!estaAberto}>
-                <p>{p.descricao}</p>
-                <Notas itens={p.detalhes} />
-                <p className="painel-data">Perfil revelado em {formatarData(p.data, true)}</p>
-                <Fontes urls={p.fontes} />
-              </div>
-            </article>
+              {capa && <img src={imagem(capa).pequena} alt="" loading="lazy" decoding="async" />}
+              <span>{x.titulo.replace(/ \(.*\)/, '')}</span>
+            </button>
           );
         })}
       </div>
+
+      <article
+        key={p.id}
+        id="personagem-destaque"
+        role="tabpanel"
+        aria-labelledby={`aba-${p.id}`}
+        className="personagem-destaque"
+        tabIndex={-1}
+      >
+        <div className="personagem-texto" id={`per-${p.id}`}>
+          <h3 className="personagem-nome">{p.titulo}</h3>
+          <p className="personagem-papel">{p.papel}</p>
+          <p className="personagem-descricao">{p.descricao}</p>
+          <ul className="tags">
+            {p.destaques.map((d) => <li key={d}>{d}</li>)}
+          </ul>
+          <Notas itens={p.detalhes} />
+          <p className="painel-data">
+            <StatusBadge status={p.status} /> Perfil revelado em {formatarData(p.data, true)}
+          </p>
+          <Fontes urls={p.fontes} />
+        </div>
+
+        <div className="personagem-galeria">
+          {fotos.length > 0 && (
+            <Foto key={fotos[foto]} chave={fotos[foto]} className="galeria-principal" sizes="(max-width: 900px) 100vw, 60vw" />
+          )}
+          {fotos.length > 1 && (
+            <div className="galeria-miniaturas" role="group" aria-label={`Fotos de ${p.titulo}`}>
+              {fotos.map((f, i) => (
+                <button
+                  key={f}
+                  type="button"
+                  className={`miniatura ${i === foto ? 'ativa' : ''}`}
+                  aria-pressed={i === foto}
+                  aria-label={`Ver foto ${i + 1}: ${imagem(f).alt}`}
+                  onClick={() => setFoto(i)}
+                >
+                  <img src={imagem(f).pequena} alt="" loading="lazy" decoding="async" />
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </article>
     </Secao>
   );
 }
