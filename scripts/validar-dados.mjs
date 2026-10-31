@@ -2,7 +2,7 @@
 // Regras: todo item informativo precisa ter título, descrição, status válido,
 // ao menos uma fonte (URL presente em data/fontes.json) e data.
 // Uso: node scripts/validar-dados.mjs
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -108,6 +108,30 @@ q.itens.forEach((i) => {
   if (!(i.correta >= 0 && i.correta < i.opcoes.length)) erros.push(`quiz#${i.id}: índice da resposta inválido`);
 });
 
+// Imagens oficiais: arquivos presentes, texto alternativo, crédito e fonte cadastrada.
+const im = ler('imagens.json');
+const pastaImg = join(raiz, '..', 'public', 'img', 'oficial');
+if (!im.credito) erros.push('imagens.json: sem crédito');
+checarFontes([im.fonte], 'imagens.json');
+const usoSrc = readdirSync(join(raiz, '..', 'src'), { recursive: true })
+  .filter((f) => /\.(ts|tsx)$/.test(f))
+  .map((f) => readFileSync(join(raiz, '..', 'src', f), 'utf8'))
+  .join('\n');
+let nImagens = 0;
+for (const [chave, meta] of Object.entries(im.itens)) {
+  nImagens++;
+  if (!meta.alt || meta.alt.length < 10) erros.push(`imagens#${chave}: texto alternativo ausente ou curto`);
+  for (const w of [800, 1600]) {
+    if (!existsSync(join(pastaImg, `${chave}-${w}.webp`))) erros.push(`imagens#${chave}: falta ${chave}-${w}.webp`);
+  }
+  if (!usoSrc.includes(`'${chave}'`) && !usoSrc.includes(`"${chave}"`)) erros.push(`imagens#${chave}: não é usada no site`);
+}
+const arquivosImg = existsSync(pastaImg) ? readdirSync(pastaImg) : [];
+for (const a of arquivosImg) {
+  const chave = a.replace(/-(800|1600)\.webp$/, '');
+  if (!im.itens[chave]) erros.push(`public/img/oficial/${a}: imagem sem cadastro em imagens.json`);
+}
+
 // Arquivos de dados não podem ter campos de letra de música.
 for (const arq of readdirSync(raiz)) {
   const txt = readFileSync(join(raiz, arq), 'utf8');
@@ -116,7 +140,7 @@ for (const arq of readdirSync(raiz)) {
 
 const naoUsadas = fontes.filter((f) => !usadas.has(f.url)).map((f) => f.id);
 
-console.log(`Itens verificados: ${total}`);
+console.log(`Itens verificados: ${total} | imagens oficiais: ${nImagens}`);
 console.log(`Fontes cadastradas: ${fontes.length} | usadas: ${usadas.size}`);
 if (naoUsadas.length) console.log(`Fontes cadastradas e não usadas: ${naoUsadas.join(', ')}`);
 if (erros.length) {

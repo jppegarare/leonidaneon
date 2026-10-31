@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { timeline, formatarData, type EventoTimeline } from '../data';
-import { Fontes, Notas, Secao, StatusBadge, VideoOficial } from './comum';
-import { EVENTO_NAVEGAR, rolarPara, useRevelar, type Destino } from '../navegacao';
+import { Fontes, Notas, Secao, StatusBadge } from './comum';
+import { EVENTO_NAVEGAR, navegar, rolarPara, useRevelar, type Destino } from '../navegacao';
 
 const TIPOS: Record<string, { rotulo: string; icone: string }> = {
   anuncio: { rotulo: 'Anúncio', icone: '📣' },
@@ -29,7 +29,11 @@ function Evento({ e, lado }: { e: EventoTimeline; lado: 'esq' | 'dir' }) {
         <h3>{e.titulo}</h3>
         <p>{e.descricao}</p>
         {e.duracao && <p className="evento-duracao">Duração oficial: {e.duracao}</p>}
-        {e.video && <VideoOficial id={e.video} titulo={e.titulo} />}
+        {e.video && (
+          <button type="button" className="botao botao-pilula botao-pequeno" onClick={() => navegar({ secao: 'videos', alvo: e.video })}>
+            ▶ Assistir {e.titulo.split(':')[0]}
+          </button>
+        )}
         {e.link && !e.video && (
           <a className="link-oficial" href={e.link} target="_blank" rel="noopener noreferrer">Ver vídeo oficial no YouTube ↗</a>
         )}
@@ -65,9 +69,9 @@ export default function LinhaDoTempo() {
   return (
     <Secao
       id="linha-do-tempo"
-      numero="05"
+      rotulo="De 2022 até o lançamento"
       titulo="Linha do tempo"
-      subtitulo="Revelações, trailers e adiamentos de 2022 até o lançamento. Os vídeos usam o player oficial do YouTube."
+      subtitulo="Revelações, trailers, adiamentos e ações de marketing, em ordem."
     >
       <div className="filtros" role="group" aria-label="Filtrar eventos por tipo">
         <button type="button" className={`chip ${filtro === 'todos' ? 'chip-ativo' : ''}`} aria-pressed={filtro === 'todos'} onClick={() => setFiltro('todos')}>

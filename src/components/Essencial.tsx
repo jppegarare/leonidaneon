@@ -7,7 +7,7 @@ export default function Essencial() {
   return (
     <Secao
       id="essencial"
-      numero="02"
+      rotulo="Datas, plataformas e o que é oficial"
       titulo="O essencial"
       subtitulo="Datas, plataformas, adiamentos e o que é (ou não é) oficial sobre online, PC e classificação."
     >

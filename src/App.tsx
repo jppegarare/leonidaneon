@@ -10,6 +10,7 @@ import Trilha from './components/Trilha';
 import Edicoes from './components/Edicoes';
 import ViceCity from './components/ViceCity';
 import Quiz from './components/Quiz';
+import Videos from './components/Videos';
 import Busca from './components/Busca';
 import PaginaFontes from './components/PaginaFontes';
 import { STATUS_INFO, formatarData, type Status } from './data';
@@ -19,6 +20,7 @@ const AVISO = 'Site de fã, não oficial. Não afiliado à Rockstar Games ou à 
 
 const NAV = [
   ['contagem', 'Contagem'],
+  ['videos', 'Trailers'],
   ['essencial', 'Essencial'],
   ['mapa', 'Mapa'],
   ['personagens', 'Personagens'],
@@ -44,6 +46,22 @@ export default function App() {
   const rota = useRota();
   const [buscaAberta, setBuscaAberta] = useState(false);
   const [menuAberto, setMenuAberto] = useState(false);
+  const [rolou, setRolou] = useState(false);
+
+  useEffect(() => {
+    const f = () => setRolou(window.scrollY > 40);
+    f();
+    window.addEventListener('scroll', f, { passive: true });
+    return () => window.removeEventListener('scroll', f);
+  }, []);
+
+  // Esc fecha o menu
+  useEffect(() => {
+    if (!menuAberto) return;
+    const f = (e: KeyboardEvent) => { if (e.key === 'Escape') setMenuAberto(false); };
+    window.addEventListener('keydown', f);
+    return () => window.removeEventListener('keydown', f);
+  }, [menuAberto]);
 
   // Atalhos: "/" ou Ctrl/Cmd+K abrem a busca
   useEffect(() => {
@@ -72,54 +90,54 @@ export default function App() {
     <>
       <a href="#conteudo" className="pular-link">Pular para o conteúdo</a>
       <div className="faixa-aviso" role="note">
-        <span aria-hidden="true">⚠️</span> {AVISO}
+        <svg className="faixa-palmeiras" viewBox="0 0 1200 40" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+          {[40, 160, 300, 880, 1010, 1130].map((x, i) => (
+            <g key={x} transform={`translate(${x} 40) scale(${i % 2 ? 0.55 : 0.7})`} fill="currentColor">
+              <path d="M-2 0 C0 -22 3 -40 8 -58 L11 -57 C7 -40 4 -22 4 0 Z" />
+              <path d="M9 -58 C-6 -66 -22 -62 -32 -52 C-18 -58 -4 -58 9 -54 Z" />
+              <path d="M9 -58 C22 -68 38 -66 50 -56 C36 -60 22 -60 9 -54 Z" />
+              <path d="M9 -58 C-12 -54 -24 -42 -28 -28 C-18 -40 -6 -48 10 -54 Z" />
+              <path d="M9 -58 C28 -54 40 -42 42 -28 C32 -40 22 -48 8 -54 Z" />
+            </g>
+          ))}
+        </svg>
+        <span className="faixa-texto">{AVISO}</span>
       </div>
 
-      <header className="topo">
-        <a href="#inicio" className="marca" aria-label="Leonida Neon, início">
-          <svg viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
-            <defs>
-              <linearGradient id="marcaSol" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stopColor="#ffd166" /><stop offset="1" stopColor="#ff4d8d" />
-              </linearGradient>
-              <clipPath id="marcaClip"><circle cx="20" cy="20" r="14" /></clipPath>
-            </defs>
-            <g clipPath="url(#marcaClip)">
-              <rect x="6" y="6" width="28" height="28" fill="url(#marcaSol)" />
-              <rect x="6" y="22" width="28" height="2" fill="#0d0618" />
-              <rect x="6" y="26" width="28" height="2.6" fill="#0d0618" />
-              <rect x="6" y="30.5" width="28" height="3" fill="#0d0618" />
-            </g>
-          </svg>
-          <span>Leonida <em>Neon</em></span>
+      <header className={`topo ${rolou || menuAberto || rota === 'fontes' ? 'topo-solido' : ''}`}>
+        <a href="#inicio" className="marca" aria-label="Leonida Neon, início" onClick={() => setMenuAberto(false)}>
+          <span className="marca-nome">Leonida Neon</span>
+          <span className="marca-sub">guia de fã</span>
         </a>
 
-        <button
-          type="button"
-          className="botao-menu"
-          aria-expanded={menuAberto}
-          aria-controls="menu-principal"
-          onClick={() => setMenuAberto((m) => !m)}
-        >
-          <span className="sr-only">Menu</span>
-          <span aria-hidden="true">{menuAberto ? '✕' : '☰'}</span>
-        </button>
+        <div className="topo-acoes">
+          <a href="#videos" className="botao botao-pilula botao-pequeno topo-cta" onClick={() => setMenuAberto(false)}>Ver trailers</a>
+          <button type="button" className="botao-icone" onClick={() => setBuscaAberta(true)} aria-haspopup="dialog" aria-label="Buscar no site (atalho: /)">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" strokeWidth="2.2" /><path d="M15 15 L21 21" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" /></svg>
+          </button>
+          <button
+            type="button"
+            className={`botao-icone botao-menu ${menuAberto ? 'aberto' : ''}`}
+            aria-expanded={menuAberto}
+            aria-controls="menu-principal"
+            onClick={() => setMenuAberto((m) => !m)}
+          >
+            <span className="sr-only">{menuAberto ? 'Fechar menu' : 'Abrir menu'}</span>
+            <span className="hamburguer" aria-hidden="true"><i /><i /><i /></span>
+          </button>
+        </div>
 
-        <nav id="menu-principal" className={`nav ${menuAberto ? 'nav-aberta' : ''}`} aria-label="Seções">
-          <ul>
-            {NAV.map(([id, rotulo]) => (
-              <li key={id}><a href={`#${id}`} onClick={() => setMenuAberto(false)}>{rotulo}</a></li>
-            ))}
-            <li><a href="#/fontes" onClick={() => setMenuAberto(false)} aria-current={rota === 'fontes' ? 'page' : undefined}>Fontes</a></li>
-          </ul>
-        </nav>
-
-        <button type="button" className="botao-busca" onClick={() => setBuscaAberta(true)} aria-haspopup="dialog">
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" strokeWidth="2" /><path d="M15 15 L21 21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
-          <span className="botao-busca-texto">Buscar</span>
-          <kbd className="atalho">/</kbd>
-        </button>
       </header>
+
+      <nav id="menu-principal" className={`menu-tela ${menuAberto ? 'aberto' : ''}`} aria-label="Seções" hidden={!menuAberto}>
+        <ul>
+          {NAV.map(([id, rotulo]) => (
+            <li key={id}><a href={`#${id}`} onClick={() => setMenuAberto(false)}>{rotulo}</a></li>
+          ))}
+          <li><a href="#/fontes" onClick={() => setMenuAberto(false)} aria-current={rota === 'fontes' ? 'page' : undefined}>Fontes</a></li>
+        </ul>
+        <p className="menu-aviso">{AVISO}</p>
+      </nav>
 
       {rota === 'fontes' ? (
         <PaginaFontes />
@@ -133,6 +151,7 @@ export default function App() {
               ))}
             </div>
             <Contagem />
+            <Videos />
             <Essencial />
             <Mapa />
             <Personagens />
@@ -149,12 +168,13 @@ export default function App() {
       <footer className="rodape">
         <p className="rodape-aviso"><strong>{AVISO}</strong></p>
         <p>
-          Grand Theft Auto, GTA, Rockstar Games e Take-Two Interactive são marcas dos respectivos donos. Este site não usa imagens,
-          logotipos nem artes oficiais; toda a arte é original, feita em SVG e CSS. Vídeos oficiais aparecem apenas pelo player do YouTube.
+          Grand Theft Auto, GTA, Rockstar Games e Take-Two Interactive são marcas dos respectivos donos. As capturas de tela são
+          imagens oficiais distribuídas pela Rockstar Games na <a href="https://www.rockstargames.com/VI/media" target="_blank" rel="noopener noreferrer">página de mídia do GTA VI</a>,
+          usadas com crédito. Logotipos e fontes oficiais não são usados. Vídeos oficiais aparecem apenas pelo player do YouTube.
         </p>
         <p>
           Informações atualizadas até {formatarData('2026-10-31', true)}. Veja a página de <a href="#/fontes">Fontes e metodologia</a>.
-          Fontes tipográficas livres: Audiowide e Inter (SIL Open Font License).
+          Fontes tipográficas livres: Big Shoulders Display e Outfit (SIL Open Font License).
         </p>
       </footer>
 

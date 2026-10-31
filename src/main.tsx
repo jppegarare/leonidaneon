@@ -1,7 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import '@fontsource/audiowide/400.css';
-import '@fontsource-variable/inter';
+import '@fontsource/big-shoulders-display/700';
+import '@fontsource/big-shoulders-display/800';
+import '@fontsource-variable/outfit';
 import './index.css';
 import App from './App.tsx';
 

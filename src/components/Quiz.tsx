@@ -55,7 +55,7 @@ export default function Quiz() {
   return (
     <Secao
       id="quiz"
-      numero="10"
+      rotulo="Teste seus conhecimentos" fundo="leonida-keys-01"
       titulo="Quiz: quanto você sabe de GTA VI?"
       subtitulo={`${TOTAL} perguntas sorteadas, só com informações confirmadas oficialmente.`}
     >

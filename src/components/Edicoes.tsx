@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { bonus, brl, cotacao, edicoes, formatarData, usd } from '../data';
 import { Fontes, Secao, StatusBadge } from './comum';
+import { fotosEdicoes } from '../midia';
+import Foto from './Foto';
 
 export default function Edicoes() {
   const [taxa, setTaxa] = useState(cotacao.valorBRL);
@@ -10,7 +12,7 @@ export default function Edicoes() {
   return (
     <Secao
       id="edicoes"
-      numero="08"
+      rotulo="Pré-venda"
       titulo="Edições e preços"
       subtitulo="Comparativo das edições, com o preço oficial em reais nas lojas e uma conversão aproximada do valor em dólar."
     >
@@ -39,6 +41,7 @@ export default function Edicoes() {
       <div className="grade-edicoes">
         {jogo.map((e) => (
           <article key={e.id} id={`ed-${e.id}`} className={`cartao-edicao ${e.id === 'ultimate' ? 'edicao-destaque' : ''}`}>
+            {fotosEdicoes[e.id] && <Foto chave={fotosEdicoes[e.id]} className="edicao-foto" sizes="(max-width: 700px) 100vw, 560px" />}
             <header>
               <h3>{e.titulo}</h3>
               <StatusBadge status={e.status} />
@@ -93,7 +96,8 @@ export default function Edicoes() {
 
       <div className="grade-extras">
         {outros.map((e) => (
-          <article key={e.id} id={`ed-${e.id}`} className="cartao-mini">
+          <article key={e.id} id={`ed-${e.id}`} className={`cartao-mini ${fotosEdicoes[e.id] ? 'cartao-com-foto' : ''}`}>
+            {fotosEdicoes[e.id] && <Foto chave={fotosEdicoes[e.id]} sizes="(max-width: 700px) 100vw, 380px" />}
             <header><h4>{e.titulo}</h4><StatusBadge status={e.status} /></header>
             <p className="preco-mini">{usd(e.precoUSD)} <span className="texto-suave">(≈ {brl(e.precoUSD * taxa)})</span></p>
             <p>{e.descricao}</p>
@@ -101,7 +105,8 @@ export default function Edicoes() {
           </article>
         ))}
         {bonus.map((b) => (
-          <article key={b.id} id={`ed-${b.id}`} className="cartao-mini">
+          <article key={b.id} id={`ed-${b.id}`} className={`cartao-mini ${fotosEdicoes[b.id] ? 'cartao-com-foto' : ''}`}>
+            {fotosEdicoes[b.id] && <Foto chave={fotosEdicoes[b.id]} sizes="(max-width: 700px) 100vw, 380px" />}
             <header><h4>{b.titulo}</h4><StatusBadge status={b.status} /></header>
             <p>{b.descricao}</p>
             <Fontes urls={b.fontes} />

@@ -48,7 +48,7 @@ export default function Mecanicas() {
   return (
     <Secao
       id="mecanicas"
-      numero="06"
+      rotulo="Como se joga"
       titulo="Explorador de mecânicas"
       subtitulo="Sistemas e recursos confirmados, mostrados ou só reportados. Filtre por categoria e por status."
     >

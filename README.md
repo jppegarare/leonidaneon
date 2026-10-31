@@ -33,17 +33,20 @@ O `base: '/leonidaneon/'` do `vite.config.ts` precisa bater com o nome do reposi
 - **Vite**: build rápido e saída 100% estática.
 - **React**: as seções interativas (mapa, filtros, quiz, busca) ficam simples de manter.
 - **TypeScript**: os tipos dos dados ajudam a garantir que todo item tem status, fontes e data.
-- **Sem bibliotecas de UI**: CSS próprio, e as fontes livres (Audiowide e Inter, licença OFL) são servidas localmente via `@fontsource`.
+- **Sem bibliotecas de UI**: CSS próprio, e as fontes livres (Big Shoulders Display e Outfit, licença OFL) são servidas localmente via `@fontsource`.
+- **Visual**: inspirado no site oficial do GTA VI (azul-marinho, títulos condensados, fotos grandes, botões em pílula), sem usar o logotipo nem as fontes oficiais.
 
 ## Estrutura
 
 ```
 data/                 dados estruturados (um JSON por tema)
   fontes.json         todas as referências (URL, veículo, data, tipo, forma de verificação)
+  imagens.json        capturas oficiais usadas, com texto alternativo e crédito
   personagens.json  locais.json  mecanicas.json  timeline.json
   trilha.json  edicoes.json  info.json  comparativo.json  quiz.json
 scripts/
-  validar-dados.mjs   garante status válido, fontes (URLs cadastradas) e data em cada item
+  validar-dados.mjs   garante status, fontes (URLs cadastradas) e data em cada item, e confere as imagens
+public/img/oficial/   capturas oficiais em WebP (800 e 1600 px)
   testar-site.cjs     teste de todas as seções + capturas de tela em capturas/
 src/
   components/         uma seção por arquivo (Mapa, Personagens, LinhaDoTempo…)
@@ -56,7 +59,7 @@ src/
 - **Confirmado**: dito pela Rockstar/Take-Two ou mostrado em material oficial.
 - **Reportado**: veículo confiável, sem confirmação oficial.
 - **Rumor/Vazamento**: só quando foi amplamente noticiado, e sempre marcado.
-- Nenhuma imagem, captura, arte, capa ou logotipo oficial. Toda a arte é original, em SVG/CSS.
+- As fotos são capturas oficiais distribuídas pela Rockstar Games na [página de mídia do GTA VI](https://www.rockstargames.com/VI/media), sempre com o crédito "Imagem: Rockstar Games". Logotipo, capa e fontes tipográficas oficiais não são usados; o mapa e os ícones são originais.
 - Vídeos oficiais aparecem só pelo player do YouTube (youtube-nocookie), e apenas quando o usuário clica.
 - Nenhuma letra de música, só nomes de artistas, faixas e estações.
 - Os textos são escritos com palavras próprias, com no máximo citações muito curtas e com fonte.
@@ -64,3 +67,5 @@ src/
 ## Atualizando
 
 Edite os JSON em `data/`. Se a fonte for nova, cadastre-a em `data/fontes.json` primeiro e rode `npm run validar`.
+
+Para trocar ou acrescentar fotos, coloque `nome-800.webp` e `nome-1600.webp` em `public/img/oficial/`, cadastre o `nome` com texto alternativo em `data/imagens.json` e use a chave em `src/midia.ts`. O validador reclama de imagem sem cadastro, sem arquivo ou sem uso.
