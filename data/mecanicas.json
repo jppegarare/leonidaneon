@@ -153,10 +153,11 @@
       "id": "seis-estrelas",
       "titulo": "Sistema de procurado com estrelas",
       "categoria": "Polícia",
-      "descricao": "O sistema de estrelas de procurado aparece no Extended Look. Análises falam em até seis estrelas, número que a Rockstar não detalhou em texto.",
+      "descricao": "O indicador de estrelas de procurado aparece na tela durante um tiroteio no Extended Look. Análises falam em até seis estrelas, número que a Rockstar não detalhou em texto.",
       "status": "reportado",
       "data": "2026-08-28",
       "fontes": [
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k",
         "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
         "https://www.techradar.com/gaming/ps5/16-new-gta-6-details-we-learned-from-the-big-extended-look-gameplay-video-captured-in-game-on-a-ps5"
       ]
@@ -188,10 +189,11 @@
       "id": "academia",
       "titulo": "Academia",
       "categoria": "Mundo e atividades",
-      "descricao": "Lucia aparece treinando supino com comandos cronometrados. Segundo a entrevista à Famitsu, o treino é uma atividade controlada pelo jogador.",
-      "status": "reportado",
+      "descricao": "No Extended Look, Lucia aparece fazendo supino na academia com comandos na tela. Segundo a entrevista à Famitsu, o treino é uma atividade controlada pelo jogador.",
+      "status": "confirmado",
       "data": "2026-08-27",
       "fontes": [
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k",
         "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html",
         "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
       ]
@@ -231,6 +233,17 @@
       "fontes": [
         "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
         "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+      ]
+    },
+    {
+      "id": "interacao-casal",
+      "titulo": "Interações entre Jason e Lucia",
+      "categoria": "Mundo e atividades",
+      "descricao": "No Extended Look, um comando na tela permite que Jason e Lucia andem de mãos dadas durante a exploração.",
+      "status": "confirmado",
+      "data": "2026-08-27",
+      "fontes": [
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k"
       ]
     },
     {

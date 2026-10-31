@@ -152,10 +152,11 @@
     {
       "id": "effluvia",
       "titulo": "Effluvia",
-      "descricao": "Local citado em análises do Extended Look como ponto de missões com vista privilegiada. A Rockstar não detalhou esse lugar em texto.",
-      "status": "reportado",
-      "data": "2026-08",
+      "descricao": "Um terraço de bar com o letreiro “Effluvia” aparece no Extended Look, em plena jogabilidade. Análises da imprensa o descrevem como ponto de missões com vista privilegiada; esse papel na história não foi detalhado pela Rockstar.",
+      "status": "confirmado",
+      "data": "2026-08-27",
       "fontes": [
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k",
         "https://www.svg.com/2246139/gta-6-leonida-map-new-locations-extended-look/"
       ]
     },

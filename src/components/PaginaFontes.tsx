@@ -34,7 +34,7 @@ export default function PaginaFontes() {
         <h2>Direitos autorais e identidade</h2>
         <ul>
           <li>Site de fã, não oficial. Não afiliado à Rockstar Games ou à Take-Two Interactive.</li>
-          <li>As fotos são capturas oficiais distribuídas pela Rockstar Games na <a href="https://www.rockstargames.com/VI/media" target="_blank" rel="noopener noreferrer">página de mídia do GTA VI</a>, sempre com crédito. Logotipos, capa e fontes tipográficas oficiais não são usados; mapa, ícones e ilustrações restantes são originais.</li>
+          <li>As fotos, artes e quadros dos trailers são imagens oficiais distribuídas pela Rockstar Games na <a href="https://www.rockstargames.com/VI/media" target="_blank" rel="noopener noreferrer">página de mídia do GTA VI</a>, sempre com crédito. Os quadros foram tirados dos trailers oficiais oferecidos para download nessa página. A arte de capa aparece só na galeria, como imagem oficial; o logotipo e as fontes tipográficas oficiais não são usados na identidade do site.</li>
           <li>Os textos foram escritos com nossas palavras, com no máximo citações muito curtas e sempre com fonte.</li>
           <li>Vídeos oficiais só são exibidos pelo player oficial do YouTube, e apenas quando você clica.</li>
           <li>Nenhuma letra de música é reproduzida, só nomes de artistas, faixas e estações.</li>
