@@ -1,0 +1,237 @@
+{
+  "aviso": "Todas as perguntas usam apenas informações confirmadas pela Rockstar ou pela Take-Two.",
+  "itens": [
+    {
+      "id": "q1",
+      "pergunta": "Em que data GTA VI chega às lojas?",
+      "opcoes": [
+        "26 de maio de 2026",
+        "19 de novembro de 2026",
+        "12 de novembro de 2026",
+        "5 de dezembro de 2026"
+      ],
+      "correta": 1,
+      "explicacao": "19/11/2026 é a data oficial desde o adiamento anunciado em 6/11/2025. Em 12/11 começa o pré-download.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-3",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "q2",
+      "pergunta": "Como se chama o estado fictício onde o jogo se passa?",
+      "opcoes": [
+        "San Andreas",
+        "Leonida",
+        "Liberty",
+        "Vice State"
+      ],
+      "correta": 1,
+      "explicacao": "Leonida é a versão da Rockstar para a Flórida, e Vice City é a sua metrópole.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025",
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ]
+    },
+    {
+      "id": "q3",
+      "pergunta": "Quem são os dois protagonistas?",
+      "opcoes": [
+        "Tommy e Lance",
+        "Jason e Lucia",
+        "Cal e Brian",
+        "Raul e Boobie"
+      ],
+      "correta": 1,
+      "explicacao": "Jason Duval e Lucia Caminos são o casal jogável.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ]
+    },
+    {
+      "id": "q4",
+      "pergunta": "De onde Lucia acabou de sair quando a história começa?",
+      "opcoes": [
+        "Do Exército",
+        "Da Penitenciária de Leonida",
+        "De Liberty City",
+        "De um hospital"
+      ],
+      "correta": 1,
+      "explicacao": "Brigar pela família levou Lucia à Penitenciária de Leonida.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ]
+    },
+    {
+      "id": "q5",
+      "pergunta": "Qual região de Leonida promete caça, pesca e trilhas off-road?",
+      "opcoes": [
+        "Port Gellhorn",
+        "Grassrivers",
+        "Parque Nacional Mount Kalaga",
+        "Leonida Keys"
+      ],
+      "correta": 2,
+      "explicacao": "A descrição oficial do Mount Kalaga cita caça, pesca e trilhas.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "q6",
+      "pergunta": "Qual dupla compôs a trilha original do jogo?",
+      "opcoes": [
+        "Daft Punk",
+        "Justice",
+        "Air",
+        "Chemical Brothers"
+      ],
+      "correta": 1,
+      "explicacao": "A dupla francesa Justice, formada por Gaspard Augé e Xavier de Rosnay.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music",
+        "https://www.rockstargames.com/newswire/article/39ak8a12395591"
+      ]
+    },
+    {
+      "id": "q7",
+      "pergunta": "Qual estação de rádio clássica de Vice City volta em GTA VI?",
+      "opcoes": [
+        "V-Rock",
+        "Flash FM",
+        "Fever 105",
+        "Wave 103"
+      ],
+      "correta": 1,
+      "explicacao": "A Flash FM, de pop, voltou, segundo a página oficial de música. As outras não foram anunciadas.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music",
+        "https://en.wikipedia.org/wiki/Flash_FM"
+      ]
+    },
+    {
+      "id": "q8",
+      "pergunta": "Qual música toca no Trailer 1?",
+      "opcoes": [
+        "Hot Together, The Pointer Sisters",
+        "Love Is a Long Road, Tom Petty",
+        "Flower in a Hurricane, Justice",
+        "Electric Feel, MGMT"
+      ],
+      "correta": 1,
+      "explicacao": "O Trailer 1 usa Tom Petty. Hot Together é do Trailer 2, e Flower in a Hurricane, do trailer de lançamento.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "https://www.tompetty.com/blogs/news/tom-petty-s-love-is-a-long-road-from-full-moon-fever-featured-in-trailer-1-of-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "q9",
+      "pergunta": "O que vem dentro da caixa da versão física?",
+      "opcoes": [
+        "Um Blu-ray",
+        "Dois discos",
+        "Um código de download",
+        "Um pendrive"
+      ],
+      "correta": 2,
+      "explicacao": "A Rockstar confirma que a caixa traz só um código, sem disco.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ]
+    },
+    {
+      "id": "q10",
+      "pergunta": "Em qual serviço o Extended Look estreou primeiro?",
+      "opcoes": [
+        "Twitch",
+        "Netflix",
+        "Prime Video",
+        "TikTok"
+      ],
+      "correta": 1,
+      "explicacao": "Estreou na Netflix em 27/08/2026 e chegou ao YouTube horas depois.",
+      "status": "confirmado",
+      "fontes": [
+        "https://gameinformer.com/2026/08/06/grand-theft-auto-vi-is-getting-an-extended-look-on-netflix-august-27",
+        "https://x.com/RockstarGames/status/2085335127287030232"
+      ]
+    },
+    {
+      "id": "q11",
+      "pergunta": "Qual é o preço da Ultimate Edition nos EUA?",
+      "opcoes": [
+        "US$ 69,99",
+        "US$ 79,99",
+        "US$ 99,99",
+        "US$ 129,99"
+      ],
+      "correta": 2,
+      "explicacao": "A Standard custa US$ 79,99 e a Ultimate, US$ 99,99.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "q12",
+      "pergunta": "Qual gravadora une Boobie Ike, Dre'Quan e as Real Dimez?",
+      "opcoes": [
+        "Only Raw Records",
+        "Vice Beats",
+        "Leonida Sound",
+        "Jack of Hearts Music"
+      ],
+      "correta": 0,
+      "explicacao": "A Only Raw Records é a sociedade de Boobie e Dre'Quan, que contratou as Real Dimez.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ]
+    },
+    {
+      "id": "q13",
+      "pergunta": "Qual personagem é um assaltante de bancos veterano à procura de talentos?",
+      "opcoes": [
+        "Cal Hampton",
+        "Brian Heder",
+        "Raul Bautista",
+        "Dre'Quan Priest"
+      ],
+      "correta": 2,
+      "explicacao": "É Raul Bautista, cada vez mais imprudente a cada golpe.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ]
+    },
+    {
+      "id": "q14",
+      "pergunta": "Em que ano a Rockstar confirmou que o próximo GTA estava em desenvolvimento ativo?",
+      "opcoes": [
+        "2019",
+        "2020",
+        "2022",
+        "2023"
+      ],
+      "correta": 2,
+      "explicacao": "Em 4 de fevereiro de 2022.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.videogameschronicle.com/news/grand-theft-auto-6-development-is-well-underway-rockstar-says/"
+      ]
+    }
+  ]
+}

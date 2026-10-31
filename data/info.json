@@ -1,0 +1,223 @@
+{
+  "lancamento": {
+    "id": "lancamento",
+    "titulo": "Data de lançamento",
+    "valor": "19 de novembro de 2026",
+    "iso": "2026-11-19",
+    "descricao": "Data oficial para PS5 e Xbox Series X|S. A Rockstar não informou o horário de liberação; o contador usa a meia-noite no seu fuso horário.",
+    "status": "confirmado",
+    "data": "2025-11-06",
+    "fontes": [
+      "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-3",
+      "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+      "https://www.rockstargames.com/VI"
+    ]
+  },
+  "preload": {
+    "id": "preload",
+    "titulo": "Pré-download",
+    "valor": "12 de novembro de 2026",
+    "iso": "2026-11-12",
+    "descricao": "Para quem comprou a versão digital. É também quando as caixas físicas com código começam a chegar.",
+    "status": "confirmado",
+    "data": "2026-06-24",
+    "fontes": [
+      "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+      "https://store.rockstargames.com/game/buy-gta-vi"
+    ]
+  },
+  "horario": {
+    "id": "horario",
+    "titulo": "Horário de liberação",
+    "descricao": "Não confirmado. Há especulação de liberação à meia-noite por fuso, começando pela Nova Zelândia, sem nada oficial.",
+    "status": "rumor",
+    "data": "2026-10",
+    "fontes": [
+      "https://insider-gaming.com/gta-6-release/"
+    ]
+  },
+  "plataformas": {
+    "id": "plataformas",
+    "titulo": "Plataformas",
+    "valor": "PlayStation 5 e Xbox Series X|S",
+    "descricao": "Não roda no PS4. O site oficial diz que o jogo “roda melhor no PS5”, e a página da PlayStation lista suporte a PS5 Pro.",
+    "status": "confirmado",
+    "data": "2023-12-04",
+    "fontes": [
+      "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025",
+      "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+      "https://www.playstation.com/GTAVIfeatures/",
+      "https://www.rockstargames.com/VI"
+    ]
+  },
+  "adiamentos": [
+    {
+      "id": "a0",
+      "titulo": "Janela original: 2025",
+      "descricao": "Anunciada com o Trailer 1. Depois a Take-Two especificou “outono de 2025”.",
+      "data": "2023-12-04",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025",
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-2"
+      ]
+    },
+    {
+      "id": "a1",
+      "titulo": "1º adiamento → 26/05/2026",
+      "descricao": "Anunciado em 2 de maio de 2025.",
+      "data": "2025-05-02",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-to-2026/",
+        "https://www.take2games.com/ir/news/adding-multimedia-rockstar-games-releases-trailer-2-grand-theft",
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-first-5"
+      ]
+    },
+    {
+      "id": "a2",
+      "titulo": "2º adiamento → 19/11/2026",
+      "descricao": "Anunciado em 6 de novembro de 2025, para polir o jogo.",
+      "data": "2025-11-06",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-3",
+        "https://www.pcgamer.com/games/action/grand-theft-auto-6-is-delayed-to-november-these-extra-months-will-allow-us-to-finish-the-game-with-the-level-of-polish-you-have-come-to-expect-and-deserve"
+      ]
+    }
+  ],
+  "temas": [
+    {
+      "id": "online",
+      "titulo": "Modo online",
+      "descricao": "Oficialmente, GTA VI é descrito como uma experiência single-player e não há modo online anunciado. Jason Schreier (Bloomberg) relatou que o componente online está previsto para 2027. O GTA Online atual, de GTA V, continua ativo e faz parte do GTA+.",
+      "status": "reportado",
+      "data": "2026",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://www.playstation.com/GTAVIfeatures/",
+        "https://beebom.com/rockstar-has-gta-6-online-mode-planned-for-2027/"
+      ]
+    },
+    {
+      "id": "pc",
+      "titulo": "Versão de PC",
+      "descricao": "Não anunciada. Strauss Zelnick disse que os jogadores de console são o público principal no lançamento. Previsões de PC em 2027 são especulação.",
+      "status": "reportado",
+      "data": "2026-05",
+      "fontes": [
+        "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/",
+        "https://www.dexerto.com/gta/gta-6-pc-release-window-sooner-than-expected-3133553"
+      ]
+    },
+    {
+      "id": "classificacao-esrb",
+      "titulo": "Classificação ESRB (EUA/Canadá)",
+      "descricao": "O site oficial e a loja da Rockstar exibem o selo Mature (17+) com os descritores Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content e Use of Drugs and Alcohol, além de compras no jogo.",
+      "status": "confirmado",
+      "data": "2026-10",
+      "fontes": [
+        "https://www.rockstargames.com/VI",
+        "https://store.rockstargames.com/game/buy-gta-vi",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "classificacao-classind",
+      "titulo": "Classificação indicativa no Brasil",
+      "descricao": "Os dados da página brasileira da PlayStation indicam ClassInd 18+, com violência, conteúdo sexual, drogas, linguagem imprópria e compras no jogo. O texto de perguntas frequentes da mesma página, porém, ainda diz que as classificações não estavam confirmadas quando foi escrito. Não verificamos no portal oficial do ClassInd.",
+      "status": "reportado",
+      "data": "2026-10-31",
+      "fontes": [
+        "https://www.playstation.com/pt-br/games/grand-theft-auto-vi/"
+      ]
+    },
+    {
+      "id": "idiomas",
+      "titulo": "Idiomas",
+      "descricao": "Português do Brasil está na lista oficial de idiomas suportados.",
+      "status": "confirmado",
+      "data": "2026-06",
+      "fontes": [
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ]
+    },
+    {
+      "id": "sinopse",
+      "titulo": "Sinopse oficial (resumo)",
+      "descricao": "Vice City, EUA. Jason e Lucia sempre souberam que o jogo estava contra eles. Quando um golpe fácil dá errado, os dois vão parar no lado mais sombrio do lugar mais ensolarado dos EUA, no meio de uma conspiração criminosa que atravessa Leonida, e vão precisar confiar um no outro como nunca.",
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI",
+        "https://www.take2games.com/ir/news/adding-multimedia-rockstar-games-releases-trailer-2-grand-theft"
+      ]
+    }
+  ],
+  "marketing": [
+    {
+      "id": "mk-25anos",
+      "titulo": "Revelação ligada aos 25 anos da Rockstar",
+      "descricao": "O primeiro trailer foi marcado para coincidir com o aniversário de 25 anos do estúdio, em dezembro de 2023.",
+      "status": "confirmado",
+      "data": "2023-11-08",
+      "fontes": [
+        "https://www.gematsu.com/2023/11/grand-theft-auto-vi-first-trailer-to-be-released-in-early-december",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025"
+      ]
+    },
+    {
+      "id": "mk-netflix",
+      "titulo": "Parceria com a Netflix",
+      "descricao": "O Extended Look estreou primeiro na Netflix, numa colaboração inédita entre a plataforma e a Rockstar, antes de chegar ao YouTube.",
+      "status": "confirmado",
+      "data": "2026-08-27",
+      "fontes": [
+        "https://gameinformer.com/2026/08/06/grand-theft-auto-vi-is-getting-an-extended-look-on-netflix-august-27",
+        "https://x.com/RockstarGames/status/2085335127287030232"
+      ]
+    },
+    {
+      "id": "mk-playstation",
+      "titulo": "Destaque para o PlayStation",
+      "descricao": "O site oficial diz que o jogo “roda melhor no PS5”, os vídeos foram capturados no console e há uma página dedicada aos recursos do PS5.",
+      "status": "confirmado",
+      "data": "2026",
+      "fontes": [
+        "https://www.rockstargames.com/VI",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "mk-musica",
+      "titulo": "Música como vitrine",
+      "descricao": "Rádios com artistas famosos como apresentadores, álbum com 34 faixas inéditas e trilha original do Justice, com singles lançados antes do jogo.",
+      "status": "confirmado",
+      "data": "2026-10",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "mk-loja",
+      "titulo": "Coleção de produtos e caixa de colecionador",
+      "descricao": "Roupas e colecionáveis na Rockstar Store, incluindo a caixa “The Vice City Collection”, vendida sem o jogo.",
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/759875393o5253",
+        "https://www.rockstargames.com/VI"
+      ]
+    },
+    {
+      "id": "mk-recordes",
+      "titulo": "Recordes de audiência",
+      "descricao": "O Trailer 1 teve cerca de 90 milhões de visualizações no YouTube em 24 horas. A Rockstar diz que o Trailer 2 passou de 475 milhões em um dia, somando todas as plataformas.",
+      "status": "reportado",
+      "data": "2025-05-07",
+      "fontes": [
+        "https://www.hollywoodreporter.com/business/business-news/gta-6-trailer-2-views-record-1236210396/"
+      ]
+    }
+  ]
+}

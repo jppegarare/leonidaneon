@@ -1,0 +1,334 @@
+{
+  "aviso": "Este site lista apenas nomes de artistas, faixas e estações. Nenhuma letra de música é reproduzida.",
+  "radios": [
+    {
+      "id": "cocoteo-fm",
+      "titulo": "Cocoteo FM",
+      "genero": "Latino moderno",
+      "apresentadores": "El Martillo e La Gata",
+      "identidadeReal": "Bad Bunny (El Martillo) e RaiNao (La Gata)",
+      "identidadeStatus": "reportado",
+      "identidadeFontes": [
+        "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/",
+        "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
+      ],
+      "cor": "rosa",
+      "descricao": "Música latina atual, numa estação que se apresenta como “a festa que nunca acaba”.",
+      "faixas": [
+        {
+          "artista": "Bad Bunny",
+          "faixa": "EoO"
+        },
+        {
+          "artista": "Axel Rulay ft. Farruko & El Alfa",
+          "faixa": "Si Es Trucho Es Trucho (Remix)"
+        },
+        {
+          "artista": "Romeo Santos & El Chaval de la Bachata",
+          "faixa": "Canalla"
+        }
+      ],
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "back-country-radio",
+      "titulo": "Back Country Radio",
+      "genero": "Country “renegado”",
+      "apresentadores": "MW e Delta Dawne",
+      "identidadeReal": "Morgan Wallen (MW) e Lana Del Rey (Delta Dawne); Jeremy Dufrene participa como repórter",
+      "identidadeStatus": "reportado",
+      "identidadeFontes": [
+        "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/",
+        "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
+      ],
+      "cor": "amarelo",
+      "descricao": "Country de raiz, pronto para um passeio de aerobarco.",
+      "faixas": [
+        {
+          "artista": "David Allan Coe",
+          "faixa": "Need a Little Time Off for Bad Behavior"
+        },
+        {
+          "artista": "Loretta Lynn",
+          "faixa": "Don't Come Home A-Drinkin' (With Lovin' On Your Mind)"
+        },
+        {
+          "artista": "Hank Williams, Jr. & Waylon Jennings",
+          "faixa": "The Conversation"
+        }
+      ],
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "afrobank-fm",
+      "titulo": "AfroBank FM",
+      "genero": "Amapiano, clássicos africanos, 3-step",
+      "apresentadores": "Burna e Palmsy",
+      "identidadeReal": "Burna Boy e Palms Trax",
+      "identidadeStatus": "reportado",
+      "identidadeFontes": [
+        "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/",
+        "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
+      ],
+      "cor": "laranja",
+      "descricao": "Amapiano, clássicos africanos e 3-step.",
+      "faixas": [
+        {
+          "artista": "Asake",
+          "faixa": "Joha"
+        },
+        {
+          "artista": "Pat Thomas ft. Ebo Taylor",
+          "faixa": "Gye Wani"
+        },
+        {
+          "artista": "DJ Lag & Robot Boii ft. Kamo Mphela",
+          "faixa": "Shay'sana"
+        }
+      ],
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "the-chamber",
+      "titulo": "The Chamber",
+      "genero": "Metal",
+      "apresentadores": "DJ Kerry e DJ Tom",
+      "identidadeReal": "Kerry King e Tom Araya, do Slayer",
+      "identidadeStatus": "reportado",
+      "identidadeFontes": [
+        "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
+      ],
+      "cor": "roxo",
+      "descricao": "Metal pesado chegando a Leonida. Parte da imprensa chama a estação de “The Chamber 106.6”.",
+      "faixas": [
+        {
+          "artista": "Black Sabbath",
+          "faixa": "I"
+        },
+        {
+          "artista": "Pantera",
+          "faixa": "I'm Broken"
+        },
+        {
+          "artista": "Slayer",
+          "faixa": "Raining Blood"
+        }
+      ],
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "flash-fm",
+      "titulo": "Flash FM",
+      "genero": "Pop",
+      "apresentadores": "Robyn e Alex",
+      "identidadeReal": "Robyn e a modelo Alex Consani",
+      "identidadeStatus": "reportado",
+      "identidadeFontes": [
+        "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
+      ],
+      "cor": "ciano",
+      "descricao": "Uma “instituição de Vice City” dedicada ao pop. A Flash FM já existia no GTA: Vice City de 2002.",
+      "faixas": [
+        {
+          "artista": "Charli xcx",
+          "faixa": "Good Ones"
+        },
+        {
+          "artista": "MGMT",
+          "faixa": "Electric Feel"
+        },
+        {
+          "artista": "Zara Larsson & PinkPantheress",
+          "faixa": "Midnight Sun (Girls Trip)"
+        }
+      ],
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music",
+        "https://en.wikipedia.org/wiki/Flash_FM"
+      ]
+    },
+    {
+      "id": "dirty-south-classics",
+      "titulo": "Dirty South Classics",
+      "genero": "Rap e hip-hop regional",
+      "apresentadores": "Trick e Trina",
+      "identidadeReal": "Trick Daddy e Trina",
+      "identidadeStatus": "reportado",
+      "identidadeFontes": [
+        "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/"
+      ],
+      "cor": "verde",
+      "descricao": "Clássicos do rap e do hip-hop do sul dos EUA, com “hospitalidade sulista”.",
+      "faixas": [
+        {
+          "artista": "David Banner ft. Lil' Flip",
+          "faixa": "Like A Pimp"
+        },
+        {
+          "artista": "JT Money ft. Solé",
+          "faixa": "Who Dat"
+        },
+        {
+          "artista": "DJ Khaled ft. Trick Daddy, Rick Ross & Pitbull",
+          "faixa": "Born N Raised"
+        }
+      ],
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    }
+  ],
+  "radiosNota": {
+    "texto": "Estas são as seis primeiras estações reveladas. A Rockstar fala em estações que vão do rock clássico a programas de entrevistas, mas não divulgou o total.",
+    "status": "confirmado",
+    "fontes": [
+      "https://www.rockstargames.com/VI/music"
+    ]
+  },
+  "album": {
+    "id": "the-album",
+    "titulo": "Grand Theft Auto VI: The Album",
+    "descricao": "34 faixas originais inspiradas no mundo de Vice City e Leonida, com lançamento no mesmo dia do jogo.",
+    "data": "2026-11-19",
+    "status": "confirmado",
+    "fontes": [
+      "https://www.rockstargames.com/VI/music",
+      "https://consequence.net/2026/09/grand-theft-auto-vi-announces-soundtrack-album/"
+    ],
+    "singles": [
+      {
+        "artista": "Yung Lean (feat. Future & Metro Boomin)",
+        "faixa": "That's It"
+      },
+      {
+        "artista": "Travis Scott",
+        "faixa": "RHYNO"
+      },
+      {
+        "artista": "CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. & Etienne de Crécy",
+        "faixa": "Sexy Magic"
+      },
+      {
+        "artista": "Justice (feat. Tame Impala, SZA, King Gizzard & The Lizard Wizard)",
+        "faixa": "Flower in a Hurricane"
+      },
+      {
+        "artista": "Morgan Wallen",
+        "faixa": "Last Thing You Need"
+      },
+      {
+        "artista": "Fuerza Regida",
+        "faixa": "Suzuki"
+      },
+      {
+        "artista": "Rauw Alejandro",
+        "faixa": "Macacoa 2000"
+      },
+      {
+        "artista": "Cardi B",
+        "faixa": "Don't Chart"
+      },
+      {
+        "artista": "Keith Richards",
+        "faixa": "Bright Lights, Big City"
+      }
+    ]
+  },
+  "score": {
+    "id": "original-score",
+    "titulo": "Grand Theft Auto VI: Original Score",
+    "compositor": "Justice (Gaspard Augé e Xavier de Rosnay)",
+    "descricao": "Trilha adaptativa da dupla francesa Justice, vencedora do Grammy, com composições que mudam conforme o jogador interage com o mundo. São 30 faixas mais bônus digitais, em streaming, CD duplo e vinil triplo.",
+    "data": "2026-12-11",
+    "status": "confirmado",
+    "fontes": [
+      "https://www.rockstargames.com/VI/music",
+      "https://www.rockstargames.com/newswire/article/39ak8a12395591",
+      "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/"
+    ],
+    "singles": [
+      {
+        "artista": "Justice (ft. Tame Impala, SZA, King Gizzard & The Lizard Wizard)",
+        "faixa": "Flower in a Hurricane"
+      },
+      {
+        "artista": "Justice (ft. Gesaffelstein)",
+        "faixa": "Pusher"
+      }
+    ]
+  },
+  "trailers": [
+    {
+      "id": "m-t1",
+      "titulo": "Trailer 1",
+      "artista": "Tom Petty",
+      "faixa": "Love Is a Long Road",
+      "descricao": "Faixa de 1989 do álbum Full Moon Fever.",
+      "status": "confirmado",
+      "data": "2023-12-04",
+      "fontes": [
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "https://www.tompetty.com/blogs/news/tom-petty-s-love-is-a-long-road-from-full-moon-fever-featured-in-trailer-1-of-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "m-t2",
+      "titulo": "Trailer 2",
+      "artista": "The Pointer Sisters",
+      "faixa": "Hot Together",
+      "descricao": "Canção dos anos 1980 que embala o segundo trailer.",
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.youtube.com/watch?v=VQRLujxTm3c",
+        "https://www.thefader.com/2025/05/06/grand-theft-auto-vi-new-trailer"
+      ]
+    },
+    {
+      "id": "m-el",
+      "titulo": "Extended Look",
+      "artista": "Vários (cerca de 14 faixas)",
+      "faixa": "Inclui Birdman & Lil Wayne, Sexyy Red, Kodak Black, Bellamy Brothers, Def Leppard, Phil Collins e Depeche Mode",
+      "descricao": "Lista montada pela imprensa. As fontes não batem totalmente entre si.",
+      "status": "reportado",
+      "data": "2026-08-27",
+      "fontes": [
+        "https://www.nme.com/guides/gaming-guides/gta-6-soundtrack-3967286",
+        "https://gamingbolt.com/grand-theft-auto-6-extended-looks-song-choices-revealed"
+      ]
+    },
+    {
+      "id": "m-launch",
+      "titulo": "Trailer de lançamento",
+      "artista": "Justice (ft. Tame Impala, SZA, King Gizzard & The Lizard Wizard)",
+      "faixa": "Flower in a Hurricane",
+      "descricao": "Primeira faixa revelada da trilha original.",
+      "status": "confirmado",
+      "data": "2026-10-15",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/517572321a549a",
+        "https://www.rockstargames.com/VI/launch-trailer"
+      ]
+    }
+  ]
+}

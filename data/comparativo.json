@@ -1,0 +1,103 @@
+{
+  "itens": [
+    {
+      "id": "c-lancamento",
+      "aspecto": "Lançamento",
+      "classico": "Outubro de 2002 (PS2, América do Norte); PC e Xbox vieram depois",
+      "novo": "19 de novembro de 2026 (PS5 e Xbox Series X|S)",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "c-epoca",
+      "aspecto": "Época da história",
+      "classico": "1986, em plena estética dos anos 80",
+      "novo": "Dias atuais: a PlayStation fala em “Vice City moderna”, e os trailers satirizam redes sociais e vídeos virais",
+      "status": "confirmado",
+      "data": "2026",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+        "https://www.playstation.com/GTAVIfeatures/",
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+      ]
+    },
+    {
+      "id": "c-protagonistas",
+      "aspecto": "Protagonistas",
+      "classico": "Tommy Vercetti, mafioso recém-saído da prisão, com voz de Ray Liotta",
+      "novo": "Jason Duval e Lucia Caminos, um casal jogável; Lucia também acabou de sair da prisão",
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ]
+    },
+    {
+      "id": "c-escopo",
+      "aspecto": "Tamanho do mundo",
+      "classico": "Uma cidade: Vice City, inspirada em Miami",
+      "novo": "Um estado inteiro: Leonida, com Vice City e mais cinco regiões (Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga)",
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "c-radio",
+      "aspecto": "Rádio",
+      "classico": "Estações com hits dos anos 80, incluindo a Flash FM (pop)",
+      "novo": "Flash FM de volta, agora com pop atual, ao lado de Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber e Dirty South Classics",
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Flash_FM",
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "c-homenagem",
+      "aspecto": "O que voltou",
+      "classico": "Neon, praias, carros clássicos e o clima de Miami Vice",
+      "novo": "Vice City volta como cidade principal, e o bônus Vintage Vice City Pack traz um sedã ’55 Vapid Stanier, roupas e penteados retrô “de quando o neon brilhava mais forte”",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ]
+    },
+    {
+      "id": "c-online",
+      "aspecto": "Multijogador",
+      "classico": "Não tinha modo online",
+      "novo": "Lançamento single-player. O online foi reportado para 2027, sem anúncio oficial",
+      "status": "reportado",
+      "data": "2026",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://beebom.com/rockstar-has-gta-6-online-mode-planned-for-2027/"
+      ]
+    },
+    {
+      "id": "c-musica-original",
+      "aspecto": "Trilha original",
+      "classico": "Trilha baseada principalmente em músicas licenciadas nas rádios",
+      "novo": "Trilha adaptativa composta pelo Justice, além de um álbum com 34 faixas inéditas",
+      "status": "confirmado",
+      "data": "2026-10-29",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+        "https://www.rockstargames.com/VI/music"
+      ]
+    }
+  ]
+}

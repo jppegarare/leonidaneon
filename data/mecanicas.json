@@ -1,0 +1,445 @@
+{
+  "categorias": [
+    "Protagonistas",
+    "Combate e crime",
+    "Polícia",
+    "Mundo e atividades",
+    "Veículos e customização",
+    "Música e mídia",
+    "Plataforma e técnica",
+    "Modo online"
+  ],
+  "itens": [
+    {
+      "id": "dois-protagonistas",
+      "titulo": "Dois protagonistas jogáveis",
+      "categoria": "Protagonistas",
+      "descricao": "A história acompanha Jason e Lucia, um casal que precisa contar um com o outro para sobreviver a uma conspiração que atravessa Leonida.",
+      "status": "confirmado",
+      "data": "2023-12-04",
+      "fontes": [
+        "https://www.rockstargames.com/VI",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025"
+      ]
+    },
+    {
+      "id": "troca-personagem",
+      "titulo": "Troca entre Jason e Lucia",
+      "categoria": "Protagonistas",
+      "descricao": "O Extended Look mostra o jogador alternando entre os dois, inclusive no meio de missões e tiroteios.",
+      "status": "confirmado",
+      "data": "2026-08-27",
+      "fontes": [
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+        "https://www.techradar.com/gaming/ps5/16-new-gta-6-details-we-learned-from-the-big-extended-look-gameplay-video-captured-in-game-on-a-ps5",
+        "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+      ]
+    },
+    {
+      "id": "por-que-dois",
+      "titulo": "Por que dois (e não quatro) protagonistas",
+      "categoria": "Protagonistas",
+      "descricao": "Rob Nelson, da Rockstar, teria dito à Famitsu que a equipe chegou a considerar quatro protagonistas, mas ficou com dois para não diluir o apego do jogador aos personagens.",
+      "status": "reportado",
+      "data": "2026-09",
+      "fontes": [
+        "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+      ]
+    },
+    {
+      "id": "single-player",
+      "titulo": "Experiência single-player no lançamento",
+      "categoria": "Protagonistas",
+      "descricao": "O comunicado oficial descreve GTA VI como uma experiência para um jogador, e a página da PlayStation lista “1 jogador” e jogo offline habilitado.",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "assaltos-dupla",
+      "titulo": "Assaltos em dupla",
+      "categoria": "Combate e crime",
+      "descricao": "Jason e Lucia aparecem assaltando lojas juntos já no Trailer 1. A dupla criminosa é o centro da história.",
+      "status": "confirmado",
+      "data": "2023-12-04",
+      "fontes": [
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "https://www.rockstargames.com/VI"
+      ]
+    },
+    {
+      "id": "roubo-furtivo",
+      "titulo": "Roubos com furtividade",
+      "categoria": "Combate e crime",
+      "descricao": "Na entrevista à Famitsu, segundo traduções de fãs, foi dito que desativar câmeras e alarmes permite roubar uma loja sem acionar a polícia, sozinho ou com o parceiro.",
+      "status": "reportado",
+      "data": "2026-09",
+      "fontes": [
+        "https://www.gtavice.net/news/famitsu-reveals-gta-6-gameplay-details-garages-pay-and-spray-weapons-robberies-and-more"
+      ]
+    },
+    {
+      "id": "tiro-cobertura",
+      "titulo": "Tiroteio com cobertura refinado",
+      "categoria": "Combate e crime",
+      "descricao": "Análises do Extended Look destacam combate em terceira pessoa com cobertura e um marcador diferente para inimigo incapacitado e inimigo morto.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+        "https://www.techradar.com/gaming/ps5/16-new-gta-6-details-we-learned-from-the-big-extended-look-gameplay-video-captured-in-game-on-a-ps5"
+      ]
+    },
+    {
+      "id": "mira-lenta",
+      "titulo": "Mira em câmera lenta",
+      "categoria": "Combate e crime",
+      "descricao": "Parte da imprensa identificou no Extended Look um modo de mira em câmera lenta que lembra o Dead Eye de Red Dead Redemption 2. A Rockstar não explicou o recurso.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed"
+      ]
+    },
+    {
+      "id": "limite-armas",
+      "titulo": "Limite de armas carregadas",
+      "categoria": "Combate e crime",
+      "descricao": "Análises do vídeo sugerem que o personagem não carrega um arsenal inteiro de uma vez. Não há explicação oficial de como o inventário funciona.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed"
+      ]
+    },
+    {
+      "id": "qte",
+      "titulo": "Quick-time events em brigas",
+      "categoria": "Combate e crime",
+      "descricao": "Uma luta do Extended Look parece usar comandos rápidos na tela, segundo análises.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed"
+      ]
+    },
+    {
+      "id": "pedestres-arma",
+      "titulo": "Pedestres reagem à arma na mão",
+      "categoria": "Combate e crime",
+      "descricao": "Segundo a entrevista de Rob Nelson à Famitsu (via tradução de fãs), NPCs reagem de forma diferente quando a arma está sacada ou guardada.",
+      "status": "reportado",
+      "data": "2026-09",
+      "fontes": [
+        "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+      ]
+    },
+    {
+      "id": "estrelas-acao",
+      "titulo": "Nível de procurado definido por ação",
+      "categoria": "Polícia",
+      "descricao": "Segundo a entrevista à Famitsu (via tradução), as estrelas não sobem automaticamente: a Rockstar define quanto vale cada ação, com a ideia de não punir quem joga “mal”.",
+      "status": "reportado",
+      "data": "2026-09",
+      "fontes": [
+        "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+      ]
+    },
+    {
+      "id": "seis-estrelas",
+      "titulo": "Sistema de procurado com estrelas",
+      "categoria": "Polícia",
+      "descricao": "O sistema de estrelas de procurado aparece no Extended Look. Análises falam em até seis estrelas, número que a Rockstar não detalhou em texto.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+        "https://www.techradar.com/gaming/ps5/16-new-gta-6-details-we-learned-from-the-big-extended-look-gameplay-video-captured-in-game-on-a-ps5"
+      ]
+    },
+    {
+      "id": "fuga-pneus",
+      "titulo": "Atirar nos pneus para fugir",
+      "categoria": "Polícia",
+      "descricao": "Análises do Extended Look apontam que atingir os pneus das viaturas é uma forma eficaz de despistar perseguições.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed"
+      ]
+    },
+    {
+      "id": "atividades-bayside",
+      "titulo": "Atividades paralelas",
+      "categoria": "Mundo e atividades",
+      "descricao": "O Extended Look mostra uma série de atividades: basquete, mergulho, academia, jet ski, caiaque, fliperama, corridas, clube de striptease e motos de trilha.",
+      "status": "confirmado",
+      "data": "2026-08-27",
+      "fontes": [
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+        "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+      ]
+    },
+    {
+      "id": "academia",
+      "titulo": "Academia",
+      "categoria": "Mundo e atividades",
+      "descricao": "Lucia aparece treinando supino com comandos cronometrados. Segundo a entrevista à Famitsu, o treino é uma atividade controlada pelo jogador.",
+      "status": "reportado",
+      "data": "2026-08-27",
+      "fontes": [
+        "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html",
+        "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+      ]
+    },
+    {
+      "id": "pesca",
+      "titulo": "Pesca",
+      "categoria": "Mundo e atividades",
+      "descricao": "Há uma cena de pescaria com Cal no Extended Look, e o texto oficial de Mount Kalaga promete áreas de pesca.",
+      "status": "confirmado",
+      "data": "2026-08-27",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi",
+        "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+      ]
+    },
+    {
+      "id": "caca-offroad",
+      "titulo": "Caça e trilhas off-road",
+      "categoria": "Mundo e atividades",
+      "descricao": "A descrição oficial do Parque Nacional Mount Kalaga menciona caça, pesca e trilhas off-road.",
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "base-jump",
+      "titulo": "Salto de base jump",
+      "categoria": "Mundo e atividades",
+      "descricao": "Saltos de paraquedas a partir de arranha-céus aparecem no Extended Look, segundo análises.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+        "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+      ]
+    },
+    {
+      "id": "interacao-npc",
+      "titulo": "Interação com NPCs e animais",
+      "categoria": "Mundo e atividades",
+      "descricao": "Análises apontam um menu de interação com pessoas e até a opção de fazer carinho em cachorros.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
+        "https://gamerant.com/gta-6-extended-look-details-you-missed/"
+      ]
+    },
+    {
+      "id": "destruicao",
+      "titulo": "Destruição de cenário",
+      "categoria": "Mundo e atividades",
+      "descricao": "Vidros e objetos se quebram durante os tiroteios do Extended Look, mudando a visibilidade dentro dos ambientes.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed"
+      ]
+    },
+    {
+      "id": "redes-sociais",
+      "titulo": "Redes sociais e transmissões dentro do jogo",
+      "categoria": "Mundo e atividades",
+      "descricao": "Os trailers satirizam vídeos virais e lives. No Extended Look, um influenciador transmite uma perseguição de dentro do porta-malas de um carro.",
+      "status": "confirmado",
+      "data": "2023-12-04",
+      "fontes": [
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+        "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+      ]
+    },
+    {
+      "id": "fauna",
+      "titulo": "Fauna de Leonida",
+      "categoria": "Mundo e atividades",
+      "descricao": "Jacarés aparecem em vários materiais oficiais. Há um até na arte de capa e outro dentro de uma loja de conveniência no Trailer 1.",
+      "status": "confirmado",
+      "data": "2023-12-04",
+      "fontes": [
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "https://www.gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi",
+        "https://gameinformer.com/2026/06/18/grand-theft-auto-vi-pre-order-date-and-cover-art-revealed"
+      ]
+    },
+    {
+      "id": "direcao",
+      "titulo": "Direção mais dinâmica",
+      "categoria": "Veículos e customização",
+      "descricao": "Quem analisou o Extended Look viu um comportamento de direção mais dinâmico que o de GTA V. É uma impressão da imprensa, não um dado oficial.",
+      "status": "reportado",
+      "data": "2026-08-28",
+      "fontes": [
+        "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed"
+      ]
+    },
+    {
+      "id": "garagens-pintura",
+      "titulo": "Garagens e pintura de carros",
+      "categoria": "Veículos e customização",
+      "descricao": "Detalhes atribuídos à entrevista da Famitsu citam garagens e oficinas de pintura no estilo Pay 'n' Spray.",
+      "status": "reportado",
+      "data": "2026-09",
+      "fontes": [
+        "https://www.gtavice.net/news/famitsu-reveals-gta-6-gameplay-details-garages-pay-and-spray-weapons-robberies-and-more"
+      ]
+    },
+    {
+      "id": "oficinas-ultimate",
+      "titulo": "Oficinas e lojas exclusivas da Ultimate",
+      "categoria": "Veículos e customização",
+      "descricao": "A Edição Ultimate lista lojas e oficinas exclusivas como Rideout Customs, One-Eyed Willie's Mod Shop, Sara's Unisex Salon, Stock 305 e o estúdio de tatuagem Electric Fang.",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ]
+    },
+    {
+      "id": "radios",
+      "titulo": "Rádios com apresentadores famosos",
+      "categoria": "Música e mídia",
+      "descricao": "Seis estações foram reveladas, e a Rockstar promete a maior e mais variada seleção de rádios e podcasts da série.",
+      "status": "confirmado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "podcasts",
+      "titulo": "Podcasts sob demanda, inclusive a pé",
+      "categoria": "Música e mídia",
+      "descricao": "Segundo a cobertura do anúncio das rádios, os podcasts poderão ser ouvidos sob demanda até fora de veículos.",
+      "status": "reportado",
+      "data": "2026-10-08",
+      "fontes": [
+        "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/"
+      ]
+    },
+    {
+      "id": "trilha-adaptativa",
+      "titulo": "Trilha sonora adaptativa do Justice",
+      "categoria": "Música e mídia",
+      "descricao": "A trilha original é adaptativa: as composições se ajustam à forma como o jogador interage com o mundo ao longo da história.",
+      "status": "confirmado",
+      "data": "2026-10-29",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music",
+        "https://www.rockstargames.com/newswire/article/39ak8a12395591"
+      ]
+    },
+    {
+      "id": "plataformas",
+      "titulo": "PS5 e Xbox Series X|S",
+      "categoria": "Plataforma e técnica",
+      "descricao": "As únicas plataformas anunciadas. O jogo não roda no PS4, e a página da PlayStation lista o selo “PS5 Pro Enhanced”.",
+      "status": "confirmado",
+      "data": "2023-12-04",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "dualsense",
+      "titulo": "Recursos do DualSense e áudio 3D",
+      "categoria": "Plataforma e técnica",
+      "descricao": "No PS5, a Sony anuncia feedback tátil, gatilhos adaptáveis, alto-falante do controle, áudio 3D Tempest e carregamentos rápidos pelo SSD.",
+      "status": "confirmado",
+      "data": "2026",
+      "fontes": [
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "capturado-ps5",
+      "titulo": "Vídeos capturados no PS5",
+      "categoria": "Plataforma e técnica",
+      "descricao": "Segundo a Rockstar, o Trailer 2 e o Extended Look foram capturados no PlayStation 5.",
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.take2games.com/ir/news/adding-multimedia-rockstar-games-releases-trailer-2-grand-theft",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    },
+    {
+      "id": "idiomas",
+      "titulo": "Português do Brasil",
+      "categoria": "Plataforma e técnica",
+      "descricao": "A loja oficial lista português do Brasil entre os idiomas suportados, ao lado de outros 12.",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ]
+    },
+    {
+      "id": "pc",
+      "titulo": "Versão de PC",
+      "categoria": "Plataforma e técnica",
+      "descricao": "Não há versão de PC anunciada. O CEO da Take-Two disse que os jogadores de console são o público principal no lançamento, sem descartar o PC no futuro.",
+      "status": "reportado",
+      "data": "2026-05",
+      "fontes": [
+        "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+      ]
+    },
+    {
+      "id": "pc-2027",
+      "titulo": "PC no início de 2027?",
+      "categoria": "Plataforma e técnica",
+      "descricao": "Circula a especulação de que a versão de PC sairia antes do que o histórico da série sugere, talvez em 2027. Não há nada oficial.",
+      "status": "rumor",
+      "data": "2026",
+      "fontes": [
+        "https://www.dexerto.com/gta/gta-6-pc-release-window-sooner-than-expected-3133553"
+      ]
+    },
+    {
+      "id": "online-2027",
+      "titulo": "Modo online em 2027",
+      "categoria": "Modo online",
+      "descricao": "Jason Schreier (Bloomberg) relatou que a Rockstar planeja o componente online para 2027. A Rockstar não anunciou nome, data nem detalhes de um modo online para GTA VI.",
+      "status": "reportado",
+      "data": "2026",
+      "fontes": [
+        "https://beebom.com/rockstar-has-gta-6-online-mode-planned-for-2027/"
+      ]
+    },
+    {
+      "id": "gta-plus",
+      "titulo": "GTA+ incluso na pré-venda digital",
+      "categoria": "Modo online",
+      "descricao": "Pré-vendas digitais ganham um mês de GTA+, assinatura que hoje vale para GTA Online (de GTA V) e para a biblioteca de jogos clássicos da Rockstar.",
+      "status": "confirmado",
+      "data": "2026-06-24",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ]
+    }
+  ]
+}

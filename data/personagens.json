@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "id": "jason-duval",
+      "titulo": "Jason Duval",
+      "papel": "Protagonista jogável",
+      "cor": "ciano",
+      "descricao": "Cresceu cercado de golpistas e criminosos. Passou um tempo no Exército tentando deixar a adolescência problemática para trás e acabou nas Keys, fazendo o que sabe: trabalhar para traficantes locais. Quer uma vida tranquila, mas tudo só complica. Conhecer Lucia pode ser a melhor ou a pior coisa que já lhe aconteceu.",
+      "destaques": [
+        "Ex-militar",
+        "Mora de graça num imóvel de Brian Heder em troca de “serviços”",
+        "Um dos dois protagonistas jogáveis"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+      ],
+      "detalhes": []
+    },
+    {
+      "id": "lucia-caminos",
+      "titulo": "Lucia Caminos",
+      "papel": "Protagonista jogável",
+      "cor": "rosa",
+      "descricao": "Aprendeu a lutar com o pai assim que começou a andar. Brigar pela família a levou à Penitenciária de Leonida, e ela saiu por pura sorte. Agora promete só fazer jogadas inteligentes. Quer dar à mãe a vida boa com que as duas sonhavam desde os tempos de Liberty City, e vê em Jason uma possível saída.",
+      "destaques": [
+        "Acabou de sair da prisão",
+        "Família com passado em Liberty City",
+        "Abre o Trailer 1 numa cena na prisão"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+      ],
+      "detalhes": []
+    },
+    {
+      "id": "cal-hampton",
+      "titulo": "Cal Hampton",
+      "papel": "Amigo de Jason",
+      "cor": "amarelo",
+      "descricao": "Amigo de Jason e também associado de Brian. Se sente mais seguro em casa, com algumas cervejas, escutando as comunicações da Guarda Costeira e mergulhado em teorias da conspiração da internet. Está satisfeito com a vida que tem, mas Jason quer mais.",
+      "destaques": [
+        "Paranoico e conspiracionista",
+        "Escuta rádio da Guarda Costeira",
+        "Aparece pescando com Jason no Extended Look (segundo a imprensa)"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ],
+      "detalhes": [
+        {
+          "texto": "Cena de pescaria com Cal descrita em análises do Extended Look.",
+          "status": "reportado",
+          "fontes": [
+            "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boobie-ike",
+      "titulo": "Boobie Ike",
+      "papel": "Figura lendária de Vice City",
+      "cor": "roxo",
+      "descricao": "Uma lenda local de Vice City, e age como tal. É um dos poucos que transformaram o passado nas ruas num império legal: imóveis, um clube de striptease e um estúdio de gravação. Sorridente até a hora de falar de negócios. Sua grande aposta é a gravadora Only Raw Records, em sociedade com Dre'Quan.",
+      "destaques": [
+        "Perfil oficial cita o “Jack of Hearts”",
+        "Sócio da Only Raw Records",
+        "Aparece na arte de capa oficial (segundo a imprensa)"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ],
+      "detalhes": [
+        {
+          "texto": "Está entre os personagens da arte de capa revelada em 18/06/2026.",
+          "status": "reportado",
+          "fontes": [
+            "https://gameinformer.com/2026/06/18/grand-theft-auto-vi-pre-order-date-and-cover-art-revealed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drequan-priest",
+      "titulo": "Dre'Quan Priest",
+      "papel": "Aspirante a magnata da música",
+      "cor": "laranja",
+      "descricao": "Sempre foi mais malandro do que gângster: mesmo quando vendia nas ruas para pagar as contas, o objetivo era entrar no mundo da música. Comanda a Only Raw Records com Boobie e acabou de contratar a dupla Real Dimez, de olho na cena musical de Vice City.",
+      "destaques": [
+        "Only Raw Records",
+        "Agenciava atrações no clube de Boobie",
+        "Contratou as Real Dimez"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ],
+      "detalhes": []
+    },
+    {
+      "id": "real-dimez",
+      "titulo": "Real Dimez (Bae-Luxe e Roxy)",
+      "papel": "Dupla de rap",
+      "cor": "rosa",
+      "descricao": "Bae-Luxe e Roxy são amigas desde o ensino médio. Transformaram em dinheiro o tempo que passavam extorquindo traficantes locais, com faixas de rap provocantes e presença incansável nas redes sociais. Fizeram sucesso cedo com um single ao lado do rapper DWNPLY e, cinco anos e muitos problemas depois, assinaram com a Only Raw Records.",
+      "destaques": [
+        "Vídeos e refrões virais",
+        "Hit antigo com o rapper DWNPLY",
+        "Contratadas pela Only Raw Records"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ],
+      "detalhes": []
+    },
+    {
+      "id": "raul-bautista",
+      "titulo": "Raul Bautista",
+      "papel": "Assaltante de bancos veterano",
+      "cor": "ciano",
+      "descricao": "Confiante, charmoso e astuto: um assaltante de bancos experiente sempre à procura de gente disposta a correr grandes riscos por grandes recompensas. Só que a imprudência dele aumenta a aposta a cada golpe, e a equipe vai ter de decidir se dobra a aposta ou sai da mesa.",
+      "destaques": [
+        "Recruta talentos para golpes",
+        "Cada vez mais imprudente",
+        "Aparece na arte de capa oficial (segundo a imprensa)"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ],
+      "detalhes": [
+        {
+          "texto": "Aparece ao lado de Jason e Lucia em sequências de ação do Extended Look.",
+          "status": "reportado",
+          "fontes": [
+            "https://www.gtaboss.gg/gta-6/guides/gta-6-extended-look-breakdown"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brian-heder",
+      "titulo": "Brian Heder",
+      "papel": "Contrabandista das antigas",
+      "cor": "amarelo",
+      "descricao": "Um traficante clássico da “era de ouro” do contrabando nas Keys. Ainda movimenta mercadoria pelo estaleiro que mantém com a terceira esposa, Lori, e já está na estrada há tempo suficiente para deixar o trabalho sujo com os outros. Deixa Jason morar de graça num de seus imóveis, desde que ele ajude nas “cobranças” locais.",
+      "destaques": [
+        "Estaleiro nas Leonida Keys",
+        "Casado com Lori (terceira esposa)",
+        "Patrão e senhorio de Jason"
+      ],
+      "status": "confirmado",
+      "data": "2025-05-06",
+      "fontes": [
+        "https://www.rockstargames.com/VI/only-in-leonida"
+      ],
+      "detalhes": [
+        {
+          "texto": "O ator Stephen Root disse participar do jogo, e veículos o associam ao papel de Brian. A Rockstar não divulgou elenco.",
+          "status": "rumor",
+          "fontes": [
+            "https://www.gtaboss.gg/gta-6/guides/gta-6-extended-look-breakdown"
+          ]
+        }
+      ]
+    }
+  ]
+}

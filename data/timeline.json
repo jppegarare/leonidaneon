@@ -1,0 +1,358 @@
+{
+  "itens": [
+    {
+      "id": "t-2022-dev",
+      "data": "2022-02-04",
+      "tipo": "anuncio",
+      "titulo": "Rockstar confirma o desenvolvimento",
+      "descricao": "Num post sobre GTA V, a Rockstar confirma que o desenvolvimento do próximo Grand Theft Auto está “bem encaminhado”, sem nome, imagens ou data.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.videogameschronicle.com/news/grand-theft-auto-6-development-is-well-underway-rockstar-says/"
+      ]
+    },
+    {
+      "id": "t-2022-leak",
+      "data": "2022-09-19",
+      "tipo": "vazamento",
+      "titulo": "Vazamento de vídeos de desenvolvimento",
+      "descricao": "Um invasor divulga dezenas de clipes de uma versão inicial do jogo. A Rockstar confirma a invasão da rede, diz estar “extremamente decepcionada” e afirma que o trabalho seguirá como planejado.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.pcgamer.com/take-two-cracks-down-on-leaked-grand-theft-auto-6-footage-as-rockstar-confirms-network-intrusion",
+        "https://gamesradar.com/rockstar-acknowledges-massive-gta-6-leak-we-are-extremely-disappointed"
+      ]
+    },
+    {
+      "id": "t-2023-anuncio",
+      "data": "2023-11-08",
+      "tipo": "anuncio",
+      "titulo": "Sam Houser marca o primeiro trailer",
+      "descricao": "O fundador da Rockstar anuncia que o primeiro trailer chegaria no início de dezembro, mês dos 25 anos do estúdio.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.gematsu.com/2023/11/grand-theft-auto-vi-first-trailer-to-be-released-in-early-december"
+      ]
+    },
+    {
+      "id": "t-2023-t1",
+      "data": "2023-12-04",
+      "tipo": "trailer",
+      "titulo": "Trailer 1",
+      "descricao": "Previsto para 5 de dezembro, o trailer foi publicado na noite de 4 de dezembro depois de vazar. Revela o nome Grand Theft Auto VI, Leonida, Vice City, a protagonista Lucia e a janela de lançamento “2025”. A música é “Love Is a Long Road”, de Tom Petty.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025",
+        "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "https://www.rockstargames.com/VI/launch-trailer",
+        "https://www.tompetty.com/blogs/news/tom-petty-s-love-is-a-long-road-from-full-moon-fever-featured-in-trailer-1-of-grand-theft-auto-vi"
+      ],
+      "video": "QdBZY2fkU-0",
+      "duracao": "1:31",
+      "extras": [
+        {
+          "texto": "Os streams da música de Tom Petty no Spotify subiram cerca de 37.000% na semana seguinte.",
+          "status": "reportado",
+          "fontes": [
+            "https://musictech.com/news/tom-petty-love-is-a-long-road-streams-gta-6/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-2024-fall",
+      "data": "2024-11-06",
+      "tipo": "negocios",
+      "titulo": "Take-Two cita “outono de 2025”",
+      "descricao": "No relatório trimestral, a Take-Two coloca GTA VI no outono (do hemisfério norte) de 2025.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-2"
+      ]
+    },
+    {
+      "id": "t-2025-adiamento1",
+      "data": "2025-05-02",
+      "tipo": "adiamento",
+      "titulo": "1º adiamento: 26 de maio de 2026",
+      "descricao": "A Rockstar adia o jogo do outono de 2025 para 26 de maio de 2026, dizendo precisar de tempo extra para entregar a qualidade esperada.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-to-2026/",
+        "https://www.take2games.com/ir/news/adding-multimedia-rockstar-games-releases-trailer-2-grand-theft"
+      ]
+    },
+    {
+      "id": "t-2025-t2",
+      "data": "2025-05-06",
+      "tipo": "trailer",
+      "titulo": "Trailer 2 e novo site",
+      "descricao": "Trailer de 2:47 capturado no PS5, ao som de “Hot Together”, das Pointer Sisters. No mesmo dia o site oficial ganha perfis de oito personagens (Real Dimez contam como dupla), as seis regiões de Leonida e dezenas de imagens.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/adding-multimedia-rockstar-games-releases-trailer-2-grand-theft",
+        "https://www.youtube.com/watch?v=VQRLujxTm3c",
+        "https://www.rockstargames.com/VI/launch-trailer",
+        "https://www.rockstargames.com/VI/only-in-leonida",
+        "https://www.thefader.com/2025/05/06/grand-theft-auto-vi-new-trailer",
+        "https://www.gameinformer.com/2025/05/06/rockstar-details-9-of-grand-theft-auto-vi-presumably-many-many-characters"
+      ],
+      "video": "VQRLujxTm3c",
+      "duracao": "2:47",
+      "extras": [
+        {
+          "texto": "A Rockstar disse ao Hollywood Reporter que o vídeo passou de 475 milhões de visualizações em 24 horas, somando todas as plataformas.",
+          "status": "reportado",
+          "fontes": [
+            "https://www.hollywoodreporter.com/business/business-news/gta-6-trailer-2-views-record-1236210396/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-2025-adiamento2",
+      "data": "2025-11-06",
+      "tipo": "adiamento",
+      "titulo": "2º adiamento: 19 de novembro de 2026",
+      "descricao": "No relatório trimestral da Take-Two, e em comunicado da Rockstar, o lançamento passa para 19/11/2026. A justificativa é ter meses extras para polir o jogo.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-3",
+        "https://www.pcgamer.com/games/action/grand-theft-auto-6-is-delayed-to-november-these-extra-months-will-allow-us-to-finish-the-game-with-the-level-of-polish-you-have-come-to-expect-and-deserve"
+      ]
+    },
+    {
+      "id": "t-2026-maio",
+      "data": "2026-05",
+      "tipo": "negocios",
+      "titulo": "Take-Two reafirma a data",
+      "descricao": "Strauss Zelnick, CEO da Take-Two, reafirma 19 de novembro e diz que preço e pré-venda viriam com o marketing do verão.",
+      "status": "reportado",
+      "fontes": [
+        "https://www.techradar.com/gaming/gta-6-is-locked-in-for-november-19-2026-according-to-take-two-interactive-despite-delay-rumors-and-marketing-starts-soon"
+      ]
+    },
+    {
+      "id": "t-2026-capa",
+      "data": "2026-06-18",
+      "tipo": "marketing",
+      "titulo": "Arte de capa e data da pré-venda",
+      "descricao": "A Rockstar revela a arte de capa oficial e anuncia a abertura da pré-venda para 25 de junho.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.youtube.com/watch?v=EiQEBYDox_k",
+        "https://gameinformer.com/2026/06/18/grand-theft-auto-vi-pre-order-date-and-cover-art-revealed"
+      ],
+      "link": "https://www.youtube.com/watch?v=EiQEBYDox_k"
+    },
+    {
+      "id": "t-2026-preorder",
+      "data": "2026-06-25",
+      "tipo": "marketing",
+      "titulo": "Pré-venda aberta",
+      "descricao": "A pré-venda abre à meia-noite local de 25/06 (anúncio em 24/06): Standard por US$ 79,99 e Ultimate por US$ 99,99. A versão física é um código dentro da caixa, sem disco. O pré-download fica marcado para 12/11.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi",
+        "https://www.tecmundo.com.br/voxel/504667-pre-venda-de-gta-6-esta-oficialmente-aberta-no-brasil-veja-os-precos-em-reais.htm"
+      ]
+    },
+    {
+      "id": "t-2026-el-anuncio",
+      "data": "2026-08-06",
+      "tipo": "marketing",
+      "titulo": "Extended Look anunciado com a Netflix",
+      "descricao": "A Rockstar anuncia uma apresentação estendida com estreia na Netflix, numa parceria inédita, e liberação no YouTube no mesmo dia.",
+      "status": "confirmado",
+      "fontes": [
+        "https://gameinformer.com/2026/08/06/grand-theft-auto-vi-is-getting-an-extended-look-on-netflix-august-27",
+        "https://www.youtube.com/watch?v=qq76pQsI1iw",
+        "https://x.com/RockstarGames/status/2085335127287030232"
+      ],
+      "link": "https://www.youtube.com/watch?v=qq76pQsI1iw"
+    },
+    {
+      "id": "t-2026-t1fy27",
+      "data": "2026-08-07",
+      "tipo": "negocios",
+      "titulo": "Take-Two reitera 19 de novembro",
+      "descricao": "O relatório do 1º trimestre fiscal de 2027 cita o lançamento de GTA VI em 19 de novembro e mantém as projeções do ano.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-first-6"
+      ]
+    },
+    {
+      "id": "t-2026-el",
+      "data": "2026-08-27",
+      "tipo": "trailer",
+      "titulo": "Grand Theft Auto VI: An Extended Look",
+      "descricao": "Vídeo de 26:48 com jogabilidade capturada no PS5. Estreou na Netflix às 15h (horário de Nova York) e chegou ao YouTube e ao site oficial às 21h do mesmo dia.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+        "https://www.rockstargames.com/VI/launch-trailer",
+        "https://gameinformer.com/2026/08/06/grand-theft-auto-vi-is-getting-an-extended-look-on-netflix-august-27",
+        "https://www.playstation.com/GTAVIfeatures/"
+      ],
+      "video": "tJbzMqJGH4k",
+      "duracao": "26:48",
+      "extras": [
+        {
+          "texto": "Teve cerca de 31,1 milhões de visualizações na Netflix nos primeiros dias.",
+          "status": "reportado",
+          "fontes": [
+            "https://www.iphoneincanada.ca/2026/09/02/grand-theft-auto-vi-extended-look-garnered-31-1-million-views-on-netflix-since-premiere/"
+          ]
+        },
+        {
+          "texto": "A Rockstar não chamou o vídeo de “Trailer 3”.",
+          "status": "reportado",
+          "fontes": [
+            "https://www.gtaboss.gg/gta-6/guides/gta-6-extended-look-breakdown"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-2026-famitsu",
+      "data": "2026-09",
+      "tipo": "entrevista",
+      "titulo": "Entrevista de Rob Nelson à Famitsu",
+      "descricao": "Rob Nelson, da Rockstar, fala à revista japonesa sobre o sistema de procurado, os roubos e a escolha de dois protagonistas. Os detalhes circulam por traduções de fãs, e a data exata varia entre as fontes.",
+      "status": "reportado",
+      "fontes": [
+        "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+      ]
+    },
+    {
+      "id": "t-2026-album",
+      "data": "2026-09",
+      "tipo": "musica",
+      "titulo": "Anunciado o álbum “Grand Theft Auto VI: The Album”",
+      "descricao": "Disco com 34 faixas originais e lançamento junto com o jogo, com nomes como Travis Scott, Morgan Wallen, Cardi B e Keith Richards.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music",
+        "https://consequence.net/2026/09/grand-theft-auto-vi-announces-soundtrack-album/"
+      ]
+    },
+    {
+      "id": "t-2026-colecionador",
+      "data": "2026-09",
+      "tipo": "marketing",
+      "titulo": "Caixa de colecionador “The Vice City Collection”",
+      "descricao": "A Rockstar Store abre a pré-venda de uma caixa de itens colecionáveis que não inclui o jogo. A imprensa informa o preço de US$ 399,99.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI",
+        "https://www.gematsu.com/2026/09/grand-theft-auto-vi-the-goodtime-state-vice-city-collection-collectible-set-announced"
+      ]
+    },
+    {
+      "id": "t-2026-radios",
+      "data": "2026-10-08",
+      "tipo": "musica",
+      "titulo": "Seis rádios reveladas",
+      "descricao": "Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber, Flash FM e Dirty South Classics ganham prévias no site oficial. No mesmo dia, a Rockstar Store lança a coleção de produtos de GTA VI.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music",
+        "https://www.rockstargames.com/newswire/article/759875393o5253",
+        "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/"
+      ]
+    },
+    {
+      "id": "t-2026-launch",
+      "data": "2026-10-15",
+      "tipo": "trailer",
+      "titulo": "Trailer de lançamento",
+      "descricao": "Estreia de “Flower in a Hurricane”, do Justice com Tame Impala, SZA e King Gizzard & The Lizard Wizard. O foco é Jason, Lucia e a conspiração que une os dois.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/517572321a549a",
+        "https://www.youtube.com/watch?v=rz1B4B2yBZY",
+        "https://www.rockstargames.com/VI/launch-trailer",
+        "https://variety.com/2026/music/news/gta-vi-trailer-justice-original-score-song-sza-tame-impala-1236913120/"
+      ],
+      "video": "rz1B4B2yBZY"
+    },
+    {
+      "id": "t-2026-score",
+      "data": "2026-10-29",
+      "tipo": "musica",
+      "titulo": "Trilha original do Justice anunciada",
+      "descricao": "Álbum com 30 faixas e bônus digitais, previsto para 11 de dezembro em streaming, CD e vinil. O single “Pusher” tem participação de Gesaffelstein.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/39ak8a12395591",
+        "https://www.rockstargames.com/VI/music",
+        "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/"
+      ]
+    },
+    {
+      "id": "t-2026-ainda-nao-gold",
+      "data": "2026-10",
+      "tipo": "negocios",
+      "titulo": "Ainda não “gold”",
+      "descricao": "Segundo reportagem com base na Bloomberg, o jogo ainda passava por ajustes finais em outubro. Boatos de novo adiamento para 2027 não têm confirmação, e a data oficial segue 19/11.",
+      "status": "reportado",
+      "fontes": [
+        "https://notebookcheck.net/GTA-VI-not-yet-gold-Rockstar-explains-the-final-push-before-launch.1426418.0.html",
+        "https://www.ibtimes.co.uk/gta-6-release-date-2027-delay-claims-unconfirmed-1828314"
+      ]
+    },
+    {
+      "id": "t-2026-resultados",
+      "data": "2026-11-09",
+      "tipo": "negocios",
+      "titulo": "Resultados da Take-Two (previsto)",
+      "descricao": "Divulgação dos resultados do 2º trimestre fiscal de 2027, última atualização a investidores antes do lançamento.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
+      ],
+      "futuro": true
+    },
+    {
+      "id": "t-2026-preload",
+      "data": "2026-11-12",
+      "tipo": "lancamento",
+      "titulo": "Pré-download e entrega das cópias físicas",
+      "descricao": "Quem comprou a versão digital pode começar o pré-download. As caixas com código chegam a partir do mesmo dia.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ],
+      "futuro": true
+    },
+    {
+      "id": "t-2026-lancamento",
+      "data": "2026-11-19",
+      "tipo": "lancamento",
+      "titulo": "Lançamento de GTA VI",
+      "descricao": "Chegada ao PS5 e ao Xbox Series X|S. Compras feitas até 19/11 (antes de 20/11) levam o Vintage Vice City Pack.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
+        "https://www.rockstargames.com/VI",
+        "https://store.rockstargames.com/game/buy-gta-vi"
+      ],
+      "futuro": true
+    },
+    {
+      "id": "t-2026-score-lanc",
+      "data": "2026-12-11",
+      "tipo": "musica",
+      "titulo": "Lançamento da trilha original do Justice",
+      "descricao": "O álbum chega a todas as plataformas de streaming, em CD e em vinil.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/VI/music"
+      ],
+      "futuro": true
+    }
+  ]
+}
