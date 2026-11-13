@@ -12,7 +12,7 @@ export default function Hero() {
           <span>Tudo sobre</span> GTA VI
         </h1>
         <p className="hero-texto">
-          O que já se sabe sobre Grand Theft Auto VI até {formatarData('2026-10-31', true)}, com status e fonte em cada informação.
+          O que já se sabe sobre Grand Theft Auto VI até {formatarData('2026-11-13', true)}, com status e fonte em cada informação.
         </p>
         <div className="hero-rodape">
           <p className="hero-data">

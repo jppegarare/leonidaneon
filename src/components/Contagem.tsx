@@ -29,7 +29,7 @@ function Digito({ valor, rotulo }: { valor: number; rotulo: string }) {
   );
 }
 
-function Relogio({ titulo, iso, valor, cor }: { titulo: string; iso: string; valor: string; cor: 'rosa' | 'ciano' }) {
+function Relogio({ titulo, iso, valor, cor, fim }: { titulo: string; iso: string; valor: string; cor: 'rosa' | 'ciano'; fim: string }) {
   const alvo = alvoLocal(iso).getTime();
   const [agora, setAgora] = useState(() => Date.now());
   useEffect(() => {
@@ -44,7 +44,7 @@ function Relogio({ titulo, iso, valor, cor }: { titulo: string; iso: string; val
       <h3 className="contador-titulo">{titulo}</h3>
       <p className="contador-data">{valor}</p>
       {acabou ? (
-        <p className="contador-fim" role="status">Chegou o dia! 🌴</p>
+        <p className="contador-fim" role="status">{fim}</p>
       ) : (
         <>
           <div className="contador-digitos" aria-hidden="true">
@@ -72,11 +72,11 @@ export default function Contagem() {
       id="contagem"
       rotulo="Falta pouco" fundo="vice-city-01"
       titulo="Contagem regressiva"
-      subtitulo="Até o pré-download e até o lançamento, contados até a meia-noite no seu fuso horário."
+      subtitulo="Contados até a meia-noite no seu fuso horário. O pré-download já foi liberado."
     >
       <div className="contadores">
-        <Relogio titulo="Pré-download" iso={info.preload.iso} valor={info.preload.valor} cor="ciano" />
-        <Relogio titulo="Lançamento" iso={info.lancamento.iso} valor={info.lancamento.valor} cor="rosa" />
+        <Relogio titulo="Pré-download" iso={info.preload.iso} valor={info.preload.valor} cor="ciano" fim="Liberado! Já dá para baixar." />
+        <Relogio titulo="Lançamento" iso={info.lancamento.iso} valor={info.lancamento.valor} cor="rosa" fim="Chegou o dia! Bem-vindo a Leonida." />
       </div>
       <div className="contador-notas">
         <p>

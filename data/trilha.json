@@ -213,7 +213,8 @@
     "status": "confirmado",
     "fontes": [
       "https://www.rockstargames.com/VI/music",
-      "https://consequence.net/2026/09/grand-theft-auto-vi-announces-soundtrack-album/"
+      "https://consequence.net/2026/09/grand-theft-auto-vi-announces-soundtrack-album/",
+      "https://www.rockstargames.com/newswire/article/89834o94713o21"
     ],
     "singles": [
       {
@@ -247,6 +248,10 @@
       {
         "artista": "Cardi B",
         "faixa": "Don't Chart"
+      },
+      {
+        "artista": "Tove Lo",
+        "faixa": "Blood In Your Eyes"
       },
       {
         "artista": "Keith Richards",
@@ -328,6 +333,19 @@
       "fontes": [
         "https://www.rockstargames.com/newswire/article/517572321a549a",
         "https://www.rockstargames.com/VI/launch-trailer"
+      ]
+    },
+    {
+      "id": "m-preload",
+      "titulo": "Vídeo do pré-download",
+      "artista": "Tove Lo",
+      "faixa": "Blood In Your Eyes",
+      "descricao": "Single de Grand Theft Auto VI: The Album usado no vídeo de 10/11.",
+      "status": "confirmado",
+      "data": "2026-11-10",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/89834o94713o21",
+        "https://www.youtube.com/watch?v=_yl5ELcmugI"
       ]
     }
   ]

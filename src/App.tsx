@@ -176,7 +176,7 @@ export default function App() {
           usadas com crédito. Logotipos e fontes oficiais não são usados. Vídeos oficiais aparecem apenas pelo player do YouTube.
         </p>
         <p>
-          Informações atualizadas até {formatarData('2026-10-31', true)}. Veja a página de <a href="#/fontes">Fontes e metodologia</a>.
+          Informações atualizadas até {formatarData('2026-11-13', true)}. Veja a página de <a href="#/fontes">Fontes e metodologia</a>.
           Fontes tipográficas livres: Big Shoulders Display e Outfit (SIL Open Font License).
         </p>
       </footer>

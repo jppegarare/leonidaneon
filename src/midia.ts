@@ -48,6 +48,7 @@ export const fotosRegioes: Record<string, string[]> = {
 
 /** Capa de cada vídeo oficial (por ID do YouTube). */
 export const capasVideos: Record<string, string> = {
+  _yl5ELcmugI: 'vice-city-27',
   rz1B4B2yBZY: 'jason-and-lucia-06',
   tJbzMqJGH4k: 'jason-and-lucia-02',
   VQRLujxTm3c: 'jason-and-lucia-04',

@@ -116,12 +116,12 @@ async function testar(nome, viewport) {
 
   // Vídeos
   const cartoesVideo = page.locator('.cartao-video');
-  ok(`[${nome}] vídeos: 4 cartões`, (await cartoesVideo.count()) === 4);
-  await cartoesVideo.nth(3).click();
+  ok(`[${nome}] vídeos: 5 cartões`, (await cartoesVideo.count()) === 5);
+  await cartoesVideo.nth(4).click();
   await page.waitForTimeout(150);
   const srcT1 = await page.locator('.palco iframe').getAttribute('src');
   ok(`[${nome}] vídeos: player oficial carrega o Trailer 1`, /youtube-nocookie\.com\/embed\/QdBZY2fkU-0/.test(srcT1 || ''), srcT1);
-  await cartoesVideo.nth(0).click();
+  await cartoesVideo.nth(1).click();
   await page.waitForTimeout(150);
   const srcL = await page.locator('.palco iframe').getAttribute('src');
   ok(`[${nome}] vídeos: troca para o trailer de lançamento`, /rz1B4B2yBZY/.test(srcL || ''), srcL);
@@ -129,7 +129,7 @@ async function testar(nome, viewport) {
   // Galeria
   await page.locator('#galeria').scrollIntoViewIfNeeded();
   const textoContagem = await page.locator('#galeria .resultado-contagem').textContent();
-  ok(`[${nome}] galeria: 211 imagens no total`, /211/.test(textoContagem), textoContagem);
+  ok(`[${nome}] galeria: 250 imagens no total`, /250/.test(textoContagem), textoContagem);
   ok(`[${nome}] galeria: mostra 24 por vez`, (await page.locator('.miniatura-galeria').count()) === 24);
   await page.locator('#galeria .galeria-mais .botao').click();
   ok(`[${nome}] galeria: "Mostrar mais" carrega mais imagens`, (await page.locator('.miniatura-galeria').count()) === 72);
@@ -265,7 +265,7 @@ async function testar(nome, viewport) {
   // Página de fontes
   await page.goto(URL_BASE + '#/fontes', { waitUntil: 'networkidle' });
   const nFontes = await page.locator('.lista-fontes li').count();
-  ok(`[${nome}] página de fontes lista tudo`, nFontes === 71, `${nFontes}`);
+  ok(`[${nome}] página de fontes lista tudo`, nFontes === 79, `${nFontes}`);
   ok(`[${nome}] fontes: aviso no topo e rodapé`, (await page.locator('.faixa-aviso').count()) === 1 && (await page.locator('.rodape-aviso').count()) === 1);
   await page.screenshot({ path: path.join(SAIDA, `${nome}-fontes.png`) });
   const overflowF = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);

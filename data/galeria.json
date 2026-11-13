@@ -1,7 +1,7 @@
 {
  "credito": "Rockstar Games",
  "fonte": "https://www.rockstargames.com/VI/media",
- "aviso": "Capturas, artes e vídeos oficiais distribuídos pela Rockstar Games na página de mídia do GTA VI. Os quadros dos trailers foram tirados dos vídeos oficiais dessa mesma página. Tudo com crédito, num site de fã não oficial.",
+ "aviso": "Capturas, artes e vídeos oficiais distribuídos pela Rockstar Games na página de mídia do GTA VI e na Launch Gallery. Os quadros dos trailers foram tirados dos vídeos oficiais dessa mesma página. Tudo com crédito, num site de fã não oficial.",
  "categorias": [
   "Personagens",
   "Lugares",
@@ -82,6 +82,78 @@
    "alt": "Captura oficial de GTA VI: Jason Duval, imagem 10"
   },
   {
+   "chave": "jason-duval-11",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 11",
+   "grupo": "Jason Duval",
+   "alt": "Jason numa moto esportiva fugindo de viaturas à noite",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-12",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 12",
+   "grupo": "Jason Duval",
+   "alt": "Jason de camiseta branca apontando uma pistola",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-13",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 13",
+   "grupo": "Jason Duval",
+   "alt": "Jason numa moto num estacionamento iluminado, cercado de motoqueiros",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-14",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 14",
+   "grupo": "Jason Duval",
+   "alt": "Jason encarando dois homens armados ao lado de uma picape ao entardecer",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-15",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 15",
+   "grupo": "Jason Duval",
+   "alt": "Jason fazendo agachamento com barra na academia",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-16",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 16",
+   "grupo": "Jason Duval",
+   "alt": "Jason atirando com um fuzil em meio a faíscas",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-17",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 17",
+   "grupo": "Jason Duval",
+   "alt": "Jason com um fuzil apoiado num carro, com helicópteros ao fundo",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-18",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 18",
+   "grupo": "Jason Duval",
+   "alt": "Jason de boné ao lado de um carro com o vidro estilhaçado, à noite",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-duval-19",
+   "categoria": "Personagens",
+   "titulo": "Jason Duval 19",
+   "grupo": "Jason Duval",
+   "alt": "Jason dirigindo à noite, iluminado por luz azul",
+   "lancamento": true
+  },
+  {
    "chave": "lucia-caminos-01",
    "categoria": "Personagens",
    "titulo": "Lucia Caminos 01",
@@ -150,6 +222,38 @@
    "titulo": "Lucia Caminos 10",
    "grupo": "Lucia Caminos",
    "alt": "Captura oficial de GTA VI: Lucia Caminos, imagem 10"
+  },
+  {
+   "chave": "lucia-caminos-11",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 11",
+   "grupo": "Lucia Caminos",
+   "alt": "Lucia segurando uma pistola na noite iluminada de Vice City",
+   "lancamento": true
+  },
+  {
+   "chave": "lucia-caminos-12",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 12",
+   "grupo": "Lucia Caminos",
+   "alt": "Lucia apontando uma pistola de dentro de um carro, com Jason ao volante",
+   "lancamento": true
+  },
+  {
+   "chave": "lucia-caminos-13",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 13",
+   "grupo": "Lucia Caminos",
+   "alt": "Close de Lucia mirando uma pistola ao entardecer",
+   "lancamento": true
+  },
+  {
+   "chave": "lucia-caminos-14",
+   "categoria": "Personagens",
+   "titulo": "Lucia Caminos 14",
+   "grupo": "Lucia Caminos",
+   "alt": "Lucia armada fugindo de policiais à noite",
+   "lancamento": true
   },
   {
    "chave": "jason-and-lucia-01",
@@ -241,6 +345,62 @@
    "titulo": "Jason e Lucia 13",
    "grupo": "Jason e Lucia",
    "alt": "Captura oficial de GTA VI: Jason e Lucia, imagem 13"
+  },
+  {
+   "chave": "jason-and-lucia-14",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 14",
+   "grupo": "Jason e Lucia",
+   "alt": "Lucia e Jason abraçados numa boate sob luz roxa",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-and-lucia-15",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 15",
+   "grupo": "Jason e Lucia",
+   "alt": "Jason e Lucia armados assaltando uma loja",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-and-lucia-16",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 16",
+   "grupo": "Jason e Lucia",
+   "alt": "Árvore solitária numa colina ao pôr do sol, com o skyline ao longe",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-and-lucia-17",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 17",
+   "grupo": "Jason e Lucia",
+   "alt": "Jason e Lucia armados diante de um carro, vistos de dentro de um veículo",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-and-lucia-18",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 18",
+   "grupo": "Jason e Lucia",
+   "alt": "Bar lotado de turistas com luzes coloridas",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-and-lucia-19",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 19",
+   "grupo": "Jason e Lucia",
+   "alt": "Lucia atirando de dentro de um conversível durante uma perseguição",
+   "lancamento": true
+  },
+  {
+   "chave": "jason-and-lucia-20",
+   "categoria": "Personagens",
+   "titulo": "Jason e Lucia 20",
+   "grupo": "Jason e Lucia",
+   "alt": "Jason e Lucia num conversível iluminado de rosa",
+   "lancamento": true
   },
   {
    "chave": "cal-hampton-01",
@@ -495,6 +655,126 @@
    "alt": "Captura oficial de GTA VI: Vice City, imagem 12"
   },
   {
+   "chave": "vice-city-13",
+   "categoria": "Lugares",
+   "titulo": "Vice City 13",
+   "grupo": "Vice City",
+   "alt": "Festa numa casa noturna cheia de plantas e luzes verdes",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-14",
+   "categoria": "Lugares",
+   "titulo": "Vice City 14",
+   "grupo": "Vice City",
+   "alt": "Dois homens armados no banco de trás de um carro em Vice City",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-15",
+   "categoria": "Lugares",
+   "titulo": "Vice City 15",
+   "grupo": "Vice City",
+   "alt": "Marina de Vice City com iates e o skyline ao fundo",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-16",
+   "categoria": "Lugares",
+   "titulo": "Vice City 16",
+   "grupo": "Vice City",
+   "alt": "Homem cobrindo o rosto com a mão cheia de anéis",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-17",
+   "categoria": "Lugares",
+   "titulo": "Vice City 17",
+   "grupo": "Vice City",
+   "alt": "Perseguição de lanchas e viaturas num canal de Vice City à noite",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-18",
+   "categoria": "Lugares",
+   "titulo": "Vice City 18",
+   "grupo": "Vice City",
+   "alt": "Mulher deitada sobre notas de dinheiro sob luz rosa",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-19",
+   "categoria": "Lugares",
+   "titulo": "Vice City 19",
+   "grupo": "Vice City",
+   "alt": "Homem com um pitbull de coleira dourada",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-20",
+   "categoria": "Lugares",
+   "titulo": "Vice City 20",
+   "grupo": "Vice City",
+   "alt": "Homens tatuados num salão de beleza de Vice City",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-21",
+   "categoria": "Lugares",
+   "titulo": "Vice City 21",
+   "grupo": "Vice City",
+   "alt": "Grupo de homens tatuados posando juntos",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-22",
+   "categoria": "Lugares",
+   "titulo": "Vice City 22",
+   "grupo": "Vice City",
+   "alt": "Posto de gasolina retrô com letreiro GAS ao entardecer",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-23",
+   "categoria": "Lugares",
+   "titulo": "Vice City 23",
+   "grupo": "Vice City",
+   "alt": "Mulheres reunidas num salão de unhas iluminado",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-24",
+   "categoria": "Lugares",
+   "titulo": "Vice City 24",
+   "grupo": "Vice City",
+   "alt": "Homem sentado no capô de um carro tunado rosa numa orla com palmeiras",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-25",
+   "categoria": "Lugares",
+   "titulo": "Vice City 25",
+   "grupo": "Vice City",
+   "alt": "Grupo celebrando numa boate com luzes vermelhas",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-26",
+   "categoria": "Lugares",
+   "titulo": "Vice City 26",
+   "grupo": "Vice City",
+   "alt": "Piscina de hotel em Vice City vista do alto",
+   "lancamento": true
+  },
+  {
+   "chave": "vice-city-27",
+   "categoria": "Lugares",
+   "titulo": "Vice City 27",
+   "grupo": "Vice City",
+   "alt": "Skyline de Vice City iluminado à noite",
+   "lancamento": true
+  },
+  {
    "chave": "leonida-keys-01",
    "categoria": "Lugares",
    "titulo": "Leonida Keys 01",
@@ -535,6 +815,14 @@
    "titulo": "Leonida Keys 06",
    "grupo": "Leonida Keys",
    "alt": "Captura oficial de GTA VI: Leonida Keys, imagem 06"
+  },
+  {
+   "chave": "leonida-keys-07",
+   "categoria": "Lugares",
+   "titulo": "Leonida Keys 07",
+   "grupo": "Leonida Keys",
+   "alt": "Mergulhador explorando um recife com peixe-leão nas Leonida Keys",
+   "lancamento": true
   },
   {
    "chave": "grassrivers-01",
@@ -579,6 +867,22 @@
    "alt": "Captura oficial de GTA VI: Grassrivers, imagem 06"
   },
   {
+   "chave": "grassrivers-07",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 07",
+   "grupo": "Grassrivers",
+   "alt": "Morador de Grassrivers com uma faca, sentado ao lado de um jacaré, perto de uma fogueira",
+   "lancamento": true
+  },
+  {
+   "chave": "grassrivers-08",
+   "categoria": "Lugares",
+   "titulo": "Grassrivers 08",
+   "grupo": "Grassrivers",
+   "alt": "Jacaré à espreita na água escura do pântano, à noite, com homens num barco ao fundo",
+   "lancamento": true
+  },
+  {
    "chave": "port-gellhorn-01",
    "categoria": "Lugares",
    "titulo": "Port Gellhorn 01",
@@ -619,6 +923,14 @@
    "titulo": "Port Gellhorn 06",
    "grupo": "Port Gellhorn",
    "alt": "Captura oficial de GTA VI: Port Gellhorn, imagem 06"
+  },
+  {
+   "chave": "port-gellhorn-07",
+   "categoria": "Lugares",
+   "titulo": "Port Gellhorn 07",
+   "grupo": "Port Gellhorn",
+   "alt": "Letreiro neon de um cabaré em Port Gellhorn",
+   "lancamento": true
   },
   {
    "chave": "ambrosia-01",

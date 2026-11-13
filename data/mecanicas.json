@@ -378,11 +378,56 @@
       "id": "dualsense",
       "titulo": "Recursos do DualSense e áudio 3D",
       "categoria": "Plataforma e técnica",
-      "descricao": "No PS5, a Sony anuncia feedback tátil, gatilhos adaptáveis, alto-falante do controle, áudio 3D Tempest e carregamentos rápidos pelo SSD.",
+      "descricao": "No PS5, o jogo tem feedback tátil no DualSense em todo o jogo (ajustável nas opções de acessibilidade), gatilhos adaptáveis, áudio 3D Tempest e carregamentos mais rápidos.",
       "status": "confirmado",
       "data": "2026",
       "fontes": [
-        "https://www.playstation.com/GTAVIfeatures/"
+        "https://www.playstation.com/GTAVIfeatures/",
+        "https://www.rockstargames.com/newswire/article/89834o94713o21"
+      ]
+    },
+    {
+      "id": "30fps",
+      "titulo": "30 quadros por segundo",
+      "categoria": "Plataforma e técnica",
+      "descricao": "Segundo a Rockstar, o jogo foi feito para a geração atual mirando 30 quadros por segundo nos dois consoles, priorizando a densidade e o detalhe do mundo.",
+      "status": "confirmado",
+      "data": "2026-11-10",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/89834o94713o21"
+      ]
+    },
+    {
+      "id": "ps5-pro",
+      "titulo": "Melhorias no PS5 Pro",
+      "categoria": "Plataforma e técnica",
+      "descricao": "No PS5 Pro, a imagem fica mais nítida com o PSSR (super-resolução da PlayStation), e há sombras com ray tracing que só existem nesse console.",
+      "status": "confirmado",
+      "data": "2026-11-10",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/89834o94713o21"
+      ]
+    },
+    {
+      "id": "nuvem",
+      "titulo": "Xbox Cloud Gaming e Remote Play",
+      "categoria": "Plataforma e técnica",
+      "descricao": "O jogo vai estar no Xbox Cloud Gaming, inclusive para quem tem Xbox One, com as configurações gráficas do Series S. Também terá suporte completo a Remote Play no PlayStation e no Xbox.",
+      "status": "confirmado",
+      "data": "2026-11-10",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/89834o94713o21"
+      ]
+    },
+    {
+      "id": "tamanho",
+      "titulo": "Tamanho: até 212 GB",
+      "categoria": "Plataforma e técnica",
+      "descricao": "O arquivo do pré-download pode exigir até 212 GB, dependendo do console.",
+      "status": "confirmado",
+      "data": "2026-11-03",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/k4ak9okk485712"
       ]
     },
     {

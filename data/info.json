@@ -16,14 +16,14 @@
   "preload": {
     "id": "preload",
     "titulo": "Pré-download",
-    "valor": "12 de novembro de 2026",
-    "iso": "2026-11-12",
-    "descricao": "Para quem comprou a versão digital. É também quando as caixas físicas com código começam a chegar.",
+    "valor": "10 de novembro de 2026",
+    "iso": "2026-11-10",
+    "descricao": "Antecipado de 12/11 para 10/11. No PS5, liberou à meia-noite no seu fuso; no Xbox Series X|S, à 0h de Greenwich (21h de 9/11 em Brasília). Exige até 212 GB. As caixas com código chegam às lojas a partir de 12/11.",
     "status": "confirmado",
-    "data": "2026-06-24",
+    "data": "2026-11-03",
     "fontes": [
-      "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
-      "https://store.rockstargames.com/game/buy-gta-vi"
+      "https://www.rockstargames.com/newswire/article/k4ak9okk485712",
+      "https://www.rockstargames.com/newswire/article/89834o94713o21"
     ]
   },
   "horario": {
@@ -40,14 +40,14 @@
     "id": "plataformas",
     "titulo": "Plataformas",
     "valor": "PlayStation 5 e Xbox Series X|S",
-    "descricao": "Não roda no PS4. O site oficial diz que o jogo “roda melhor no PS5”, e a página da PlayStation lista suporte a PS5 Pro.",
+    "descricao": "Não roda no PS4. O jogo mira 30 quadros por segundo nos dois consoles; no PS5 Pro há imagem mais nítida (PSSR) e sombras com ray tracing exclusivas. Também estará no Xbox Cloud Gaming, inclusive no Xbox One, com as configurações gráficas do Series S.",
     "status": "confirmado",
     "data": "2023-12-04",
     "fontes": [
       "https://www.take2games.com/ir/news/rockstar-games-announces-grand-theft-auto-vi-coming-2025",
       "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
       "https://www.playstation.com/GTAVIfeatures/",
-      "https://www.rockstargames.com/VI"
+      "https://www.rockstargames.com/newswire/article/89834o94713o21"
     ]
   },
   "adiamentos": [
@@ -90,7 +90,7 @@
     {
       "id": "online",
       "titulo": "Modo online",
-      "descricao": "Oficialmente, GTA VI é descrito como uma experiência single-player e não há modo online anunciado. Jason Schreier (Bloomberg) relatou que o componente online está previsto para 2027. O GTA Online atual, de GTA V, continua ativo e faz parte do GTA+.",
+      "descricao": "Oficialmente, GTA VI é descrito como uma experiência single-player e não há modo online anunciado. Jason Schreier (Bloomberg) relatou que o componente online está previsto para 2027. O GTA Online atual, de GTA V, continua ativo e faz parte do GTA+. Na página da PlayStation o jogo aparece como \"1 jogador\".",
       "status": "reportado",
       "data": "2026",
       "fontes": [
@@ -102,10 +102,11 @@
     {
       "id": "pc",
       "titulo": "Versão de PC",
-      "descricao": "Não anunciada. Strauss Zelnick disse que os jogadores de console são o público principal no lançamento. Previsões de PC em 2027 são especulação.",
+      "descricao": "Não anunciada. No relatório de 9/11/2026, a Take-Two continua listando só PS5 e Xbox Series X|S. Strauss Zelnick já disse que os jogadores de console são o público principal no lançamento; previsões de PC em 2027 são especulação.",
       "status": "reportado",
       "data": "2026-05",
       "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-4",
         "https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/",
         "https://www.dexerto.com/gta/gta-6-pc-release-window-sooner-than-expected-3133553"
       ]
@@ -151,6 +152,16 @@
       "fontes": [
         "https://www.rockstargames.com/VI",
         "https://www.take2games.com/ir/news/adding-multimedia-rockstar-games-releases-trailer-2-grand-theft"
+      ]
+    },
+    {
+      "id": "analises",
+      "titulo": "Data das análises",
+      "descricao": "A imprensa relata que o embargo das análises cai em 18/11, um dia antes do lançamento, com cópias enviadas aos veículos desde o fim de outubro. A Rockstar não anunciou data nem horário.",
+      "status": "reportado",
+      "data": "2026-11",
+      "fontes": [
+        "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
       ]
     }
   ],
@@ -217,6 +228,37 @@
       "data": "2025-05-07",
       "fontes": [
         "https://www.hollywoodreporter.com/business/business-news/gta-6-trailer-2-views-record-1236210396/"
+      ]
+    },
+    {
+      "id": "mk-festival",
+      "titulo": "GTA VI: The Festival",
+      "descricao": "Show de lançamento em 21/11 no Mana Wynwood, em Miami, em parceria com a PlayStation e produzido pelos criadores do III Points, com artistas da trilha: Travis Scott, Cardi B, Metro Boomin, Justice (DJ set), Rauw Alejandro e outros.",
+      "status": "confirmado",
+      "data": "2026-11-09",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/o39o87a435a25a"
+      ]
+    },
+    {
+      "id": "mk-poster",
+      "titulo": "Pôster com mapa de Leonida",
+      "descricao": "No dia do lançamento, a Rockstar vai liberar para download grátis um pôster com a arte de capa e o mapa de Leonida. A versão impressa, frente e verso, sai depois na Rockstar Store por US$ 0,99 ou de brinde em qualquer compra.",
+      "status": "confirmado",
+      "data": "2026-11-03",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/k4ak9okk485712"
+      ]
+    },
+    {
+      "id": "mk-launch-gallery",
+      "titulo": "Launch Gallery",
+      "descricao": "Duas semanas antes do lançamento, a Rockstar publicou uma nova galeria com 39 capturas inéditas de Vice City, Leonida, Jason e Lucia.",
+      "status": "confirmado",
+      "data": "2026-11-05",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/39ak81277255o9",
+        "https://www.rockstargames.com/VI/launch-gallery"
       ]
     }
   ]
