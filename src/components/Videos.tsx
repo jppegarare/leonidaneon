@@ -6,6 +6,7 @@ import { Fontes, PlayerYouTube, Secao } from './comum';
 import Foto from './Foto';
 
 const TITULOS: Record<string, string> = {
+  _yl5ELcmugI: 'Pré-download',
   rz1B4B2yBZY: 'Trailer de lançamento',
   tJbzMqJGH4k: 'An Extended Look',
   VQRLujxTm3c: 'Trailer 2',
@@ -51,7 +52,7 @@ export default function Videos() {
   };
 
   return (
-    <Secao id="videos" rotulo="Assista" titulo="Trailers e vídeos" subtitulo="Os quatro vídeos oficiais, tocados pelo player do YouTube só quando você clica.">
+    <Secao id="videos" rotulo="Assista" titulo="Trailers e vídeos" subtitulo="Os vídeos oficiais, tocados pelo player do YouTube só quando você clica.">
       <div className="palco" id="videos-palco" ref={palcoRef} tabIndex={-1}>
         {tocando ? (
           <PlayerYouTube id={v.video!} titulo={v.titulo} />

@@ -60,7 +60,7 @@ export default function PaginaFontes() {
                 <li key={f.id} id={`f-${f.id}`}>
                   <a href={f.url} target="_blank" rel="noopener noreferrer">{f.titulo}<span className="sr-only"> (abre em nova aba)</span></a>
                   <span className="fonte-meta">
-                    {f.veiculo} · publicado: {formatarData(f.publicado)} · {f.verificacao} · citada {usos.get(f.url) ?? 0}×
+                    {f.veiculo} · publicado: {formatarData(f.publicado)} · {f.verificacao}{f.acessado ? ` em ${formatarData(f.acessado)}` : ''} · citada {usos.get(f.url) ?? 0}×
                   </span>
                   <span className="fonte-url">{f.url}</span>
                 </li>

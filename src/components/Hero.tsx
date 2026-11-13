@@ -15,7 +15,7 @@ export default function Hero() {
             Tudo sobre <em>GTA VI</em>, do anúncio ao lançamento
           </h1>
           <p className="hero-texto">
-            O que já se sabe sobre Grand Theft Auto VI até {formatarData('2026-10-31', true)}. Cada informação traz status e fonte.
+            O que já se sabe sobre Grand Theft Auto VI até {formatarData('2026-11-13', true)}. Cada informação traz status e fonte.
           </p>
           <div className="hero-rodape">
             <a className="botao botao-pilula" href="#contagem">Contagem regressiva</a>

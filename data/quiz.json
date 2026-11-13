@@ -7,15 +7,15 @@
       "opcoes": [
         "26 de maio de 2026",
         "19 de novembro de 2026",
-        "12 de novembro de 2026",
+        "10 de novembro de 2026",
         "5 de dezembro de 2026"
       ],
       "correta": 1,
-      "explicacao": "19/11/2026 é a data oficial desde o adiamento anunciado em 6/11/2025. Em 12/11 começa o pré-download.",
+      "explicacao": "19/11/2026 é a data oficial desde o adiamento anunciado em 6/11/2025. O pré-download começou antes, em 10/11.",
       "status": "confirmado",
       "fontes": [
         "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-3",
-        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
+        "https://www.rockstargames.com/newswire/article/k4ak9okk485712"
       ]
     },
     {
@@ -231,6 +231,22 @@
       "status": "confirmado",
       "fontes": [
         "https://www.videogameschronicle.com/news/grand-theft-auto-6-development-is-well-underway-rockstar-says/"
+      ]
+    },
+    {
+      "id": "q15",
+      "pergunta": "Quanto espaço o pré-download de GTA VI pode ocupar?",
+      "opcoes": [
+        "Até 95 GB",
+        "Até 150 GB",
+        "Até 212 GB",
+        "Até 300 GB"
+      ],
+      "correta": 2,
+      "explicacao": "A Rockstar avisou que o arquivo pode exigir até 212 GB, dependendo do console.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/k4ak9okk485712"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "acessoPadrao": "2026-10-31",
-  "observacao": "Fontes 'lida diretamente' foram abertas e lidas no dia do acesso. Fontes 'via busca' foram consultadas por resultados de busca na web (título, trecho e data), sem leitura integral da página.",
+  "observacao": "Fontes 'lida diretamente' foram abertas e lidas no dia do acesso. Fontes 'via busca' foram consultadas por resultados de busca na web (título, trecho e data), sem leitura integral da página. A maior parte foi acessada em 31/10/2026; as fontes com data de acesso própria foram consultadas na atualização de 13/11/2026.",
   "fontes": [
     {
       "id": "rs-vi",
@@ -235,6 +235,76 @@
       "tipo": "oficial",
       "publicado": "2026-08-06",
       "verificacao": "via busca"
+    },
+    {
+      "id": "rs-nw-preload-anuncio",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712",
+      "titulo": "Grand Theft Auto VI Pre-Load Begins on November 10",
+      "veiculo": "Rockstar Newswire",
+      "tipo": "oficial",
+      "publicado": "2026-11-03",
+      "verificacao": "lida diretamente",
+      "acessado": "2026-11-13"
+    },
+    {
+      "id": "rs-nw-launch-gallery",
+      "url": "https://www.rockstargames.com/newswire/article/39ak81277255o9",
+      "titulo": "Explore the Grand Theft Auto VI Launch Gallery",
+      "veiculo": "Rockstar Newswire",
+      "tipo": "oficial",
+      "publicado": "2026-11-05",
+      "verificacao": "lida diretamente",
+      "acessado": "2026-11-13"
+    },
+    {
+      "id": "rs-launch-gallery",
+      "url": "https://www.rockstargames.com/VI/launch-gallery",
+      "titulo": "The Launch Gallery — novas capturas",
+      "veiculo": "Rockstar Games",
+      "tipo": "oficial",
+      "publicado": "2026-11-05",
+      "verificacao": "lida diretamente",
+      "acessado": "2026-11-13"
+    },
+    {
+      "id": "rs-nw-festival",
+      "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a",
+      "titulo": "Grand Theft Auto VI: The Festival",
+      "veiculo": "Rockstar Newswire",
+      "tipo": "oficial",
+      "publicado": "2026-11-09",
+      "verificacao": "lida diretamente",
+      "acessado": "2026-11-13"
+    },
+    {
+      "id": "rs-nw-preload",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21",
+      "titulo": "Pre-Load Grand Theft Auto VI Now",
+      "veiculo": "Rockstar Newswire",
+      "tipo": "oficial",
+      "publicado": "2026-11-10",
+      "verificacao": "lida diretamente",
+      "acessado": "2026-11-13"
+    },
+    {
+      "id": "yt-preload",
+      "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
+      "titulo": "Grand Theft Auto VI: Pre-Load Now",
+      "veiculo": "Rockstar Games (YouTube)",
+      "tipo": "oficial",
+      "publicado": "2026-11-10",
+      "verificacao": "lida diretamente",
+      "acessado": "2026-11-13"
+    },
+    {
+      "id": "t2-fy27q2",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-4",
+      "titulo": "Resultados do 2º trimestre do ano fiscal 2027",
+      "veiculo": "Take-Two Interactive",
+      "tipo": "oficial",
+      "publicado": "2026-11-09",
+      "verificacao": "lida diretamente",
+      "acessado": "2026-11-13"
     },
     {
       "id": "bcb-ptax",
@@ -640,6 +710,16 @@
       "tipo": "referencia",
       "publicado": null,
       "verificacao": "via busca"
+    },
+    {
+      "id": "insider-embargo",
+      "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/",
+      "titulo": "Grand Theft Auto 6 Review Embargo Date Details",
+      "veiculo": "Insider Gaming",
+      "tipo": "imprensa",
+      "publicado": "2026-11",
+      "verificacao": "via busca",
+      "acessado": "2026-11-13"
     }
   ]
 }

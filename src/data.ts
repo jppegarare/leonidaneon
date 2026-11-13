@@ -19,6 +19,7 @@ export interface Fonte {
   tipo: 'oficial' | 'entrevista' | 'imprensa' | 'referencia';
   publicado: string | null;
   verificacao: string;
+  acessado?: string;
 }
 
 export interface Nota {

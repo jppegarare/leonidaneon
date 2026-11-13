@@ -304,27 +304,74 @@
       ]
     },
     {
+      "id": "t-2026-preload-anuncio",
+      "data": "2026-11-03",
+      "tipo": "anuncio",
+      "titulo": "Pré-download antecipado para 10/11",
+      "descricao": "A Rockstar adianta o pré-download, informa o tamanho (até 212 GB) e anuncia o pôster com o mapa de Leonida para o dia do lançamento.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/k4ak9okk485712"
+      ]
+    },
+    {
+      "id": "t-2026-launch-gallery",
+      "data": "2026-11-05",
+      "tipo": "marketing",
+      "titulo": "Launch Gallery",
+      "descricao": "Nova galeria oficial com 39 capturas inéditas, a duas semanas do lançamento. Todas estão na galeria deste site.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/39ak81277255o9",
+        "https://www.rockstargames.com/VI/launch-gallery"
+      ]
+    },
+    {
       "id": "t-2026-resultados",
       "data": "2026-11-09",
       "tipo": "negocios",
-      "titulo": "Resultados da Take-Two (previsto)",
-      "descricao": "Divulgação dos resultados do 2º trimestre fiscal de 2027, última atualização a investidores antes do lançamento.",
+      "titulo": "Take-Two: pré-vendas “em níveis sem precedentes”",
+      "descricao": "No relatório do 2º trimestre fiscal de 2027, Strauss Zelnick diz que o lançamento está a dez dias e que as pré-vendas seguem em níveis sem precedentes. O jogo continua listado só para PS5 e Xbox Series X|S.",
       "status": "confirmado",
       "fontes": [
+        "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-4",
         "https://www.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
-      ],
-      "futuro": true
+      ]
+    },
+    {
+      "id": "t-2026-festival",
+      "data": "2026-11-09",
+      "tipo": "musica",
+      "titulo": "Anunciado o GTA VI: The Festival",
+      "descricao": "Show de lançamento em 21/11 no Mana Wynwood, em Miami, com dois palcos e artistas da trilha, em parceria com a PlayStation. Ingressos por sorteio na plataforma DICE.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/o39o87a435a25a"
+      ]
     },
     {
       "id": "t-2026-preload",
-      "data": "2026-11-12",
+      "data": "2026-11-10",
       "tipo": "lancamento",
-      "titulo": "Pré-download e entrega das cópias físicas",
-      "descricao": "Quem comprou a versão digital pode começar o pré-download. As caixas com código chegam a partir do mesmo dia.",
+      "titulo": "Pré-download liberado",
+      "descricao": "O pré-download começa em 10/11, dois dias antes do previsto na pré-venda: à meia-noite local no PS5 e à 0h de Greenwich no Xbox. São até 212 GB. Junto, a Rockstar divulgou um vídeo com “Blood In Your Eyes”, da Tove Lo, e detalhes técnicos: 30 fps, melhorias no PS5 Pro, Xbox Cloud Gaming e Remote Play.",
       "status": "confirmado",
       "fontes": [
-        "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
-        "https://store.rockstargames.com/game/buy-gta-vi"
+        "https://www.rockstargames.com/newswire/article/89834o94713o21",
+        "https://www.youtube.com/watch?v=_yl5ELcmugI",
+        "https://www.rockstargames.com/newswire/article/k4ak9okk485712"
+      ],
+      "video": "_yl5ELcmugI"
+    },
+    {
+      "id": "t-2026-analises",
+      "data": "2026-11-18",
+      "tipo": "negocios",
+      "titulo": "Análises da imprensa (reportado)",
+      "descricao": "Segundo a imprensa, o embargo das análises termina um dia antes do lançamento. A Rockstar não confirmou.",
+      "status": "reportado",
+      "fontes": [
+        "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
       ],
       "futuro": true
     },
@@ -333,12 +380,25 @@
       "data": "2026-11-19",
       "tipo": "lancamento",
       "titulo": "Lançamento de GTA VI",
-      "descricao": "Chegada ao PS5 e ao Xbox Series X|S. Compras feitas até 19/11 (antes de 20/11) levam o Vintage Vice City Pack.",
+      "descricao": "Chegada ao PS5 e ao Xbox Series X|S. Compras feitas até 19/11 (antes de 20/11) levam o Vintage Vice City Pack. No mesmo dia, a Rockstar libera para download grátis um pôster com a arte de capa e o mapa de Leonida.",
       "status": "confirmado",
       "fontes": [
         "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
         "https://www.rockstargames.com/VI",
-        "https://store.rockstargames.com/game/buy-gta-vi"
+        "https://store.rockstargames.com/game/buy-gta-vi",
+        "https://www.rockstargames.com/newswire/article/k4ak9okk485712"
+      ],
+      "futuro": true
+    },
+    {
+      "id": "t-2026-festival-show",
+      "data": "2026-11-21",
+      "tipo": "musica",
+      "titulo": "GTA VI: The Festival, em Miami",
+      "descricao": "Evento ao vivo de lançamento no Mana Wynwood, com Travis Scott, Cardi B, Metro Boomin, Justice (DJ set) e outros.",
+      "status": "confirmado",
+      "fontes": [
+        "https://www.rockstargames.com/newswire/article/o39o87a435a25a"
       ],
       "futuro": true
     },
